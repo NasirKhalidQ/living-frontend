@@ -4,13 +4,16 @@ function Footer() {
       <footer className="footer p-4 bg-living-header text-white flex">
         <div className="flex">
           <img
-            className="mx-2"
+            className="mx-2 sm:col-auto"
             src="./imgs/logo-small.svg"
             width="20"
             height="20"
             alt="logo"
           />
-          <p>Living Solutions. Copyright © 2021 - All right reserved</p>
+          <div className="grid grid-rows-2 grid-flow-col">
+            <div className="">Living Solutions. </div>
+            <div className="">Copyright © 2021.</div>
+          </div>
         </div>
         <div className="gap-4 flex justify-end ml-auto">
           <a
