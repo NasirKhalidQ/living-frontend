@@ -10,7 +10,7 @@ function Footer() {
             height="20"
             alt="logo"
           />
-          <div className="grid grid-rows-2 grid-flow-col">
+          <div className="grid grid-rows-2 grid-flow-col text-sm">
             <div className="">Living Solutions. </div>
             <div className="">Copyright © 2021.</div>
           </div>

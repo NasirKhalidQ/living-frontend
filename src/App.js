@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <Landing imgpath="./imgs/interior.jpg" />
+      <Landing imgpath="./imgs/building.svg" />
       <Footer />
     </>
   );
