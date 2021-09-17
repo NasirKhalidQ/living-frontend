@@ -1,10 +1,10 @@
 function NavBar() {
   return (
     <>
-      <div className="max-w-full flex cursor-default bg-living-header sm:px-12">
+      <div className="flex cursor-default bg-living-header sm:px-12">
         <div className="">
           <img
-            className="flex-auto"
+            className="flex w-1/2 md:w-full "
             src="./imgs/logo.svg"
             width="200"
             height="200"

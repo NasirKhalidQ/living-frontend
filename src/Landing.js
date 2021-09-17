@@ -1,7 +1,7 @@
-function Landing() {
+function Landing({ imgpath }) {
   return (
     <div className="relative">
-      <img className="w-full" src="./imgs/background.jpg" alt="background" />
+      <img className="w-full" src={imgpath} alt="background" />
     </div>
   );
 }
