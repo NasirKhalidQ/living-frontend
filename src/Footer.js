@@ -10,14 +10,14 @@ function Footer() {
             height="20"
             alt="logo"
           />
-          <div className="grid grid-rows-2 grid-flow-col text-sm">
+          <div className="grid grid-rows-2 grid-flow-col text-xs md:text-sm">
             <div className="">Living Solutions. </div>
             <div className="">Copyright © 2021.</div>
           </div>
         </div>
         <div className="gap-4 flex justify-end ml-auto">
           <a
-            href="https://www.youtube.com"
+            href="https://www.youtube.com/channel/UCLF-FxK_37E3CImuzdTJ64g"
             target="_blank"
             className="cursor-pointer hover:text-living-red"
             rel="noreferrer"
