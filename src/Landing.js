@@ -71,6 +71,19 @@ function Landing({ imgpath }) {
         <a className="hidden md:flex hover:text-living-red" href="#">
           Event Management
         </a>
+        <img
+          className="object-cover w-full h-full border-white border-t-2"
+          src="./imgs/procurement.jpeg"
+          alt="architecture"
+        />
+        <p className="text-living-header"></p>
+        <a className="flex md:hidden hover:text-living-red" href="#">
+          Procurement Solutions
+        </a>
+        <p className="text-living-header"></p>
+        <a className="hidden md:flex hover:text-living-red" href="#">
+          Procurement Solutions
+        </a>
       </div>
     </>
   );
