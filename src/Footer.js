@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <>
-      <footer className="footer p-4 bg-living-header text-white flex">
+      <footer className="footer p-4 bg-living-header text-white flex border-white border-t-2">
         <div className="flex">
           <img
             className="mx-2 sm:col-auto"

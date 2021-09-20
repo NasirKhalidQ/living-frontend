@@ -36,7 +36,7 @@ function Landing({ imgpath }) {
           General Insurance
         </a>
         <img
-          className="object-cover w-full h-full"
+          className="object-cover w-full h-full border-white border-t-2"
           src="./imgs/real-estate.png"
           alt="marketing"
         />
@@ -47,17 +47,17 @@ function Landing({ imgpath }) {
           Real Estate and Construction
         </a>
         <img
-          className="object-cover w-full h-full"
+          className="object-cover w-full h-full border-white border-t-2"
           src="./imgs/govt.png"
           alt="architecture"
         />
         <img
-          className="object-cover w-full h-full"
+          className="object-cover w-full h-full border-white border-t-2"
           src="./imgs/event.png"
           alt="General Insurance"
         />
         <a className="flex md:hidden hover:text-living-red" href="#">
-          Government/Non-government Contracts
+          Govt/Non-govt Contracts
         </a>
         <a className="flex md:hidden hover:text-living-red" href="#">
           Event Management
