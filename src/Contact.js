@@ -8,6 +8,8 @@ function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    phone: "",
+    category: "",
     message: "",
   });
 
@@ -18,6 +20,12 @@ function Contact() {
       setFormData(newData);
     } else if (e.target.id === "email") {
       const newData = { ...formData, email: e.target.value };
+      setFormData(newData);
+    } else if (e.target.id === "phone") {
+      const newData = { ...formData, phone: e.target.value };
+      setFormData(newData);
+    } else if (e.target.id === "category") {
+      const newData = { ...formData, category: e.target.value };
       setFormData(newData);
     } else if (e.target.id === "message") {
       const newData = { ...formData, message: e.target.value };
@@ -35,6 +43,7 @@ function Contact() {
       email: "",
       category: "",
       message: "",
+      phone: "",
     });
   }
 
@@ -46,19 +55,25 @@ function Contact() {
       .join("&");
   };
 
-  const submit = (e) => {
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...formData }),
-    })
-      .then(() => {
-        setIsOpen(true);
-        resetForm();
-      })
-      .catch((error) => alert(error));
-
+  const submit = async (e) => {
     e.preventDefault();
+    const { name, email, category, message, phone } = formData;
+
+    if (name && email) {
+      const encodedName = encodeURIComponent(name);
+      const encodedEmail = encodeURIComponent(email);
+
+      const sentEmail = await (
+        await fetch(
+          `https://living-solutions.netlify.app/.netlify/functions/test?userName=${encodedName}&userEmail=${encodedEmail}`
+        )
+      ).json();
+
+      setIsOpen(true);
+      resetForm();
+
+      console.log(sentEmail);
+    }
   };
 
   return (
@@ -94,6 +109,17 @@ function Contact() {
                     onChange={handleForm}
                     value={formData.email}
                     id="email"
+                    className="mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
+                  />
+                </label>
+                <label className="block">
+                  <span className="text-accusoft-white">Phone Number</span>
+                  <input
+                    type="text"
+                    name="phone"
+                    onChange={handleForm}
+                    value={formData.phone}
+                    id="phone"
                     className="mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                   />
                 </label>

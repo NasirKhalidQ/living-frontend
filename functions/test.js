@@ -1,8 +1,8 @@
 const nodemailer = require("nodemailer");
 
 exports.handler = async function (event, context) {
-  const userName = "nasir";
-  const userEmail = "nasir.khalid.new@gmail.com";
+  const userName = event.queryStringParameters.userName;
+  const userEmail = event.queryStringParameters.userEmail;
 
   let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
