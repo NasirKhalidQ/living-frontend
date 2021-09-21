@@ -10,7 +10,7 @@ exports.handler = async function (event, context) {
     secure: false,
     auth: {
       user: "accusoft.mailer@gmail.com",
-      pass: "accusoft.mailer@gmail.com",
+      pass: "lucygray2468A!",
     },
   });
 
