@@ -2,9 +2,11 @@ import { useState } from "react";
 import Location from "./Location";
 import Mobile from "./Mobile";
 import Mail from "./Mail";
+import Modal from "./Modal";
 
 function Contact() {
   const [isOpen, setIsOpen] = useState(false);
+  const [sending, setSending] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -49,6 +51,7 @@ function Contact() {
 
   const submit = async (e) => {
     e.preventDefault();
+    setSending(true);
     const { name, email, category, message, phone } = formData;
 
     if (name && email) {
@@ -58,7 +61,7 @@ function Contact() {
       const encodedMessage = encodeURIComponent(message);
       const encodedPhone = encodeURIComponent(phone);
 
-      const sentEmail = await (
+      await (
         await fetch(
           `https://living-solutions.netlify.app/.netlify/functions/test?userName=${encodedName}&userEmail=${encodedEmail}&userCategory=${encodedCategory}&userMessage=${encodedMessage}&userPhone=${encodedPhone}`
         )
@@ -66,6 +69,7 @@ function Contact() {
 
       setIsOpen(true);
       resetForm();
+      setSending(false);
     }
   };
 
@@ -163,10 +167,12 @@ function Contact() {
                 <button
                   type="submit"
                   className="py-2 w-full px-4 rounded-lg shadow-md border-green-400 border-2 hover:bg-green-50 text-green-400"
+                  disabled={sending ? true : false}
                 >
-                  Submit
+                  {sending ? "Sending..." : "Submit"}
                 </button>
               </form>
+              <Modal isOpen={isOpen} closeModal={closeModal} />
             </div>
             <div className="grid mt-20 md:ml-24 gap-6 md:gap-0">
               <div className="inline-flex">
