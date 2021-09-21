@@ -17,11 +17,11 @@ exports.handler = async function (event, context) {
     },
   });
 
-  let info = await transporter.sendMail({
+  await transporter.sendMail({
     from: `${userName}`, // sender address
     to: "nasir.khalid.new@gmail.com", // list of receivers
-    subject: `Email from ${userEmail}`, // Subject line
-    text: `Name: ${userName} \n
+    subject: `Email from ${userName}`, // Subject line
+    text: `\nName: ${userName} \n
     Email: ${userEmail} \n
     Phone: ${userPhone} \n
     Category: ${userCategory} \n
@@ -31,5 +31,8 @@ exports.handler = async function (event, context) {
   return {
     statusCode: 200,
     body: JSON.stringify({ previewURL: "message sent" }),
+    headers: {
+      "access-control-allow-origin": "*",
+    },
   };
 };
