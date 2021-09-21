@@ -19,7 +19,7 @@ function NavBar() {
             <p>Services</p>
           </li>
           <li className="hover:text-living-red">
-            <p>Portfolio</p>
+            <p>Contact</p>
           </li>
         </ul>
       </div>

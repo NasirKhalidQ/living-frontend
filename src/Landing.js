@@ -12,25 +12,25 @@ function Landing({ imgpath }) {
         />
         <img
           className="object-cover w-full h-full"
-          src="./imgs/architecture.png"
+          src="./imgs/interior.png"
           alt="architecture"
         />
         <a className="flex md:hidden hover:text-living-red" href="#">
           Marketing and Branding
         </a>
         <a className="flex md:hidden hover:text-living-red" href="#">
-          Architecure and Interior Design
+          Interior Design
         </a>
         <img
           className="object-cover w-full h-full"
           src="./imgs/insurance.png"
-          alt="General Insurance"
+          alt="general insurance"
         />
         <a className="hidden md:flex hover:text-living-red" href="#">
           Marketing and Branding
         </a>
         <a className="hidden md:flex hover:text-living-red" href="#">
-          Architecure and Interior Design
+          Interior Design
         </a>
         <a className="hidden md:flex hover:text-living-red" href="#">
           General Insurance
@@ -38,7 +38,7 @@ function Landing({ imgpath }) {
         <img
           className="object-cover w-full h-full border-white border-t-2"
           src="./imgs/real-estate.png"
-          alt="marketing"
+          alt="real estate"
         />
         <a className="flex md:hidden hover:text-living-red" href="#">
           General Insurance
@@ -49,12 +49,12 @@ function Landing({ imgpath }) {
         <img
           className="object-cover w-full h-full border-white border-t-2"
           src="./imgs/govt.png"
-          alt="architecture"
+          alt="government contracts"
         />
         <img
           className="object-cover w-full h-full border-white border-t-2"
           src="./imgs/event.png"
-          alt="General Insurance"
+          alt="event management"
         />
         <a className="flex md:hidden hover:text-living-red" href="#">
           Govt/Non-govt Contracts
@@ -74,15 +74,25 @@ function Landing({ imgpath }) {
         <img
           className="object-cover w-full h-full border-white border-t-2"
           src="./imgs/procurement.jpeg"
+          alt="procurement"
+        />
+        <img
+          className="object-cover w-full h-full border-white border-t-2"
+          src="./imgs/architecture.jpg"
           alt="architecture"
         />
-        <p className="text-living-header"></p>
+        <p className="hidden md:flex text-living-header"></p>
+        <a className="hidden md:flex hover:text-living-red" href="#">
+          Procurement Solutions
+        </a>
         <a className="flex md:hidden hover:text-living-red" href="#">
           Procurement Solutions
         </a>
-        <p className="text-living-header"></p>
+        <a className="flex md:hidden hover:text-living-red" href="#">
+          Architecture
+        </a>
         <a className="hidden md:flex hover:text-living-red" href="#">
-          Procurement Solutions
+          Architecture
         </a>
       </div>
     </>

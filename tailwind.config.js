@@ -13,6 +13,7 @@ module.exports = {
       Poppins: ["Poppins, sans-serif"],
     },
   },
+  plugins: [require("@tailwindcss/forms")],
   variants: {
     extend: {
       filter: ["hover"],
