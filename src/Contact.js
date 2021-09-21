@@ -68,7 +68,7 @@ function Contact() {
           <div className="grid sm:grid-cols-2">
             <div className="grid gap-6">
               <label className="block">
-                <span className="text-accusoft-white text-xl">
+                <span className="text-accusoft-white text-xl font-semi-bold">
                   Leave us a message
                 </span>
               </label>
@@ -149,21 +149,21 @@ function Contact() {
                 </button>
               </form>
             </div>
-            <div className="grid mt-20 ml-24">
+            <div className="grid mt-20 md:ml-24 gap-6 md:gap-0">
               <div className="inline-flex">
                 <Location />
-                <p className="pl-4">
+                <p className="ml-2">
                   Visit our Office: Office # 1 and 2 , Plaza 57, Wallayat
                   Complex, Bahria Town Phase 7, Rawalpindi.
                 </p>
               </div>
               <div className="inline-flex">
                 <Mobile />
-                <p className="pl-2">Call us 0311-7862211</p>
+                <p className="sm:pl-4 md:pl-0">Call us: 0311-7862211</p>
               </div>
               <div className="inline-flex">
                 <Mail />
-                <p className="pl-4">
+                <p className="ml-2">
                   Drop us an email: info@livingsolutions.com.pk
                 </p>
               </div>

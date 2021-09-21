@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <NavBar />
-      <Landing imgpath="./imgs/interior.jpg" />
-      {/* <Contact /> */}
+      {/* <Landing imgpath="./imgs/interior.jpg" /> */}
+      <Contact />
       <Footer />
     </>
   );
