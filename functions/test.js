@@ -3,6 +3,9 @@ const nodemailer = require("nodemailer");
 exports.handler = async function (event, context) {
   const userName = event.queryStringParameters.userName;
   const userEmail = event.queryStringParameters.userEmail;
+  const userPhone = event.queryStringParameters.userPhone;
+  const userCategory = event.queryStringParameters.userCategory;
+  const userMessage = event.queryStringParameters.userMessage;
 
   let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
@@ -15,13 +18,15 @@ exports.handler = async function (event, context) {
   });
 
   let info = await transporter.sendMail({
-    from: "Nasir Khalid", // sender address
+    from: `${userName}`, // sender address
     to: "nasir.khalid.new@gmail.com", // list of receivers
-    subject: "Email from Nasir Khalid", // Subject line
-    text: `Name registered: ${userName}, email registered: ${userEmail}`,
+    subject: `Email from ${userEmail}`, // Subject line
+    text: `Name: ${userName} \n
+    Email: ${userEmail} \n
+    Phone: ${userPhone} \n
+    Category: ${userCategory} \n
+    Message: ${userMessage} \n`,
   });
-
-  console.log("Message sent: %s", info.messageId);
 
   return {
     statusCode: 200,

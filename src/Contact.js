@@ -47,14 +47,6 @@ function Contact() {
     });
   }
 
-  const encode = (data) => {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  };
-
   const submit = async (e) => {
     e.preventDefault();
     const { name, email, category, message, phone } = formData;
@@ -62,17 +54,18 @@ function Contact() {
     if (name && email) {
       const encodedName = encodeURIComponent(name);
       const encodedEmail = encodeURIComponent(email);
+      const encodedCategory = encodeURIComponent(category);
+      const encodedMessage = encodeURIComponent(message);
+      const encodedPhone = encodeURIComponent(phone);
 
       const sentEmail = await (
         await fetch(
-          `https://living-solutions.netlify.app/.netlify/functions/test?userName=${encodedName}&userEmail=${encodedEmail}`
+          `https://living-solutions.netlify.app/.netlify/functions/test?userName=${encodedName}&userEmail=${encodedEmail}&userCategory=${encodedCategory}&userMessage=${encodedMessage}&userPhone=${encodedPhone}`
         )
       ).json();
 
       setIsOpen(true);
       resetForm();
-
-      console.log(sentEmail);
     }
   };
 
