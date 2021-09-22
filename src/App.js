@@ -1,7 +1,5 @@
 import "./App.css";
-import NavBar from "./Navbar";
 import Landing from "./Landing";
-import Footer from "./Footer";
 import Contact from "./Contact";
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 
