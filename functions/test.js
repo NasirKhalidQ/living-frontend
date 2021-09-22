@@ -7,15 +7,15 @@ exports.handler = async function (event, context) {
   const userCategory = event.queryStringParameters.userCategory;
   const userMessage = event.queryStringParameters.userMessage;
 
-  const { user, pass } = process.env;
+  const { USER, PASS } = process.env;
 
   let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 587,
     secure: false,
     auth: {
-      userName: user,
-      password: pass,
+      userName: USER,
+      password: PASS,
     },
   });
 
