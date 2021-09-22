@@ -5,74 +5,39 @@ import Mail from "./Mail";
 import Modal from "./Modal";
 import NavBar from "./Navbar";
 import Footer from "./Footer";
+import { useForm } from "react-hook-form";
 
 function Contact() {
   const [isOpen, setIsOpen] = useState(false);
   const [sending, setSending] = useState(false);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    category: "",
-    message: "",
-  });
-
-  function handleForm(e) {
-    e.preventDefault();
-    if (e.target.id === "name") {
-      const newData = { ...formData, name: e.target.value };
-      setFormData(newData);
-    } else if (e.target.id === "email") {
-      const newData = { ...formData, email: e.target.value };
-      setFormData(newData);
-    } else if (e.target.id === "phone") {
-      const newData = { ...formData, phone: e.target.value };
-      setFormData(newData);
-    } else if (e.target.id === "category") {
-      const newData = { ...formData, category: e.target.value };
-      setFormData(newData);
-    } else if (e.target.id === "message") {
-      const newData = { ...formData, message: e.target.value };
-      setFormData(newData);
-    }
-  }
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
   function closeModal() {
     setIsOpen(false);
   }
 
-  function resetForm() {
-    setFormData({
-      name: "",
-      email: "",
-      category: "",
-      message: "",
-      phone: "",
-    });
-  }
-
-  const submit = async (e) => {
-    e.preventDefault();
+  const submit = async (data) => {
     setSending(true);
-    const { name, email, category, message, phone } = formData;
+    const { name, email, category, message, number } = data;
 
-    if (name && email) {
-      const encodedName = encodeURIComponent(name);
-      const encodedEmail = encodeURIComponent(email);
-      const encodedCategory = encodeURIComponent(category);
-      const encodedMessage = encodeURIComponent(message);
-      const encodedPhone = encodeURIComponent(phone);
+    const encodedName = encodeURIComponent(name);
+    const encodedEmail = encodeURIComponent(email);
+    const encodedCategory = encodeURIComponent(category);
+    const encodedMessage = encodeURIComponent(message);
+    const encodedPhone = encodeURIComponent(number);
 
-      await (
-        await fetch(
-          `https://living-solutions.netlify.app/.netlify/functions/test?userName=${encodedName}&userEmail=${encodedEmail}&userCategory=${encodedCategory}&userMessage=${encodedMessage}&userPhone=${encodedPhone}`
-        )
-      ).json();
+    await (
+      await fetch(
+        `https://living-solutions.netlify.app/.netlify/functions/test?userName=${encodedName}&userEmail=${encodedEmail}&userCategory=${encodedCategory}&userMessage=${encodedMessage}&userPhone=${encodedPhone}`
+      )
+    ).json();
 
-      setIsOpen(true);
-      resetForm();
-      setSending(false);
-    }
+    setIsOpen(true);
+    setSending(false);
   };
 
   return (
@@ -87,49 +52,53 @@ function Contact() {
                   Leave us a message
                 </span>
               </label>
-              <form className="grid gap-6" onSubmit={submit}>
-                <input type="hidden" name="form-name" value="contact" />
-
+              <form className="grid gap-6" onSubmit={handleSubmit(submit)}>
                 <label className="block">
                   <span className="text-accusoft-white">Full Name</span>
                   <input
+                    {...register("name")}
                     type="text"
-                    onChange={handleForm}
-                    value={formData.name}
-                    name="name"
                     id="name"
                     className="mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                   />
                 </label>
                 <label className="block">
-                  <span className="text-accusoft-white">Email Address</span>
+                  <span className="text-accusoft-white">Email Address *</span>
                   <input
+                    {...register("email", { required: true })}
                     type="email"
-                    name="email"
-                    onChange={handleForm}
-                    value={formData.email}
                     id="email"
                     className="mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                   />
+                  {errors.email && (
+                    <span className="text-xs text-red-700" id="passwordHelp">
+                      Please enter your email address here.
+                    </span>
+                  )}
                 </label>
                 <label className="block">
-                  <span className="text-accusoft-white">Phone Number</span>
+                  <span className="text-accusoft-white">Mobile Number *</span>
                   <input
-                    type="text"
-                    name="phone"
-                    onChange={handleForm}
-                    value={formData.phone}
+                    {...register("number", {
+                      required: true,
+                      maxLength: 11,
+                      minLength: 11,
+                    })}
+                    type="number"
                     id="phone"
                     className="mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                   />
+                  {errors.number && (
+                    <span className="text-xs text-red-700" id="passwordHelp">
+                      Please enter your 11-digit mobile number here.
+                    </span>
+                  )}
                 </label>
                 <label className="block">
                   <span className="text-accusoft-white">Category</span>
                   <select
+                    {...register("category")}
                     type="text"
-                    name="category"
-                    onChange={handleForm}
-                    value={formData.category}
                     id="category"
                     className="form-select mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                   >
@@ -158,10 +127,8 @@ function Contact() {
                 <label className="block">
                   <span className="text-accusoft-white">Your Message</span>
                   <textarea
+                    {...register("message")}
                     type="text"
-                    name="message"
-                    onChange={handleForm}
-                    value={formData.message}
                     id="message"
                     className="mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                     rows="6"
@@ -181,7 +148,7 @@ function Contact() {
               <div className="inline-flex">
                 <Location />
                 <p className="ml-2">
-                  Visit our Office: Office # 1 and 2 , Plaza 57, Wallayat
+                  Visit our Office: Office # 1 and 2, Plaza 57, Wallayat
                   Complex, Bahria Town Phase 7, Rawalpindi.
                 </p>
               </div>
