@@ -14,8 +14,8 @@ exports.handler = async function (event, context) {
     port: 587,
     secure: false,
     auth: {
-      userName: USER,
-      password: PASS,
+      user: USER,
+      pass: PASS,
     },
   });
 
