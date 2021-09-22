@@ -3,6 +3,8 @@ import Location from "./Location";
 import Mobile from "./Mobile";
 import Mail from "./Mail";
 import Modal from "./Modal";
+import NavBar from "./Navbar";
+import Footer from "./Footer";
 
 function Contact() {
   const [isOpen, setIsOpen] = useState(false);
@@ -75,6 +77,7 @@ function Contact() {
 
   return (
     <>
+      <NavBar />
       <section className="relative">
         <div className="text-lg mt-30 justify-center max-w-full mx-auto px-6 py-12 divide-y md:max-w-4xl">
           <div className="grid sm:grid-cols-2">
@@ -196,6 +199,7 @@ function Contact() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

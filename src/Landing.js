@@ -1,6 +1,10 @@
+import Footer from "./Footer";
+import NavBar from "./Navbar";
+
 function Landing({ imgpath }) {
   return (
     <>
+      <NavBar />
       <div className="relative">
         <img src={imgpath} alt="background" />
       </div>
@@ -81,24 +85,48 @@ function Landing({ imgpath }) {
 
         <img
           className="object-cover w-full h-full border-2 border-black"
-          src="./imgs/procurement.jpeg"
+          src="./imgs/procurement.jpg"
           alt="procurement"
         />
-
+        <a className="flex md:hidden hover:text-living-red" href="#">
+          Event Management
+        </a>
+        <a className="flex md:hidden hover:text-living-red" href="#">
+          Procurement Solutions
+        </a>
+        <img
+          className="object-cover w-full h-full border-2 border-black"
+          src="./imgs/printing.jpg"
+          alt="printing"
+        />
+        <a className="hidden md:flex hover:text-living-red" href="#">
+          Event Management
+        </a>
+        <a className="hidden md:flex hover:text-living-red" href="#">
+          Procurement Solutions
+        </a>
+        <a className="hidden md:flex hover:text-living-red" href="#">
+          Printing Solutions
+        </a>
+        <img
+          className="object-cover w-full h-full border-2 border-black"
+          src="./imgs/video.jpg"
+          alt="video"
+        />
+        <a className="flex md:hidden hover:text-living-red" href="#">
+          Printing Solutions
+        </a>
+        <a className="flex md:hidden hover:text-living-red" href="#">
+          Video Production
+        </a>
         <p className="hidden md:flex text-living-header"></p>
+        <p className="hidden md:flex text-living-header"></p>
+
         <a className="hidden md:flex hover:text-living-red" href="#">
-          Event Management
-        </a>
-        <a className="hidden md:flex hover:text-living-red" href="#">
-          Procurement Solutions
-        </a>
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          Event Management
-        </a>
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          Procurement Solutions
+          Video Production
         </a>
       </div>
+      <Footer />
     </>
   );
 }
