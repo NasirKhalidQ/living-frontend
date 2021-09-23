@@ -5,6 +5,8 @@ import Category from "./Category";
 
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 import Clients from "./Clients";
+import Careers from "./Careers";
+import Apply from "./Apply";
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
         </Route>
         <Route path="/category">
           <Category />
+        </Route>
+        <Route path="/careers">
+          <Careers />
+        </Route>
+        <Route path="/apply">
+          <Apply />
         </Route>
         <Route path="/clients">
           <Clients />

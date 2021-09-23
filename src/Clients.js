@@ -48,6 +48,11 @@ function Clients() {
           src="./imgs/spi.png"
           alt="SPI insurance Pakistan"
         />
+        <img
+          className="object-cover"
+          src="./imgs/isha.png"
+          alt="Beauty Salon and makeup artist"
+        />
       </div>
       <Footer />
     </>

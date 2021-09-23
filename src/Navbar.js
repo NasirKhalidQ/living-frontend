@@ -49,6 +49,9 @@ function NavBar() {
             <Link to="/clients">Our Clients</Link>
           </li>
           <li className="hover:text-living-red">
+            <Link to="/careers">Careers</Link>
+          </li>
+          <li className="hover:text-living-red">
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
