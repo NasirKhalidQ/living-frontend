@@ -125,7 +125,7 @@ function Contact() {
                   </select>
                 </label>
                 <label className="block">
-                  <span className="text-accusoft-white">Your Message</span>
+                  <span className="text-accusoft-white">Your Query</span>
                   <textarea
                     {...register("message")}
                     type="text"

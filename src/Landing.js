@@ -1,5 +1,6 @@
 import Footer from "./Footer";
 import NavBar from "./Navbar";
+import { Link } from "react-router-dom";
 
 function Landing({ imgpath }) {
   return (
@@ -36,9 +37,9 @@ function Landing({ imgpath }) {
         <a className="hidden md:flex hover:text-living-red" href="#">
           Architecture
         </a>
-        <a className="hidden md:flex hover:text-living-red" href="#">
+        <Link className="hidden md:flex hover:text-living-red" to="/category">
           Real Estate and Construction
-        </a>
+        </Link>
         <img
           className="object-cover w-full h-full border-2 border-black"
           src="./imgs/interior.png"
