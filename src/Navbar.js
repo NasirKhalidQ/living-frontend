@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <>
       {isOpen && (
-        <nav className="gap-12 absolute bg-black p-6 h-52 sm:hidden w-6/12 justify-start top-0 right-0 text-xl border-l-2 border-b-2 border-white text-white z-10">
+        <nav className="gap-12 absolute bg-black p-6 h-64 sm:hidden w-6/12 justify-start top-0 right-0 text-xl border-l-2 border-b-2 border-white text-white z-10">
           <ul>
             <li className="mt-8 hover:text-living-red">
               <p>About</p>
@@ -18,6 +18,9 @@ function NavBar() {
             </li>
             <li className="mt-2 hover:text-living-red">
               <Link to="/clients">Our Clients</Link>
+            </li>
+            <li className="mt-2 hover:text-living-red">
+              <Link to="/careers">Careers</Link>
             </li>
             <li className="mt-2 hover:text-living-red">
               <Link to="/contact">Contact</Link>

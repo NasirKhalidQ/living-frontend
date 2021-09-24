@@ -54,6 +54,11 @@ function Clients() {
           src="./imgs/isha.png"
           alt="Beauty Salon and makeup artist"
         />
+        <img
+          className="object-cover"
+          src="./imgs/ithm.png"
+          alt="ITHM rawalpindi"
+        />
       </div>
       <Footer />
     </>
