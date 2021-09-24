@@ -59,6 +59,11 @@ function Clients() {
           src="./imgs/ithm.png"
           alt="ITHM rawalpindi"
         />
+        <img
+          className="object-cover"
+          src="./imgs/huma.png"
+          alt="Ghar ka khana by Huma"
+        />
       </div>
       <Footer />
     </>
