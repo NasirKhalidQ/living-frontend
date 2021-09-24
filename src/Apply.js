@@ -7,6 +7,8 @@ import { useForm } from "react-hook-form";
 function Apply() {
   const [isOpen, setIsOpen] = useState(false);
   const [sending, setSending] = useState(false);
+  const [uploading, setUploading] = useState(false);
+  const [fileName, setFilename] = useState("");
   const {
     register,
     handleSubmit,
@@ -27,14 +29,27 @@ function Apply() {
     const encodedIntro = encodeURIComponent(intro);
     const encodedPhone = encodeURIComponent(number);
 
-    await (
-      await fetch(
-        `https://living-solutions.netlify.app/.netlify/functions/test?userName=${encodedName}&userEmail=${encodedEmail}&userPosition=${encodedPosition}&userIntro=${encodedIntro}&userPhone=${encodedPhone}`
-      )
-    ).json();
+    await fetch(
+      `https://living-solutions.netlify.app/.netlify/functions/apply?userName=${encodedName}&userEmail=${encodedEmail}&userPosition=${encodedPosition}&userIntro=${encodedIntro}&userPhone=${encodedPhone}`
+    );
 
     setIsOpen(true);
     setSending(false);
+  };
+
+  const uploadImage = async (files) => {
+    setUploading(true);
+    const formData = new FormData();
+    formData.append("file", files[0]);
+    formData.append("upload_preset", "p8c6f6ss");
+
+    await fetch(`https://api.cloudinary.com/v1_1/living-solutions/raw/upload`, {
+      method: "POST",
+      body: formData,
+      resource_type: "raw",
+    });
+    setFilename(files[0].name);
+    setUploading(false);
   };
 
   return (
@@ -74,7 +89,7 @@ function Apply() {
                     className="mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                   />
                   {errors.email && (
-                    <span className="text-xs text-red-700" id="passwordHelp">
+                    <span className="text-xs text-red-700" id="emailHelp">
                       Please enter your email address here.
                     </span>
                   )}
@@ -92,7 +107,7 @@ function Apply() {
                     className="mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                   />
                   {errors.number && (
-                    <span className="text-xs text-red-700" id="passwordHelp">
+                    <span className="text-xs text-red-700" id="mobileHelp">
                       Please enter your 11-digit mobile number here.
                     </span>
                   )}
@@ -126,8 +141,38 @@ function Apply() {
                     rows="6"
                   ></textarea>
                 </label>
+
+                <label
+                  for="file-upload"
+                  className="py-2 w-full px-4 rounded-lg shadow-md border-blue-400 border-2 hover:bg-blue-50 text-blue-400 cursor-pointer text-center"
+                >
+                  {uploading ? "Uploading..." : "Upload CV"}
+                </label>
+                {!fileName && (
+                  <span className="text-xs text-red-700" id="emailHelp">
+                    Please upload your CV/Resume before submitting.
+                  </span>
+                )}
+                {fileName && (
+                  <span className="text-xs text-green-500">
+                    File Successfully uploaded: {fileName}
+                  </span>
+                )}
+                <span className="text-xs text-gray-800">
+                  PDF and DocX files only
+                </span>
+
+                <input
+                  onChange={(event) => {
+                    uploadImage(event.target.files);
+                  }}
+                  id="file-upload"
+                  type="file"
+                  accept="application/pdf, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                  hidden
+                  disabled={fileName ? true : false}
+                />
                 <button
-                  type="submit"
                   className="py-2 w-full px-4 rounded-lg shadow-md border-green-400 border-2 hover:bg-green-50 text-green-400"
                   disabled={sending ? true : false}
                 >

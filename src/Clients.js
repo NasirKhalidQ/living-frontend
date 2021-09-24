@@ -11,6 +11,11 @@ function Clients() {
       <div className="grid grid-cols-2 md:grid-cols-4 text-xs lg:text-xl gap-4">
         <img
           className="object-cover"
+          src="./imgs/rudn.png"
+          alt="rudn enclave"
+        />
+        <img
+          className="object-cover"
           src="./imgs/iveco.png"
           alt="iveco-astra"
         />
@@ -32,11 +37,7 @@ function Clients() {
           alt="islamabad chamber of commerce and industry"
         />
         <img className="object-cover" src="./imgs/adam.png" alt="adam motors" />
-        <img
-          className="object-cover"
-          src="./imgs/rudn.png"
-          alt="rudn enclave"
-        />
+
         <img
           className="object-cover"
           src="./imgs/icon.png"
