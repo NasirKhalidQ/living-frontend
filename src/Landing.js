@@ -120,11 +120,22 @@ function Landing({ imgpath }) {
         <a className="flex md:hidden hover:text-living-red" href="#">
           Video Production
         </a>
-        <p className="hidden md:flex text-living-header"></p>
-        <p className="hidden md:flex text-living-header"></p>
+        <img
+          className="object-cover w-full h-full border-2 border-black"
+          src="./imgs/web.jpg"
+          alt="web dev and e-commerce"
+        />
+
+        <p className="flex text-living-header"></p>
+        <a className="flex md:hidden hover:text-living-red" href="#">
+          Web Development/E-Commerce
+        </a>
 
         <a className="hidden md:flex hover:text-living-red" href="#">
           Video Production
+        </a>
+        <a className="hidden md:flex hover:text-living-red" href="#">
+          Web Development/E-Commerce
         </a>
       </div>
       <Footer />
