@@ -179,7 +179,12 @@ function Apply() {
                   {sending ? "Sending..." : "Submit"}
                 </button>
               </form>
-              <Modal isOpen={isOpen} closeModal={closeModal} />
+              <Modal
+                isOpen={isOpen}
+                closeModal={closeModal}
+                title="Job Application Received!"
+                description="Your job application was been received. We will get back to you shortly"
+              />
             </div>
             <div className="hidden sm:flex row-span-2 pl-10 ">
               <img

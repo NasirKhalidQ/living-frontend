@@ -1,7 +1,7 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 
-export default function MyModal({ isOpen, closeModal }) {
+export default function MyModal({ isOpen, closeModal, title, description }) {
   return (
     <>
       <Transition appear show={isOpen} as={Fragment}>
@@ -43,13 +43,10 @@ export default function MyModal({ isOpen, closeModal }) {
                   as="h3"
                   className="text-lg font-medium leading-6 text-blue-900"
                 >
-                  Message Sent
+                  {title}
                 </Dialog.Title>
                 <div className="mt-2">
-                  <p className="text-sm text-gray-500">
-                    Your message has been successfully received. We’ve notified
-                    our consultants and they will be in touch with you soon!
-                  </p>
+                  <p className="text-sm text-gray-500">{description}</p>
                 </div>
 
                 <div className="mt-4">

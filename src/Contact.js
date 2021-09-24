@@ -142,7 +142,13 @@ function Contact() {
                   {sending ? "Sending..." : "Submit"}
                 </button>
               </form>
-              <Modal isOpen={isOpen} closeModal={closeModal} />
+              <Modal
+                isOpen={isOpen}
+                closeModal={closeModal}
+                title="Message Sent"
+                description="Your message has been successfully received. We’ve notified
+                    our consultants and they will be in touch with you soon!"
+              />
             </div>
             <div className="grid mt-20 md:ml-24 gap-6 md:gap-0">
               <div className="inline-flex">
