@@ -28,6 +28,10 @@ function Clients() {
     ["./imgs/planetketo.png", "Planet Keto"],
     ["./imgs/shutterbug.png", "ShutterBug"],
     ["./imgs/xenia.png", "Xenia Group of Hospitality"],
+    ["./imgs/next.png", "Next Health Pakistans"],
+    ["./imgs/true.png", "True Sight Pakistan"],
+    ["./imgs/car.png", "Car Craft Pakistan"],
+    ["./imgs/kabir.png", "Fauji Kabirwala"],
   ];
   return (
     <>

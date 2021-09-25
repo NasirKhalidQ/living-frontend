@@ -39,13 +39,13 @@ function Landing() {
 
       <div className="grid grid-cols-2 md:grid-cols-3 text-xs lg:text-xl bg-living-header text-white">
         <img
-          className="object-cover w-full h-full border-2 border-black"
+          className="object-cover border-2 border-black"
           src="./imgs/marketing.png"
           alt="marketing"
         />
         <img
-          className="object-cover w-full h-full border-2 border-black"
-          src="./imgs/architecture.jpg"
+          className="object-cover border-2 border-black"
+          src="./imgs/architecture.png"
           alt="architecture"
         />
         <a className="flex md:hidden hover:text-living-red" href="#">
@@ -55,7 +55,7 @@ function Landing() {
           Architecture
         </a>
         <img
-          className="object-cover w-full h-full border-2 border-black"
+          className="object-cover border-2 border-black"
           src="./imgs/real-estate.png"
           alt="real estate"
         />
@@ -114,7 +114,7 @@ function Landing() {
 
         <img
           className="object-cover w-full h-full border-2 border-black"
-          src="./imgs/procurement.jpg"
+          src="./imgs/procurement.png"
           alt="procurement"
         />
         <a className="flex md:hidden hover:text-living-red" href="#">
@@ -125,7 +125,7 @@ function Landing() {
         </a>
         <img
           className="object-cover w-full h-full border-2 border-black"
-          src="./imgs/printing.jpg"
+          src="./imgs/printing.png"
           alt="printing"
         />
         <a className="hidden md:flex hover:text-living-red" href="#">
@@ -139,7 +139,7 @@ function Landing() {
         </a>
         <img
           className="object-cover w-full h-full border-2 border-black"
-          src="./imgs/video.jpg"
+          src="./imgs/video.png"
           alt="video"
         />
         <a className="flex md:hidden hover:text-living-red" href="#">
@@ -150,13 +150,21 @@ function Landing() {
         </a>
         <img
           className="object-cover w-full h-full border-2 border-black"
-          src="./imgs/web.jpg"
+          src="./imgs/web.png"
           alt="web dev and e-commerce"
         />
 
-        <p className="flex text-living-header"></p>
+        <img
+          className="object-cover w-full h-full border-2 border-black"
+          src="./imgs/social.png"
+          alt="web dev and e-commerce"
+        />
         <a className="flex md:hidden hover:text-living-red" href="#">
           Web Development/E-Commerce
+        </a>
+
+        <a className="flex md:hidden hover:text-living-red" href="#">
+          Social Welfare
         </a>
 
         <a className="hidden md:flex hover:text-living-red" href="#">
@@ -164,6 +172,9 @@ function Landing() {
         </a>
         <a className="hidden md:flex hover:text-living-red" href="#">
           Web Development/E-Commerce
+        </a>
+        <a className="hidden md:flex hover:text-living-red" href="#">
+          Social Welfare
         </a>
       </div>
       <Footer />

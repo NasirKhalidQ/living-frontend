@@ -120,13 +120,11 @@ function Apply() {
                     id="position"
                     className="form-select mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                   >
-                    <option value="Position 1">Position 1</option>
-                    <option value="Position 2">Position 2</option>
-                    <option value="Position 3">Position 3</option>
-                    <option value="Position 4">Position 4</option>
-                    <option value="Others">
-                      Others(Please select this if position is not listed)
-                    </option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Sales">Sales</option>
+                    <option value="Content Writer">Content Writer</option>
+                    <option value="Graphics Designer">Graphics Designer</option>
+                    <option value="Architect">Architect</option>
                   </select>
                 </label>
                 <label className="block">

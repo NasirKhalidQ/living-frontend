@@ -7,6 +7,8 @@ import { Route, BrowserRouter, Switch } from "react-router-dom";
 import Clients from "./Clients";
 import Careers from "./Careers";
 import Apply from "./Apply";
+import Services from "./Services";
+import About from "./About";
 
 function App() {
   return (
@@ -27,8 +29,14 @@ function App() {
         <Route path="/apply">
           <Apply />
         </Route>
+        <Route path="/services">
+          <Services />
+        </Route>
         <Route path="/clients">
           <Clients />
+        </Route>
+        <Route path="/about">
+          <About />
         </Route>
       </Switch>
     </BrowserRouter>
