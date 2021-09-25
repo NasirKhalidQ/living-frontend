@@ -1,14 +1,42 @@
 import Footer from "./Footer";
 import NavBar from "./Navbar";
 import { Link } from "react-router-dom";
+import Carousel from "react-gallery-carousel";
+import "react-gallery-carousel/dist/index.css";
 
-function Landing({ imgpath }) {
+function Landing() {
+  const images = [
+    {
+      src: `./imgs/rudn-c.png`, // required
+      srcset: `./imgs/rudn-c.png 400w, ./imgs/rudn-c.png 700w, ./imgs/rudn-c.png 1000w`,
+      sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
+      alt: `Rudn Enclave`,
+    },
+    {
+      src: `./imgs/uic-c.png`, // required
+      srcset: `./imgs/uic-c.png 400w, ./imgs/uic-c.png 700w, ./imgs/uic-c.png 1000w`,
+      sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
+      alt: `UIC Pakistan`,
+    },
+    {
+      src: `./imgs/wind-c.png`, // required
+      srcset: `./imgs/wind-c.png 400w, ./imgs/wind-c.png 700w, ./imgs/wind-c.png 1000w`,
+      sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
+      alt: `Foundation Wind Pakistan`,
+    },
+  ];
   return (
     <>
       <NavBar />
-      <div className="relative">
-        <img src={imgpath} alt="background" />
-      </div>
+      <Carousel
+        images={images}
+        style={{ height: "fit-content", width: "fit-content" }}
+        isAutoPlaying="true"
+        hasMediaButton="false"
+        hasSizeButton="false"
+        hasIndexBoard="false"
+      />
+
       <div className="grid grid-cols-2 md:grid-cols-3 text-xs lg:text-xl bg-living-header text-white">
         <img
           className="object-cover w-full h-full border-2 border-black"

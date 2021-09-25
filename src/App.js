@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/">
-          <Landing imgpath="./imgs/interior.jpg" />
+          <Landing />
         </Route>
         <Route path="/contact">
           <Contact />
