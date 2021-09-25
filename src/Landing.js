@@ -69,7 +69,7 @@ function Landing() {
           Real Estate and Construction
         </Link>
         <img
-          className="object-cover w-full h-full border-2 border-black"
+          className="object-cover border-2 border-black"
           src="./imgs/interior.png"
           alt="interior"
         />
@@ -81,13 +81,13 @@ function Landing() {
         </a>
 
         <img
-          className="object-cover w-full h-full border-2 border-black"
+          className="object-cover border-2 border-black"
           src="./imgs/insurance.png"
           alt="general insurance"
         />
 
         <img
-          className="object-cover w-full h-full border-2 border-black"
+          className="object-cover border-2 border-black"
           src="./imgs/govt.png"
           alt="government contracts"
         />
@@ -107,13 +107,13 @@ function Landing() {
           Govt/Non-govt Contracts
         </a>
         <img
-          className="object-cover w-full h-full border-2 border-black"
+          className="object-cover border-2 border-black"
           src="./imgs/event.png"
           alt="event management"
         />
 
         <img
-          className="object-cover w-full h-full border-2 border-black"
+          className="object-cover border-2 border-black"
           src="./imgs/procurement.png"
           alt="procurement"
         />
@@ -124,7 +124,7 @@ function Landing() {
           Procurement Solutions
         </a>
         <img
-          className="object-cover w-full h-full border-2 border-black"
+          className="object-cover border-2 border-black"
           src="./imgs/printing.png"
           alt="printing"
         />
@@ -138,7 +138,7 @@ function Landing() {
           Printing Solutions
         </a>
         <img
-          className="object-cover w-full h-full border-2 border-black"
+          className="object-cover border-2 border-black"
           src="./imgs/video.png"
           alt="video"
         />
@@ -149,13 +149,13 @@ function Landing() {
           Video Production
         </a>
         <img
-          className="object-cover w-full h-full border-2 border-black"
+          className="object-cover border-2 border-black"
           src="./imgs/web.png"
           alt="web dev and e-commerce"
         />
 
         <img
-          className="object-cover w-full h-full border-2 border-black"
+          className="object-cover border-2 border-black"
           src="./imgs/social.png"
           alt="web dev and e-commerce"
         />
