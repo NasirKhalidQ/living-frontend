@@ -10,6 +10,7 @@ import Apply from "./Apply";
 import Services from "./Services";
 import About from "./About";
 import Marketing from "./Marketing";
+import RealEstate from "./RealEstate";
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
         </Route>
         <Route path="/marketing">
           <Marketing />
+        </Route>
+        <Route path="/realestate">
+          <RealEstate />
         </Route>
         <Route path="/clients">
           <Clients />
