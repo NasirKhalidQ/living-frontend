@@ -5,6 +5,7 @@ import Client from "./Client";
 function Clients() {
   const clients = [
     ["./imgs/rudn.png", "rudn enclave"],
+    ["./imgs/kabir.png", "Fauji Kabirwala"],
     ["./imgs/iveco.png", "iveco-astra"],
     ["./imgs/imos.png", "imos"],
     ["./imgs/uic.png", "UIC insurance Pakistan"],
@@ -31,7 +32,6 @@ function Clients() {
     ["./imgs/next.png", "Next Health Pakistans"],
     ["./imgs/true.png", "True Sight Pakistan"],
     ["./imgs/car.png", "Car Craft Pakistan"],
-    ["./imgs/kabir.png", "Fauji Kabirwala"],
   ];
   return (
     <>

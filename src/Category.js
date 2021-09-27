@@ -5,6 +5,7 @@ function Category() {
   return (
     <>
       <NavBar />
+
       <Footer />
     </>
   );

@@ -5,10 +5,7 @@ function Service({ title, imgPath }) {
     <>
       <figure>
         <img src={imgPath} alt={title} width="100%" />
-        <Link
-          className="text-md md:text-xl mt-2 hover:text-blue-700"
-          to="./category"
-        >
+        <Link className="text-md md:text-xl mt-2 hover:text-blue-700" to="#">
           {title}
         </Link>
       </figure>
