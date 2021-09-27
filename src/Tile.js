@@ -14,10 +14,7 @@ function Tile({ imgPath, alt }) {
           alt={alt}
           width="100%"
         />
-        <Link
-          to="/category"
-          className="text-xl md:text-xl group-hover:text-living-red"
-        >
+        <Link to="#" className="text-sm md:text-xl group-hover:text-living-red">
           {alt}
         </Link>
       </figure>
