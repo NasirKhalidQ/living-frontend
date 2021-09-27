@@ -12,6 +12,7 @@ function Marketing() {
         <div className="grid grid-flow-rows md:grid-cols-3">
           <div>
             <img
+              className="h-full"
               src="./imgs/marketing/conventional.jpg"
               alt="Conventional Marketing"
             />
@@ -33,9 +34,9 @@ function Marketing() {
               marketing channels such as traditional marketing, digital
               marketing, social media marketing, and online marketing.
             </p>
-            <div className="grid justify-items-center mt-12 mb-10 md:mb-0">
+            <div className="grid justify-items-center mt-12 mb-10 md:mb-10">
               <button
-                className="py-2 px-4 shadow-md bg-living-header hover:bg-gray-700 text-white sm:mb-10 md:mb-0"
+                className="py-2 px-8 shadow-md bg-living-header hover:bg-gray-700 text-white"
                 onClick={() => history.push("/contact")}
               >
                 Get a Quote
@@ -45,16 +46,17 @@ function Marketing() {
         </div>
       </section>
       <section className="relative">
-        <div className="grid grid-cols-3 border-t-2 border-black border-b-2">
-          <div className>
+        <div className="grid grid-flow-rows md:grid-cols-3 border-t-2 border-b-2 border-living-header">
+          <div>
             <img
+              className="h-full"
               src="./imgs/marketing/digital.jpg"
-              alt="Conventional Marketing"
+              alt="Digital Marketing"
             />
           </div>
-          <div className="col-span-2 ml-10 ">
-            <h3 className="text-3xl underline">Digital Marketing</h3>
-            <p className="mt-5 text-justify mr-5">
+          <div className="md:col-span-2 mt-2 md:mt-10 ml-10">
+            <h3 className="text-lg md:text-3xl underline">Digital Marketing</h3>
+            <p className="text-sm md:text-base mt-5 text-justify mr-5 leading-relaxed">
               We add an enhanced perspective to the marketing strategy of our
               clients. We use flexible and data driven approaches to get an
               insight of your business. Referrals are good for a business but
@@ -66,9 +68,9 @@ function Marketing() {
               our client’s business. Our marketing philosophy states the more
               you are visible to others more you will be approached by client.
             </p>
-            <div className="grid mt-16 justify-items-center">
+            <div className="grid justify-items-center mt-12 mb-10 md:mb-10">
               <button
-                className="py-2 px-4 shadow-md bg-living-header hover:bg-gray-700 text-white"
+                className="py-2 px-8 shadow-md bg-living-header hover:bg-gray-700 text-white sm:mb-10 md:mb-0"
                 onClick={() => history.push("/contact")}
               >
                 Get a Quote
@@ -77,10 +79,11 @@ function Marketing() {
           </div>
         </div>
       </section>
+
       <section className="relative">
         <div className="grid grid-flow-rows mt-10 ml-10 ">
           <h3 className="text-2xl">Current Market</h3>
-          <div className="grid grid-cols-6">
+          <div className="grid md:grid-cols-6">
             <p className="mt-2 text-justify mr-5 col-span-4">
               As the world is digitalizing, the need of the hour emphasises to
               transfer all the business marketing strategies to digital
@@ -92,7 +95,7 @@ function Marketing() {
         </div>
         <div className="grid grid-flow-rows mt-10 ml-10">
           <h3 className="text-2xl">We Make Creative Solutions</h3>
-          <div className="grid grid-cols-6">
+          <div className="grid md:grid-cols-6">
             <p className="mt-2 text-justify mr-5 col-span-4">
               Our marketing plan targets the more customers as our strategy
               encircles value proposition, strategic positioning, and customer
