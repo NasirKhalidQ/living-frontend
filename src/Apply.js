@@ -123,7 +123,7 @@ function Apply() {
                     <option value="Marketing">Marketing</option>
                     <option value="Sales">Sales</option>
                     <option value="Content Writer">Content Writer</option>
-                    <option value="Graphics Designer">Graphics Designer</option>
+                    <option value="Graphic Designer">Graphic Designer</option>
                     <option value="Architect">Architect</option>
                   </select>
                 </label>

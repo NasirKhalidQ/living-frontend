@@ -1,10 +1,24 @@
 import Footer from "./Footer";
 import NavBar from "./Navbar";
-import { Link } from "react-router-dom";
 import Carousel from "react-gallery-carousel";
 import "react-gallery-carousel/dist/index.css";
+import Tile from "./Tile";
 
 function Landing() {
+  const tiles = [
+    ["./imgs/marketing.png", "Marketing and Branding"],
+    ["./imgs/architecture.png", "Architecture"],
+    ["./imgs/real-estate.png", "Real Estate and Construction"],
+    ["./imgs/interior.png", "Interior Design"],
+    ["./imgs/insurance.png", "General Insurance"],
+    ["./imgs/govt.png", "Government/Non-government Contracts"],
+    ["./imgs/event.png", "Event Management"],
+    ["./imgs/procurement.png", "Procurement Solutions"],
+    ["./imgs/printing.png", "Printing Solutions"],
+    ["./imgs/video.png", "Video Production"],
+    ["./imgs/web.png", "Web Development/E-Commerce"],
+    ["./imgs/social.png", "Social Welfare"],
+  ];
   const images = [
     {
       src: `./imgs/rudn-c.png`, // required
@@ -35,147 +49,14 @@ function Landing() {
         hasMediaButton="false"
         hasSizeButton="false"
         hasIndexBoard="false"
+        hasLeftButton="false"
+        hasRightButton="false"
       />
 
       <div className="grid grid-cols-2 md:grid-cols-3 text-xs lg:text-xl bg-living-header text-white">
-        <img
-          className="object-cover border-2 border-black"
-          src="./imgs/marketing.png"
-          alt="marketing"
-        />
-        <img
-          className="object-cover border-2 border-black"
-          src="./imgs/architecture.png"
-          alt="architecture"
-        />
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          Marketing and Branding
-        </a>
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          Architecture
-        </a>
-        <img
-          className="object-cover border-2 border-black"
-          src="./imgs/real-estate.png"
-          alt="real estate"
-        />
-        <a className="hidden md:flex hover:text-living-red" href="#">
-          Marketing and Branding
-        </a>
-        <a className="hidden md:flex hover:text-living-red" href="#">
-          Architecture
-        </a>
-        <Link className="hidden md:flex hover:text-living-red" to="/category">
-          Real Estate and Construction
-        </Link>
-        <img
-          className="object-cover border-2 border-black"
-          src="./imgs/interior.png"
-          alt="interior"
-        />
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          Real Estate and Construction
-        </a>
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          Interior Design
-        </a>
-
-        <img
-          className="object-cover border-2 border-black"
-          src="./imgs/insurance.png"
-          alt="general insurance"
-        />
-
-        <img
-          className="object-cover border-2 border-black"
-          src="./imgs/govt.png"
-          alt="government contracts"
-        />
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          General Insurance
-        </a>
-        <a className="hidden md:flex hover:text-living-red" href="#">
-          Interior Design
-        </a>
-        <a className="hidden md:flex hover:text-living-red" href="#">
-          General Insurance
-        </a>
-        <a className="hidden md:flex hover:text-living-red" href="#">
-          Government/Non-government Contracts
-        </a>
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          Govt/Non-govt Contracts
-        </a>
-        <img
-          className="object-cover border-2 border-black"
-          src="./imgs/event.png"
-          alt="event management"
-        />
-
-        <img
-          className="object-cover border-2 border-black"
-          src="./imgs/procurement.png"
-          alt="procurement"
-        />
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          Event Management
-        </a>
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          Procurement Solutions
-        </a>
-        <img
-          className="object-cover border-2 border-black"
-          src="./imgs/printing.png"
-          alt="printing"
-        />
-        <a className="hidden md:flex hover:text-living-red" href="#">
-          Event Management
-        </a>
-        <a className="hidden md:flex hover:text-living-red" href="#">
-          Procurement Solutions
-        </a>
-        <a className="hidden md:flex hover:text-living-red" href="#">
-          Printing Solutions
-        </a>
-        <img
-          className="object-cover border-2 border-black"
-          src="./imgs/video.png"
-          alt="video"
-        />
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          Printing Solutions
-        </a>
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          Video Production
-        </a>
-        <img
-          className="object-cover border-2 border-black"
-          src="./imgs/web.png"
-          alt="web dev and e-commerce"
-        />
-
-        <img
-          className="object-cover border-2 border-black"
-          src="./imgs/social.png"
-          alt="web dev and e-commerce"
-        />
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          Web Development/E-Commerce
-        </a>
-
-        <a className="flex md:hidden hover:text-living-red" href="#">
-          Social Welfare
-        </a>
-
-        <a className="hidden md:flex hover:text-living-red" href="#">
-          Video Production
-        </a>
-        <a className="hidden md:flex hover:text-living-red" href="#">
-          Web Development/E-Commerce
-        </a>
-        <a className="hidden md:flex hover:text-living-red" href="#">
-          Social Welfare
-        </a>
+        {tiles.map((tile) => (
+          <Tile imgPath={tile[0]} alt={tile[1]} />
+        ))}
       </div>
       <Footer />
     </>
