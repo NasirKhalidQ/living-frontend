@@ -9,15 +9,15 @@ function Services() {
     ["Real Estate and Construction", "./imgs/services/real-estate.png"],
     ["Interior Design", "./imgs/services/interior.png"],
     ["General Insurance", "./imgs/services/insurance.png"],
-    ["Government/Non-government Contracts"],
+    ["Government/Non-government Contracts", "./imgs/services/govt.png"],
   ];
   const services2 = [
     ["Event Management", "./imgs/services/event.png"],
-    ["Procurement Solutions"],
-    ["Printing Solutions"],
-    ["Video Production"],
-    ["Web Development/E-Commerce"],
-    ["and more!"],
+    ["Procurement Solutions", "./imgs/services/procurement.png"],
+    ["Printing Solutions", "./imgs/services/printing.png"],
+    ["Video Production", "./imgs/services/video.png"],
+    ["Web Development/E-Commerce", "./imgs/services/web.png"],
+    ["and more!", "./imgs/services/more.png"],
   ];
   return (
     <>
