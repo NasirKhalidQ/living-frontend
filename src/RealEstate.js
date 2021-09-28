@@ -22,7 +22,7 @@ function RealEstate() {
               Real Estate &amp; Construction
             </h2>
             <h3 className="text-lg md:text-2xl">Rudn Enclave</h3>
-            <p className="text-sm md:text-base mt-5 text-justify mr-5 leading-relaxed">
+            <p className="text-sm md:text-base mt-5 text-justify mr-5 sm:leading-loose">
               Rudn Enclave is a beautiful housing society spanning over 10,000
               Kanal developing by Rmrsco Pvt. Ltd. near Rawalpindi. It is close
               to Adiala Road adjacent to the Bahria Town Phase-8, M2 Motorway,
@@ -54,7 +54,7 @@ function RealEstate() {
           </div>
           <div className="md:col-span-2 mt-2 md:mt-10 ml-10">
             <h3 className="text-lg md:text-2xl">Icon Enclave</h3>
-            <p className="text-sm md:text-base mt-5 text-justify mr-5 leading-relaxed">
+            <p className="text-sm md:text-base mt-5 text-justify mr-5">
               Rudn Enclave is a beautiful housing society spanning over 10,000
               Kanal developing by Rmrsco Pvt. Ltd. near Rawalpindi. It is close
               to Adiala Road adjacent to the Bahria Town Phase-8, M2 Motorway,

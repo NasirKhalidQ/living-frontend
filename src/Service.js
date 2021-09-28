@@ -1,11 +1,20 @@
 import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
-function Service({ title, imgPath }) {
+function Service({ title, imgPath, link }) {
+  const history = useHistory();
+
   return (
     <>
       <figure>
-        <img src={imgPath} alt={title} width="100%" />
-        <Link className="text-md md:text-xl mt-2 hover:text-blue-700" to="#">
+        <img
+          className="cursor-pointer"
+          src={imgPath}
+          alt={title}
+          width="100%"
+          onClick={() => history.push(link)}
+        />
+        <Link className="text-md md:text-xl mt-2 hover:text-blue-700" to={link}>
           {title}
         </Link>
       </figure>

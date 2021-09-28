@@ -6,18 +6,18 @@ import Tile from "./Tile";
 
 function Landing() {
   const tiles = [
-    ["./imgs/marketing.png", "Marketing and Branding"],
-    ["./imgs/architecture.png", "Architecture"],
-    ["./imgs/real-estate.png", "Real Estate and Construction"],
-    ["./imgs/interior.png", "Interior Design"],
-    ["./imgs/insurance.png", "General Insurance"],
-    ["./imgs/govt.png", "Government/Non-government Contracts"],
-    ["./imgs/event.png", "Event Management"],
-    ["./imgs/procurement.png", "Procurement Solutions"],
-    ["./imgs/printing.png", "Printing Solutions"],
-    ["./imgs/video.png", "Video Production"],
-    ["./imgs/web.png", "Web Development/E-Commerce"],
-    ["./imgs/social.png", "Social Welfare"],
+    ["./imgs/marketing.png", "Marketing and Branding", "/marketing"],
+    ["./imgs/architecture.png", "Architecture", "#"],
+    ["./imgs/real-estate.png", "Real Estate and Construction", "realestate"],
+    ["./imgs/interior.png", "Interior Design", "#"],
+    ["./imgs/insurance.png", "General Insurance", "#"],
+    ["./imgs/govt.png", "Government/Non-government Contracts", "#"],
+    ["./imgs/event.png", "Event Management", "#"],
+    ["./imgs/procurement.png", "Procurement Solutions", "#"],
+    ["./imgs/printing.png", "Printing Solutions", "#"],
+    ["./imgs/video.png", "Video Production", "#"],
+    ["./imgs/web.png", "Web Development/E-Commerce", "#"],
+    ["./imgs/social.png", "Social Welfare", "#"],
   ];
   const images = [
     {
@@ -55,7 +55,7 @@ function Landing() {
 
       <div className="grid grid-cols-2 md:grid-cols-3 text-xs lg:text-xl bg-living-header text-white">
         {tiles.map((tile) => (
-          <Tile imgPath={tile[0]} alt={tile[1]} />
+          <Tile imgPath={tile[0]} alt={tile[1]} link={tile[2]} />
         ))}
       </div>
       <Footer />

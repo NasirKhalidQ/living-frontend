@@ -4,20 +4,24 @@ import Service from "./Service";
 
 function Services() {
   const services1 = [
-    ["Marketing and Branding", "./imgs/services/marketing.png"],
-    ["Architecture", "./imgs/services/architecture.png"],
-    ["Real Estate and Construction", "./imgs/services/real-estate.png"],
-    ["Interior Design", "./imgs/services/interior.png"],
-    ["General Insurance", "./imgs/services/insurance.png"],
-    ["Government/Non-government Contracts", "./imgs/services/govt.png"],
+    ["Marketing and Branding", "./imgs/services/marketing.png", "/marketing"],
+    ["Architecture", "./imgs/services/architecture.png", "#"],
+    [
+      "Real Estate and Construction",
+      "./imgs/services/real-estate.png",
+      "/realestate",
+    ],
+    ["Interior Design", "./imgs/services/interior.png", "#"],
+    ["General Insurance", "./imgs/services/insurance.png", "#"],
+    ["Government/Non-government Contracts", "./imgs/services/govt.png", "#"],
   ];
   const services2 = [
-    ["Event Management", "./imgs/services/event.png"],
-    ["Procurement Solutions", "./imgs/services/procurement.png"],
-    ["Printing Solutions", "./imgs/services/printing.png"],
-    ["Video Production", "./imgs/services/video.png"],
-    ["Web Development/E-Commerce", "./imgs/services/web.png"],
-    ["and more!", "./imgs/services/more.png"],
+    ["Event Management", "./imgs/services/event.png", "#"],
+    ["Procurement Solutions", "./imgs/services/procurement.png", "#"],
+    ["Printing Solutions", "./imgs/services/printing.png", "#"],
+    ["Video Production", "./imgs/services/video.png", "#"],
+    ["Web Development/E-Commerce", "./imgs/services/web.png", "#"],
+    ["and more!", "./imgs/services/more.png", "#"],
   ];
   return (
     <>
@@ -29,12 +33,20 @@ function Services() {
               Here is what we offer
             </h2>
             {services1.map((service) => (
-              <Service title={service[0]} imgPath={service[1]} />
+              <Service
+                title={service[0]}
+                imgPath={service[1]}
+                link={service[2]}
+              />
             ))}
           </div>
           <div className="grid grid-flow-row gap-6">
             {services2.map((service) => (
-              <Service title={service[0]} imgPath={service[1]} />
+              <Service
+                title={service[0]}
+                imgPath={service[1]}
+                link={service[2]}
+              />
             ))}
           </div>
         </div>
