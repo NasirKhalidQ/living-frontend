@@ -27,8 +27,8 @@ function Landing() {
       alt: `Rudn Enclave`,
     },
     {
-      src: `./imgs/uic-c.png`, // required
-      srcset: `./imgs/uic-c.png 400w, ./imgs/uic-c.png 700w, ./imgs/uic-c.png 1000w`,
+      src: `./imgs/uic-c.jpg`, // required
+      srcset: `./imgs/uic-c.jpg 400w, ./imgs/uic-c.jpg 700w, ./imgs/uic-c.jpg 1000w`,
       sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
       alt: `UIC Pakistan`,
     },
@@ -42,16 +42,31 @@ function Landing() {
   return (
     <>
       <NavBar />
-      <Carousel
-        images={images}
-        style={{ height: "fit-content", width: "fit-content" }}
-        isAutoPlaying="true"
-        hasMediaButton="false"
-        hasSizeButton="false"
-        hasIndexBoard="false"
-        hasLeftButton="false"
-        hasRightButton="false"
-      />
+      <div className="bg-black hidden md:grid items-center">
+        <Carousel
+          className="justify-self-center"
+          images={images}
+          style={{ height: "100%", width: "50%" }}
+          isAutoPlaying="true"
+          hasMediaButton="false"
+          hasSizeButton="false"
+          hasIndexBoard="false"
+          hasLeftButton="false"
+          hasRightButton="false"
+        />
+      </div>
+      <div className="flex md:hidden">
+        <Carousel
+          images={images}
+          style={{ height: "fit-content", width: "fit-content" }}
+          isAutoPlaying="true"
+          hasMediaButton="false"
+          hasSizeButton="false"
+          hasIndexBoard="false"
+          hasLeftButton="false"
+          hasRightButton="false"
+        />
+      </div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 text-xs lg:text-xl bg-living-header text-white">
         {tiles.map((tile) => (

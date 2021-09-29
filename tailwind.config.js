@@ -8,6 +8,9 @@ module.exports = {
         "living-header": "#0B0D17",
         "living-red": "#EB3728",
       },
+      backgroundImage: {
+        about: "url('about.jpg')",
+      },
     },
     fontFamily: {
       Poppins: ["Poppins, sans-serif"],
