@@ -8,78 +8,88 @@ function Careers() {
   return (
     <>
       <NavBar />
-      <div className="flex-auto pb-40 pt-20 bg-blue-50">
-        <div className="space-y-8 mx-72 border-living-header border-2 rounded-xl bg-white font-semibold">
-          <div className="grid space-y-8 ml-14 mr-14">
-            <h2 className="text-3xl text-center pt-10 font-bold">
+      <div className="pb-10 lg:pb-40 pt-10 lg:pt-20 bg-blue-50">
+        <div className="space-y-8 mx-8 md:mx-40 lg:mx-72 border-living-header border-2 rounded-xl bg-white font-light lg:font-semibold">
+          <div className="grid space-y-8 ml-4 lg:ml-14 mr-4 lg:mr-14">
+            <h2 className="text-xl md:text-3xl text-center pt-10 lg:font-bold">
               Careers at Living Solutions Pakistan
             </h2>
 
-            <h3 className="text-xl underline">Open Positions</h3>
+            <h3 className="text-lg md:text-xl underline">
+              Career Opportunities
+            </h3>
             <hr />
 
-            <ul className="text-lg space-y-8">
-              <li className="inline-block space-y-2">
-                <p>Bahria Town, Rawalpindi | Full Time</p>
-                <p>Marketing</p>
-                <button
-                  onClick={() => history.push("/apply")}
-                  className="px-4 rounded-lg shadow-md border-blue-400 border-2 hover:bg-blue-100 text-blue-400"
-                >
-                  Apply now
-                </button>
+            <ul className="text-base md:text-lg space-y-8">
+              <li className="flex flex-wrap space-y-2 justify-around lg:justify-between">
+                <div className="">
+                  <p className="mb-4">
+                    Bahria Town Phase 7, Rawalpindi | Full Time
+                  </p>
+                  <p>Marketing Executive</p>
+                </div>
+                <div className="">
+                  <button
+                    onClick={() => history.push("/apply")}
+                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white"
+                  >
+                    Apply now
+                  </button>
+                </div>
               </li>
               <hr />
 
-              <li className="inline-block space-y-2">
-                <p>Bahria Town, Rawalpindi | Full Time</p>
-                <p>Sales</p>
-
-                <button
-                  onClick={() => history.push("/apply")}
-                  className="px-4 rounded-lg shadow-md border-blue-400 border-2 hover:bg-blue-100 text-blue-400"
-                >
-                  Apply now
-                </button>
+              <li className="flex flex-wrap space-y-2 justify-around lg:justify-between">
+                <div className="">
+                  <p className="mb-4">
+                    Bahria Town Phase 7, Rawalpindi | Full Time
+                  </p>
+                  <p>Marketing Executive</p>
+                </div>
+                <div className="">
+                  <button
+                    onClick={() => history.push("/apply")}
+                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white"
+                  >
+                    Apply now
+                  </button>
+                </div>
               </li>
               <hr />
 
-              <li className="inline-block space-y-2">
-                <p>Bahria Town, Rawalpindi | Full Time</p>
-                <p>Content Writer</p>
-
-                <button
-                  onClick={() => history.push("/apply")}
-                  className="px-4 rounded-lg shadow-md border-blue-400 border-2 hover:bg-blue-100 text-blue-400"
-                >
-                  Apply now
-                </button>
+              <li className="flex flex-wrap space-y-2 justify-around lg:justify-between">
+                <div className="">
+                  <p className="mb-4">
+                    Bahria Town Phase 7, Rawalpindi | Full Time
+                  </p>
+                  <p>Marketing Executive</p>
+                </div>
+                <div className="">
+                  <button
+                    onClick={() => history.push("/apply")}
+                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white"
+                  >
+                    Apply now
+                  </button>
+                </div>
               </li>
               <hr />
 
-              <li className="inline-block space-y-2">
-                <p>Bahria Town, Rawalpindi | Full Time</p>
-                <p>Graphic Designer</p>
-
-                <button
-                  onClick={() => history.push("/apply")}
-                  className="px-4 rounded-lg shadow-md border-blue-400 border-2 hover:bg-blue-100 text-blue-400"
-                >
-                  Apply now
-                </button>
-              </li>
-              <hr />
-
-              <li className="inline-block space-y-2">
-                <p>Bahria Town, Rawalpindi | Full Time</p>
-                <p>Architect</p>
-
-                <button
-                  onClick={() => history.push("/apply")}
-                  className="px-4 rounded-lg shadow-md border-blue-400 border-2 hover:bg-blue-100 text-blue-400"
-                >
-                  Apply now
-                </button>
+              <li className="flex flex-wrap space-y-2 justify-around md:justify-between">
+                <div className="">
+                  <p className="mb-4">
+                    Bahria Town Phase 7, Rawalpindi | Full Time
+                  </p>
+                  <p>Marketing Executive</p>
+                </div>
+                <div className="">
+                  <button
+                    onClick={() => history.push("/apply")}
+                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white"
+                  >
+                    Apply now
+                  </button>
+                </div>
               </li>
               <hr />
               <hr />

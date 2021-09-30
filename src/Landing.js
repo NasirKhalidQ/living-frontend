@@ -46,7 +46,7 @@ function Landing() {
         <Carousel
           className="justify-self-center"
           images={images}
-          style={{ height: "100%", width: "50%" }}
+          style={{ height: "100%", width: "75%" }}
           isAutoPlaying="true"
           hasMediaButton="false"
           hasSizeButton="false"
