@@ -9,7 +9,7 @@ function Careers() {
     <>
       <NavBar />
       <div className="pb-10 lg:pb-40 pt-10 lg:pt-20 bg-blue-50">
-        <div className="space-y-8 mx-8 md:mx-40 lg:mx-72 border-living-header border-2 rounded-xl bg-white font-light lg:font-semibold">
+        <div className="space-y-8 mx-8 md:mx-40 lg:mx-72 border-living-header border-2 rounded-xl bg-white font-base lg:font-semibold">
           <div className="grid space-y-8 ml-4 lg:ml-14 mr-4 lg:mr-14">
             <h2 className="text-xl md:text-3xl text-center pt-10 lg:font-bold">
               Careers at Living Solutions Pakistan
@@ -31,7 +31,7 @@ function Careers() {
                 <div className="">
                   <button
                     onClick={() => history.push("/apply")}
-                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white"
+                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white mt-4 md:mt-0"
                   >
                     Apply now
                   </button>
@@ -44,12 +44,12 @@ function Careers() {
                   <p className="mb-4">
                     Bahria Town Phase 7, Rawalpindi | Full Time
                   </p>
-                  <p>Marketing Executive</p>
+                  <p>Sales Executive</p>
                 </div>
                 <div className="">
                   <button
                     onClick={() => history.push("/apply")}
-                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white"
+                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white mt-4 md:mt-0"
                   >
                     Apply now
                   </button>
@@ -62,12 +62,12 @@ function Careers() {
                   <p className="mb-4">
                     Bahria Town Phase 7, Rawalpindi | Full Time
                   </p>
-                  <p>Marketing Executive</p>
+                  <p>Content Writer</p>
                 </div>
                 <div className="">
                   <button
                     onClick={() => history.push("/apply")}
-                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white"
+                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white mt-4 md:mt-0"
                   >
                     Apply now
                   </button>
@@ -80,12 +80,12 @@ function Careers() {
                   <p className="mb-4">
                     Bahria Town Phase 7, Rawalpindi | Full Time
                   </p>
-                  <p>Marketing Executive</p>
+                  <p>Architect</p>
                 </div>
                 <div className="">
                   <button
                     onClick={() => history.push("/apply")}
-                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white"
+                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white mt-4 md:mt-0"
                   >
                     Apply now
                   </button>

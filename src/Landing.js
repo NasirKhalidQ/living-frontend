@@ -27,6 +27,12 @@ function Landing() {
       alt: `Rudn Enclave`,
     },
     {
+      src: `./imgs/kabir-c.png`, // required
+      srcset: `./imgs/kabir-c.png 400w, ./imgs/kabir-c.png 700w, ./imgs/kabir-c.png 1000w`,
+      sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
+      alt: `Fauji Kabirwala Power Plant`,
+    },
+    {
       src: `./imgs/uic-c.jpg`, // required
       srcset: `./imgs/uic-c.jpg 400w, ./imgs/uic-c.jpg 700w, ./imgs/uic-c.jpg 1000w`,
       sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
