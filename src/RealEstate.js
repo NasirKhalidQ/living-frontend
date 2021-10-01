@@ -13,7 +13,7 @@ function RealEstate() {
           <div>
             <img
               className="h-full"
-              src="./imgs/real-estate/rudn.jpg"
+              src="https://res.cloudinary.com/living-solutions/image/upload/v1633082010/living-images/real-estate/rudn_kotq2y.jpg"
               alt="Rudn Enclave"
             />
           </div>
@@ -48,7 +48,7 @@ function RealEstate() {
           <div>
             <img
               className="h-full"
-              src="./imgs/real-estate/icon.png"
+              src="https://res.cloudinary.com/living-solutions/image/upload/v1633082030/living-images/real-estate/icon_vsjytx.png"
               alt="Digital Marketing"
             />
           </div>
@@ -122,7 +122,7 @@ function RealEstate() {
             </p>
             <img
               className="col-span-2 pr-2 hidden md:flex"
-              src="./imgs/real-estate/realestate.jpg"
+              src="https://res.cloudinary.com/living-solutions/image/upload/v1633082009/living-images/real-estate/realestate_vevyej.jpg"
               alt="Creative"
             />
           </div>

@@ -13,7 +13,7 @@ function Marketing() {
           <div>
             <img
               className="h-full"
-              src="./imgs/marketing/conventional.jpg"
+              src="https://res.cloudinary.com/living-solutions/image/upload/v1633075712/living-images/marketing/conventional_udzkwv.jpg"
               alt="Conventional Marketing"
             />
           </div>
@@ -50,7 +50,7 @@ function Marketing() {
           <div>
             <img
               className="h-full"
-              src="./imgs/marketing/digital.jpg"
+              src="https://res.cloudinary.com/living-solutions/image/upload/v1633075775/living-images/marketing/digital_nwsa0e.jpg"
               alt="Digital Marketing"
             />
           </div>
@@ -121,7 +121,7 @@ function Marketing() {
             </p>
             <img
               className="col-span-2 pr-2 hidden md:flex"
-              src="./imgs/marketing/creative.png"
+              src="https://res.cloudinary.com/living-solutions/image/upload/v1633075715/living-images/marketing/creative_ndeook.png"
               alt="Creative"
             />
             <p className="mt-2 text-justify mr-5 mb-10 col-span-4">

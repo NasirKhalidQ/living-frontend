@@ -10,7 +10,8 @@ module.exports = {
         "living-chart": "#D0651A",
       },
       backgroundImage: {
-        about: "url('about.jpg')",
+        about:
+          "url('https://res.cloudinary.com/living-solutions/image/upload/v1633075754/living-images/about_jyuu0p.jpg')",
       },
     },
     fontFamily: {

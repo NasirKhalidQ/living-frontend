@@ -6,41 +6,89 @@ import Tile from "./Tile";
 
 function Landing() {
   const tiles = [
-    ["./imgs/marketing.png", "Marketing and Branding", "/marketing"],
-    ["./imgs/architecture.png", "Architecture", "#"],
-    ["./imgs/real-estate.png", "Real Estate and Construction", "realestate"],
-    ["./imgs/interior.png", "Interior Design", "#"],
-    ["./imgs/insurance.png", "General Insurance", "#"],
-    ["./imgs/govt.png", "Government/Non-government Contracts", "#"],
-    ["./imgs/event.png", "Event Management", "#"],
-    ["./imgs/procurement.png", "Procurement Solutions", "#"],
-    ["./imgs/printing.png", "Printing Solutions", "#"],
-    ["./imgs/video.png", "Video Production", "#"],
-    ["./imgs/web.png", "Web Development/E-Commerce", "#"],
-    ["./imgs/social.png", "Social Welfare", "#"],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075707/living-images/marketing_rwju4q.png",
+      "Marketing and Branding",
+      "/marketing",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075699/living-images/architecture_lacp5f.png",
+      "Architecture",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075710/living-images/real-estate_fecel9.png",
+      "Real Estate and Construction",
+      "realestate",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075705/living-images/interior_z4plv3.png",
+      "Interior Design",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075702/living-images/insurance_xccutc.png",
+      "General Insurance",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075705/living-images/govt_lejyxb.png",
+      "Government/Non-government Contracts",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075701/living-images/event_poelpn.png",
+      "Event Management",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075710/living-images/procurement_sctjnm.png",
+      "Procurement Solutions",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075708/living-images/printing_efcpx4.png",
+      "Printing Solutions",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075714/living-images/video_odk3pq.png",
+      "Video Production",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075715/living-images/web_d4hi8j.png",
+      "Web Development/E-Commerce",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075713/living-images/social_wi091q.png",
+      "Social Welfare",
+      "#",
+    ],
   ];
   const images = [
     {
-      src: `./imgs/rudn-c.png`, // required
-      srcset: `./imgs/rudn-c.png 400w, ./imgs/rudn-c.png 700w, ./imgs/rudn-c.png 1000w`,
+      src: `https://res.cloudinary.com/living-solutions/image/upload/v1633075744/living-images/rudn-c_fvkmfs.png`, // required
+      srcset: `https://res.cloudinary.com/living-solutions/image/upload/v1633075744/living-images/rudn-c_fvkmfs.png 400w, https://res.cloudinary.com/living-solutions/image/upload/v1633075744/living-images/rudn-c_fvkmfs.png 700w, https://res.cloudinary.com/living-solutions/image/upload/v1633075744/living-images/rudn-c_fvkmfs.png 1000w`,
       sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
       alt: `Rudn Enclave`,
     },
     {
-      src: `./imgs/kabir-c.png`, // required
-      srcset: `./imgs/kabir-c.png 400w, ./imgs/kabir-c.png 700w, ./imgs/kabir-c.png 1000w`,
+      src: `https://res.cloudinary.com/living-solutions/image/upload/v1633075704/living-images/kabir-c_d5pv0t.png`, // required
+      srcset: `https://res.cloudinary.com/living-solutions/image/upload/v1633075704/living-images/kabir-c_d5pv0t.png 400w, https://res.cloudinary.com/living-solutions/image/upload/v1633075704/living-images/kabir-c_d5pv0t.png 700w, https://res.cloudinary.com/living-solutions/image/upload/v1633075704/living-images/kabir-c_d5pv0t.png 1000w`,
       sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
       alt: `Fauji Kabirwala Power Plant`,
     },
     {
-      src: `./imgs/uic-c.jpg`, // required
-      srcset: `./imgs/uic-c.jpg 400w, ./imgs/uic-c.jpg 700w, ./imgs/uic-c.jpg 1000w`,
+      src: `https://res.cloudinary.com/living-solutions/image/upload/v1633075712/living-images/uic-c_kqfvyj.jpg`, // required
+      srcset: `https://res.cloudinary.com/living-solutions/image/upload/v1633075712/living-images/uic-c_kqfvyj.jpg 400w, https://res.cloudinary.com/living-solutions/image/upload/v1633075712/living-images/uic-c_kqfvyj.jpg 700w, https://res.cloudinary.com/living-solutions/image/upload/v1633075712/living-images/uic-c_kqfvyj.jpg 1000w`,
       sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
       alt: `UIC Pakistan`,
     },
     {
-      src: `./imgs/wind-c.png`, // required
-      srcset: `./imgs/wind-c.png 400w, ./imgs/wind-c.png 700w, ./imgs/wind-c.png 1000w`,
+      src: `https://res.cloudinary.com/living-solutions/image/upload/v1633075719/living-images/wind-c_aivjkb.png`, // required
+      srcset: `https://res.cloudinary.com/living-solutions/image/upload/v1633075719/living-images/wind-c_aivjkb.png 400w, https://res.cloudinary.com/living-solutions/image/upload/v1633075719/living-images/wind-c_aivjkb.png 700w, https://res.cloudinary.com/living-solutions/image/upload/v1633075719/living-images/wind-c_aivjkb.png 1000w`,
       sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
       alt: `Foundation Wind Pakistan`,
     },
@@ -48,23 +96,11 @@ function Landing() {
   return (
     <>
       <NavBar />
-      <div className="bg-black hidden md:grid items-center">
+      <div className="bg-black grid items-center">
         <Carousel
           className="justify-self-center"
           images={images}
           style={{ height: "100%", width: "75%" }}
-          isAutoPlaying="true"
-          hasMediaButton="false"
-          hasSizeButton="false"
-          hasIndexBoard="false"
-          hasLeftButton="false"
-          hasRightButton="false"
-        />
-      </div>
-      <div className="flex md:hidden">
-        <Carousel
-          images={images}
-          style={{ height: "fit-content", width: "fit-content" }}
           isAutoPlaying="true"
           hasMediaButton="false"
           hasSizeButton="false"
