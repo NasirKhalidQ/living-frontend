@@ -1,8 +1,8 @@
 import Footer from "./Footer";
 import NavBar from "./Navbar";
-import Carousel from "react-gallery-carousel";
-import "react-gallery-carousel/dist/index.css";
 import Tile from "./Tile";
+import "react-image-gallery/styles/css/image-gallery.css";
+import ReactImageGallery from "react-image-gallery";
 
 function Landing() {
   const tiles = [
@@ -69,45 +69,42 @@ function Landing() {
   ];
   const images = [
     {
-      src: `https://res.cloudinary.com/living-solutions/image/upload/v1633075744/living-images/rudn-c_fvkmfs.png`, // required
-      srcset: `https://res.cloudinary.com/living-solutions/image/upload/v1633075744/living-images/rudn-c_fvkmfs.png 400w, https://res.cloudinary.com/living-solutions/image/upload/v1633075744/living-images/rudn-c_fvkmfs.png 700w, https://res.cloudinary.com/living-solutions/image/upload/v1633075744/living-images/rudn-c_fvkmfs.png 1000w`,
-      sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
+      original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085818/living-images/carousel-images/rudn-c_q9zut3.png`,
       alt: `Rudn Enclave`,
     },
     {
-      src: `https://res.cloudinary.com/living-solutions/image/upload/v1633075704/living-images/kabir-c_d5pv0t.png`, // required
-      srcset: `https://res.cloudinary.com/living-solutions/image/upload/v1633075704/living-images/kabir-c_d5pv0t.png 400w, https://res.cloudinary.com/living-solutions/image/upload/v1633075704/living-images/kabir-c_d5pv0t.png 700w, https://res.cloudinary.com/living-solutions/image/upload/v1633075704/living-images/kabir-c_d5pv0t.png 1000w`,
-      sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
+      original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085812/living-images/carousel-images/kabir-c_j1hczr.png`,
+
       alt: `Fauji Kabirwala Power Plant`,
     },
     {
-      src: `https://res.cloudinary.com/living-solutions/image/upload/v1633075712/living-images/uic-c_kqfvyj.jpg`, // required
-      srcset: `https://res.cloudinary.com/living-solutions/image/upload/v1633075712/living-images/uic-c_kqfvyj.jpg 400w, https://res.cloudinary.com/living-solutions/image/upload/v1633075712/living-images/uic-c_kqfvyj.jpg 700w, https://res.cloudinary.com/living-solutions/image/upload/v1633075712/living-images/uic-c_kqfvyj.jpg 1000w`,
-      sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
+      original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085805/living-images/carousel-images/uic-c_zrydtc.jpg`,
+
       alt: `UIC Pakistan`,
     },
+
     {
-      src: `https://res.cloudinary.com/living-solutions/image/upload/v1633075719/living-images/wind-c_aivjkb.png`, // required
-      srcset: `https://res.cloudinary.com/living-solutions/image/upload/v1633075719/living-images/wind-c_aivjkb.png 400w, https://res.cloudinary.com/living-solutions/image/upload/v1633075719/living-images/wind-c_aivjkb.png 700w, https://res.cloudinary.com/living-solutions/image/upload/v1633075719/living-images/wind-c_aivjkb.png 1000w`,
-      sizes: "(max-width: 1000px) 400px, (max-width: 2000px) 700px, 1000px",
+      original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085816/living-images/carousel-images/wind-c_yordfk.png`,
       alt: `Foundation Wind Pakistan`,
     },
   ];
   return (
     <>
       <NavBar />
-      <div className="bg-black grid items-center">
-        <Carousel
-          className="justify-self-center"
-          images={images}
-          style={{ height: "100%", width: "75%" }}
-          isAutoPlaying="true"
-          hasMediaButton="false"
-          hasSizeButton="false"
-          hasIndexBoard="false"
-          hasLeftButton="false"
-          hasRightButton="false"
-        />
+      <div className="w-screen flex justify-center bg-black">
+        <div className="w-auto md:w-3/4 bg-living-header">
+          <ReactImageGallery
+            showPlayButton={false}
+            lazyLoad={true}
+            items={images}
+            showBullets={true}
+            showIndex={false}
+            showThumbnails={false}
+            showNav={false}
+            showFullscreenButton={false}
+            autoPlay={true}
+          />
+        </div>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 text-xs lg:text-xl bg-living-header text-white">

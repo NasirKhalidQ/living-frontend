@@ -9,7 +9,7 @@ function RealEstate() {
     <>
       <NavBar />
       <section className="relative">
-        <div className="grid grid-flow-rows md:grid-cols-3">
+        <div className="grid grid-flow-rows md:grid-cols-2">
           <div>
             <img
               className="h-full"
@@ -17,7 +17,7 @@ function RealEstate() {
               alt="Rudn Enclave"
             />
           </div>
-          <div className="md:col-span-2 mt-2 md:mt-10 ml-10">
+          <div className="mt-2 md:mt-10 ml-10">
             <h2 className="text-lg md:text-3xl underline mb-5">
               Real Estate &amp; Construction
             </h2>
@@ -44,7 +44,7 @@ function RealEstate() {
         </div>
       </section>
       <section className="relative">
-        <div className="grid grid-flow-rows md:grid-cols-3 border-t-2 border-b-2 border-living-header">
+        <div className="grid grid-flow-rows md:grid-cols-2 border-t-2 border-b-2 border-living-header">
           <div>
             <img
               className="h-full"
@@ -52,7 +52,7 @@ function RealEstate() {
               alt="Digital Marketing"
             />
           </div>
-          <div className="md:col-span-2 mt-2 md:mt-10 ml-10">
+          <div className="mt-2 md:mt-10 ml-10">
             <h3 className="text-lg md:text-2xl">Icon Enclave</h3>
             <p className="text-sm md:text-base mt-5 text-justify mr-5">
               Rudn Enclave is a beautiful housing society spanning over 10,000

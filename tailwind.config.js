@@ -11,7 +11,7 @@ module.exports = {
       },
       backgroundImage: {
         about:
-          "url('https://res.cloudinary.com/living-solutions/image/upload/v1633075754/living-images/about_jyuu0p.jpg')",
+          "url('https://res.cloudinary.com/living-solutions/image/upload/v1633087266/living-images/about_udyfbh.jpg')",
       },
     },
     fontFamily: {
