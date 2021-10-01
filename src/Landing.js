@@ -81,7 +81,7 @@ function Landing() {
       </div>
       <div className="flex pl-10 md:pl-0 flex-col md:flex-row md:justify-around pt-10 pb-10 bg-living-header text-gray-50 border-t-2 border-white gap-y-6">
         <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-chart">
+          <div className=" border-4 border-gray-600 hover:border-living-chart transition duration-500 ease-in-out">
             <img className="p-2" src="./imgs/stats/chart.svg" alt="Chart" />
           </div>
           <div className="flex-col ml-4 mt-2">
@@ -90,7 +90,7 @@ function Landing() {
           </div>
         </div>
         <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-chart">
+          <div className=" border-4 border-gray-600 hover:border-living-chart transition duration-500 ease-in-out">
             <img className="p-2" src="./imgs/stats/team.svg" alt="Team" />
           </div>
           <div className="flex-col ml-4 mt-2">
@@ -99,7 +99,7 @@ function Landing() {
           </div>
         </div>
         <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-chart">
+          <div className=" border-4 border-gray-600 hover:border-living-chart transition duration-500 ease-in-out">
             <img className="p-2" src="./imgs/stats/hand.svg" alt="Hand" />
           </div>
           <div className="flex-col ml-4 mt-2">
@@ -108,7 +108,7 @@ function Landing() {
           </div>
         </div>
         <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-chart">
+          <div className=" border-4 border-gray-600 hover:border-living-chart transition duration-500 ease-in-out">
             <img
               className="p-2"
               src="./imgs/stats/creative.svg"

@@ -1,5 +1,6 @@
 import Footer from "./Footer";
 import NavBar from "./Navbar";
+import Team from "./Team";
 
 function About() {
   return (
@@ -21,6 +22,7 @@ function About() {
             Our experts are just a phone call away from you.
           </p>
         </div>
+        <Team />
         <Footer />
       </section>
     </>

@@ -11,6 +11,7 @@ import Services from "./Services";
 import About from "./About";
 import Marketing from "./Marketing";
 import RealEstate from "./RealEstate";
+import Blog from "./Blog";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
         </Route>
         <Route path="/services">
           <Services />
+        </Route>
+        <Route path="/blog">
+          <Blog />
         </Route>
         <Route path="/marketing">
           <Marketing />

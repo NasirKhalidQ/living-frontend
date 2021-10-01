@@ -44,7 +44,7 @@ function Careers() {
                   <p className="mb-4">
                     Bahria Town Phase 7, Rawalpindi | Full Time
                   </p>
-                  <p>Sales Executive</p>
+                  <p>Sales Executive (Real Estate)</p>
                 </div>
                 <div className="">
                   <button

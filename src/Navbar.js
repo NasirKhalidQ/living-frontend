@@ -23,6 +23,9 @@ function NavBar() {
               <Link to="/clients">Our Clients</Link>
             </li>
             <li className="mt-2 hover:text-living-red">
+              <Link to="/blog">Blog</Link>
+            </li>
+            <li className="mt-2 hover:text-living-red">
               <Link to="/careers">Careers</Link>
             </li>
             <li className="mt-2 hover:text-living-red">
@@ -48,25 +51,28 @@ function NavBar() {
           </Link>
         </div>
         <ul className="hidden sm:flex flex-auto justify-end items-center gap-12 text-white uppercase text-sm">
-          <li className="hover:text-living-red">
+          <li className="hover:text-living-red transition duration-500 ease-in-out">
             <Link to="/">Home</Link>
           </li>
-          <li className="hover:text-living-red">
+          <li className="hover:text-living-red transition duration-500 ease-in-out">
             <Link to="/about">About</Link>
           </li>
-          <li className="hover:text-living-red">
+          <li className="hover:text-living-red transition duration-500 ease-in-out">
             <Link to="/services">Services</Link>
           </li>
-          <li className="hover:text-living-red">
+          <li className="hover:text-living-red transition duration-500 ease-in-out">
             <Link to="/clients">Our Clients</Link>
           </li>
-          <li className="hover:text-living-red">
+          <li className="hover:text-living-red transition duration-500 ease-in-out">
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li className="hover:text-living-red transition duration-500 ease-in-out">
             <Link to="/careers">Careers</Link>
           </li>
-          <li className="hover:text-living-red">
+          <li className="hover:text-living-red transition duration-500 ease-in-out">
             <Link to="/contact">Contact</Link>
           </li>
-          <li className="hover:text-living-red">
+          <li className="hover:text-living-red transition duration-500 ease-in-out">
             <Link to="/contact">Get a Quote</Link>
           </li>
         </ul>
