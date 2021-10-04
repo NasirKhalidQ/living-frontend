@@ -14,9 +14,8 @@ const Article = () => {
       {({ data: { articles } }) => {
         if (articles.length) {
           const imageUrl =
-            process.env.NODE_ENV !== "development"
-              ? articles[0].image.url
-              : "http://localhost:1337" + articles[0].image.url;
+            "https://living-solutions-blog.herokuapp.com" +
+            articles[0].image.url;
 
           return (
             <div>

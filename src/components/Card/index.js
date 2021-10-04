@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 
 const Card = ({ article }) => {
   const imageUrl =
-    process.env.NODE_ENV !== "development"
-      ? article.image.url
-      : "http://localhost:1337" + article.image.url;
+    "https://living-solutions-blog.herokuapp.com" + article.image.url;
   return (
     <Link to={`/article/${article.slug}`}>
       <div className="">
