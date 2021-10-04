@@ -7,6 +7,7 @@ function Services() {
     [
       "Marketing and Branding",
       "https://res.cloudinary.com/living-solutions/image/upload/v1633078407/living-images/services/marketing_h9hrcw.png",
+      "/marketing",
     ],
     [
       "Architecture",

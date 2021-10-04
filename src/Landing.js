@@ -9,7 +9,7 @@ function Landing() {
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633075707/living-images/marketing_rwju4q.png",
       "Marketing and Branding",
-      "/marketing",
+      "marketing",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633075699/living-images/architecture_lacp5f.png",
@@ -92,7 +92,7 @@ function Landing() {
     <>
       <NavBar />
       <div className="w-screen flex justify-center bg-black">
-        <div className="w-auto md:w-3/4 bg-living-header">
+        <div className="w-auto md:w-3/4 bg-black">
           <ReactImageGallery
             showPlayButton={false}
             lazyLoad={true}

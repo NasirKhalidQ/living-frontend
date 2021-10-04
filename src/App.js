@@ -1,7 +1,6 @@
 import "./App.css";
 import Landing from "./Landing";
 import Contact from "./Contact";
-import Category from "./Category";
 
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 import Clients from "./Clients";
@@ -12,6 +11,10 @@ import About from "./About";
 import Marketing from "./Marketing";
 import RealEstate from "./RealEstate";
 import Blog from "./Blog";
+import Articles from "./Articles/index";
+import Article from "./Article/index";
+import Nav from "./components/Nav";
+import Category from "./Category/index";
 
 function App() {
   return (
@@ -22,9 +25,6 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact />
-        </Route>
-        <Route path="/category">
-          <Category />
         </Route>
         <Route path="/careers">
           <Careers />
@@ -49,6 +49,17 @@ function App() {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/articles" exact>
+          <Nav />
+          <Articles />
+        </Route>
+        <Route path="/article/:id" exact>
+          <Nav />
+          <Article />
+        </Route>
+        <Route path="/category/:id" exact>
+          <Category />
         </Route>
       </Switch>
     </BrowserRouter>

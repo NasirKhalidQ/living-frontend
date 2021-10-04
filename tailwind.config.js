@@ -18,7 +18,7 @@ module.exports = {
       Poppins: ["Poppins, sans-serif"],
     },
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
   variants: {
     extend: {
       filter: ["hover"],
