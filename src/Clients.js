@@ -5,115 +5,115 @@ import Client from "./Client";
 function Clients() {
   const clients = [
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075709/living-images/rudn_xwtmpc.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598560/clients/rudn_clbgkd.svg",
       "rudn enclave",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075707/living-images/kabir_y7db4u.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598549/clients/kabir_bw4dk5.svg",
       "Fauji Kabirwala",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075705/living-images/iveco_uahr7s.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/iveco_jkzuh0.svg",
       "iveco-astra",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075710/living-images/rmrsco_ml3sdh.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598577/clients/rmrsco_sgml1z.svg",
       "RMRSCO Pvt limited",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075701/living-images/imos_vvhs04.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598535/clients/imos_qdsfmj.svg",
       "imos",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075713/living-images/uic_dyset8.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598552/clients/uic_cxj9ej.svg",
       "UIC insurance Pakistan",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075714/living-images/wind_yxhc65.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/foundation_i64ngg.svg",
       "foundation wind energy limited",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075706/living-images/next_yofzik.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598548/clients/next_vlvxtr.svg",
       "Next Health Pakistans",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075702/living-images/icon_xghgrd.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/icon_ydgtba.svg",
       "icon enclave",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075711/living-images/spi_zkvojd.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598550/clients/spi_sfoapp.svg",
       "SPI insurance Pakistan",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075704/living-images/ithm_sduwkg.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598550/clients/ithm_q2eitr.svg",
       "ITHM rawalpindi",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075715/living-images/xenia_ru0amv.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598553/clients/xenia_udopn3.svg",
       "Xenia Group of Hospitality",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075714/living-images/vs_qxsp3s.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598553/clients/vs_duqbjs.svg",
       "Vectors and Scalers",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075706/living-images/pak_bw2hmv.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598550/clients/property_t9xf3d.svg",
       "Pak Property",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075698/living-images/bike_iij7k6.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598527/clients/bike_zy6drs.svg",
       "Bike Master",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075698/living-images/adam_ehdpft.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598527/clients/adam_st7gy8.svg",
       "adam motors",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075698/living-images/cart_jwvhuf.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598534/clients/cart_lmdnls.svg",
       "D Road Cart",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075698/living-images/catalyst_pzf6xx.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598533/clients/catalyst_vwsnib.svg",
       "Catalyst",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075699/living-images/ehtesham_ojbcds.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598531/clients/ehtesham_euahh9.svg",
       "Ehteshaam photography",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075704/living-images/jugnu_ysde6x.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598580/clients/jugnu_ugct75.svg",
       "Jugnu",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075705/living-images/latif_lggu4h.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598547/clients/latif_nmqe2y.svg",
       "Latif Group",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075702/living-images/chamber_rcenfz.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598530/clients/chamber_atoepj.svg",
       "islamabad chamber of commerce and industry",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075702/living-images/isha_t6spgi.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598546/clients/isha_xcds8u.svg",
       "Beauty Salon and makeup artist",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075707/living-images/planetketo_acu7lt.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598549/clients/keto_iiqkjn.svg",
       "Planet Keto",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075712/living-images/shutterbug_seexdg.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598529/clients/bug_wzrang.svg",
       "ShutterBug",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075701/living-images/huma_fuojcy.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598533/clients/huma_lr1eow.svg",
       "Ghar ka khana by Huma",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075714/living-images/true_dnxics.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598556/clients/vision_o49ehy.svg",
       "True Sight Pakistan",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075698/living-images/car_yemrc9.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598547/clients/car_vrfiy6.svg",
       "Car Craft Pakistan",
     ],
   ];
@@ -123,7 +123,7 @@ function Clients() {
       <h3 className="text-xl md:text-3xl text-center mb-4 mt-4 md:mb-16 md:mt-10">
         Our Clients
       </h3>
-      <div className="grid grid-cols-2 md:grid-cols-4 text-xs lg:text-xl gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 text-xs lg:text-xl gap-4 mb-4 md:mb-16">
         {clients.map((client) => (
           <Client imgPath={client[0]} alt={client[1]} />
         ))}

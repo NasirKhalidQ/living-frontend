@@ -10,37 +10,37 @@ import { Link } from "react-router-dom";
 function Landing() {
   const clients = [
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075709/living-images/rudn_xwtmpc.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598560/clients/rudn_clbgkd.svg",
       "rudn enclave",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075707/living-images/kabir_y7db4u.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598549/clients/kabir_bw4dk5.svg",
       "Fauji Kabirwala",
     ],
 
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075713/living-images/uic_dyset8.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598552/clients/uic_cxj9ej.svg",
       "UIC insurance Pakistan",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075714/living-images/wind_yxhc65.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/foundation_i64ngg.svg",
       "foundation wind energy limited",
     ],
 
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075704/living-images/ithm_sduwkg.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598550/clients/ithm_q2eitr.svg",
       "ITHM rawalpindi",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075705/living-images/iveco_uahr7s.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/iveco_jkzuh0.svg",
       "iveco-astra",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075710/living-images/rmrsco_ml3sdh.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598577/clients/rmrsco_sgml1z.svg",
       "RMRSCO Pvt limited",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075701/living-images/imos_vvhs04.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598535/clients/imos_qdsfmj.svg",
       "imos",
     ],
   ];
@@ -178,7 +178,7 @@ function Landing() {
           Portfolio
         </h3>
       </Link>
-      <div className="grid grid-cols-2 md:grid-cols-4 text-xs lg:text-xl gap-4 mx-6">
+      <div className="grid grid-cols-2 md:grid-cols-4 text-xs lg:text-xl gap-4 mx-6 mb-4 md:mb-10">
         {clients.map((client) => (
           <Client imgPath={client[0]} alt={client[1]} />
         ))}
