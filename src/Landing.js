@@ -46,12 +46,12 @@ function Landing() {
   ];
   const tiles = [
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075707/living-images/marketing_rwju4q.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633610119/main-page/Marketing_Branding_bjudp1.svg",
       "Marketing and Branding",
       "marketing",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075710/living-images/real-estate_fecel9.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Real_Esate_n0cjki.svg",
       "Real Estate",
       "realestate",
     ],
@@ -62,17 +62,17 @@ function Landing() {
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075701/living-images/event_poelpn.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633610121/main-page/Event_Management_nyrpqx.svg",
       "Event Management",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075715/living-images/web_d4hi8j.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633610121/main-page/IT_Solutions_wsuotr.svg",
       "IT Solutions",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075713/living-images/social_wi091q.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Social_Responsibility_zvs1pz.svg",
       "Social Responsibility",
       "#",
     ],
@@ -139,7 +139,7 @@ function Landing() {
       <div className="grid md:grid-cols-2">
         <img
           className="ml-6 md:mx-0 w-3/4 md:w-auto"
-          src="./imgs/kl.jpg"
+          src="https://res.cloudinary.com/living-solutions/image/upload/v1633610147/main-page/Title_Image_ojw3k8.svg"
           alt="main"
         />
         <div>
