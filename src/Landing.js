@@ -2,9 +2,48 @@ import Footer from "./Footer";
 import NavBar from "./Navbar";
 import Tile from "./Tile";
 import "react-image-gallery/styles/css/image-gallery.css";
-import ReactImageGallery from "react-image-gallery";
+// import ReactImageGallery from "react-image-gallery";
+import CountUp from "react-countup";
+import Client from "./Client";
+import { Link } from "react-router-dom";
 
 function Landing() {
+  const clients = [
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075709/living-images/rudn_xwtmpc.png",
+      "rudn enclave",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075707/living-images/kabir_y7db4u.png",
+      "Fauji Kabirwala",
+    ],
+
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075713/living-images/uic_dyset8.png",
+      "UIC insurance Pakistan",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075714/living-images/wind_yxhc65.png",
+      "foundation wind energy limited",
+    ],
+
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075704/living-images/ithm_sduwkg.png",
+      "ITHM rawalpindi",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075705/living-images/iveco_uahr7s.png",
+      "iveco-astra",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075710/living-images/rmrsco_ml3sdh.png",
+      "RMRSCO Pvt limited",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633075701/living-images/imos_vvhs04.png",
+      "imos",
+    ],
+  ];
   const tiles = [
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633075707/living-images/marketing_rwju4q.png",
@@ -12,28 +51,14 @@ function Landing() {
       "marketing",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075699/living-images/architecture_lacp5f.png",
-      "Architecture",
-      "#",
-    ],
-    [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633075710/living-images/real-estate_fecel9.png",
-      "Real Estate and Construction",
+      "Real Estate",
       "realestate",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075705/living-images/interior_z4plv3.png",
-      "Interior Design",
-      "#",
-    ],
+
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633075702/living-images/insurance_xccutc.png",
       "General Insurance",
-      "#",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075705/living-images/govt_lejyxb.png",
-      "Government/Non-government Contracts",
       "#",
     ],
     [
@@ -42,57 +67,58 @@ function Landing() {
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075710/living-images/procurement_sctjnm.png",
-      "Procurement Solutions",
-      "#",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075708/living-images/printing_efcpx4.png",
-      "Printing Solutions",
-      "#",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075714/living-images/video_odk3pq.png",
-      "Video Production",
-      "#",
-    ],
-    [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633075715/living-images/web_d4hi8j.png",
-      "Web Development/E-Commerce",
+      "IT Solutions",
       "#",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633075713/living-images/social_wi091q.png",
-      "Social Welfare",
+      "Social Responsibility",
       "#",
     ],
   ];
-  const images = [
-    {
-      original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085818/living-images/carousel-images/rudn-c_q9zut3.png`,
-      alt: `Rudn Enclave`,
-    },
-    {
-      original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085812/living-images/carousel-images/kabir-c_j1hczr.png`,
+  // const images = [
+  // {
+  //   original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085818/living-images/carousel-images/rudn-c_q9zut3.png`,
+  //   alt: `Rudn Enclave`,
+  // },
+  // {
+  //   original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085812/living-images/carousel-images/kabir-c_j1hczr.png`,
 
-      alt: `Fauji Kabirwala Power Plant`,
-    },
-    {
-      original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085805/living-images/carousel-images/uic-c_zrydtc.jpg`,
+  //   alt: `Fauji Kabirwala Power Plant`,
+  // },
+  // {
+  //   original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085805/living-images/carousel-images/uic-c_zrydtc.jpg`,
 
-      alt: `UIC Pakistan`,
-    },
+  //   alt: `UIC Pakistan`,
+  // },
 
-    {
-      original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085816/living-images/carousel-images/wind-c_yordfk.png`,
-      alt: `Foundation Wind Pakistan`,
-    },
-  ];
+  // {
+  //   original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085816/living-images/carousel-images/wind-c_yordfk.png`,
+  //   alt: `Foundation Wind Pakistan`,
+  // },
+  // {
+  //   original: `https://scontent.fisb5-1.fna.fbcdn.net/v/t1.6435-9/173150569_257525429448213_5624051672270074730_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=e3f864&_nc_ohc=BV6hLA5gKmYAX8oIj29&_nc_ht=scontent.fisb5-1.fna&oh=bf17cc6f893596388d40ffef23b3472b&oe=6182A17F`,
+  //   alt: "Living Solutions",
+  // },
+  // {
+  //   original: `https://scontent.fisb5-1.fna.fbcdn.net/v/t1.6435-9/156202236_219977533203003_7062472743001516321_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=e3f864&_nc_ohc=-qFc_9SlX2QAX-w8xla&_nc_ht=scontent.fisb5-1.fna&oh=60e37ddbb87a72b9f4fdc78532eeb205&oe=6181F3F0`,
+  //   alt: "Living Solutions",
+  // },
+  // {
+  //   original: `https://scontent.fisb5-1.fna.fbcdn.net/v/t1.6435-9/129044168_157348076132616_174287923300070880_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=e3f864&_nc_ohc=rVhOveeEjWgAX-co83w&tn=svU6cqP2Xm7TWh2n&_nc_ht=scontent.fisb5-1.fna&oh=76365bebd8fb6f9572ca99a27311509d&oe=618171CD`,
+  //   alt: "Living Solutions",
+  // },
+  // {
+  //   original: `https://scontent.fisb5-2.fna.fbcdn.net/v/t1.6435-9/122481832_129246602276097_6164394889491914409_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=-2iV_-4bSboAX9K3frR&_nc_ht=scontent.fisb5-2.fna&oh=b8ee15659ac0ed7dda3ffde80a3add5f&oe=6184BC5D`,
+  //   alt: "Living Solutions",
+  // },
+  // ];
   return (
     <>
       <NavBar />
-      <div className="w-screen flex justify-center bg-black">
-        <div className="w-auto md:w-3/4 bg-black">
+      {/* <div className="w-screen flex justify-center">
+        <div className="w-auto md:w-3/4">
           <ReactImageGallery
             showPlayButton={false}
             lazyLoad={true}
@@ -102,46 +128,101 @@ function Landing() {
             showThumbnails={false}
             showNav={false}
             showFullscreenButton={false}
-            autoPlay={true}
+            slideDuration={1000}
+            slideInterval={5000}
           />
         </div>
+      </div> */}
+      <h2 className="text-2xl mt-10 mb-4 font-bold ml-6 md:ml-4 text-living-red">
+        Catchy Heading
+      </h2>
+      <div className="grid md:grid-cols-2">
+        <img
+          className="ml-6 md:mx-0 w-3/4 md:w-auto"
+          src="./imgs/kl.jpg"
+          alt="main"
+        />
+        <div>
+          <div className="pt-10 md:pt-40 pb-20 md:pb-72 mx-6 grid gap-6 font-normal md:font-bold">
+            <h2 className="text-base md:text-2xl font-bold text-living-red">
+              About us
+            </h2>
+            <h3 className="text-base md:text-xl font-bold">
+              We are here to manage quality consulting service and investment
+              plan
+            </h3>
+            <p className="text-base">
+              We provide expert Business Coaching to both individuals and
+              businesses. With over 10 years of experience, we’ll ensure that
+              you’re always getting the best guidance from the top people in the
+              entire industry.
+            </p>
+            <p className="text-base">
+              Our experts are just a phone call away from you.
+            </p>
+          </div>
+        </div>
       </div>
-
-      <div className="grid grid-cols-2 md:grid-cols-3 text-xs lg:text-xl bg-living-header text-white">
-        {tiles.map((tile) => (
-          <Tile imgPath={tile[0]} alt={tile[1]} link={tile[2]} />
+      <Link to="/services">
+        <h2 className="grid w-full justify-center pt-4 text-xl md:text-2xl text-living-red underline">
+          Our Services
+        </h2>
+      </Link>
+      <div className="grid grid-cols-2 md:grid-cols-3 pb-16 gap-x-6 md:gap-x-16 gap-y-4 md:gap-y-10 px-6 text-xs pt-6 lg:text-xl">
+        {tiles.map((tile, index) => (
+          <Tile key={index} imgPath={tile[0]} alt={tile[1]} link={tile[2]} />
         ))}
       </div>
-      <div className="flex pl-10 md:pl-0 flex-col md:flex-row md:justify-around pt-10 pb-10 bg-living-header text-gray-50 border-t-2 border-white gap-y-6">
+      <Link to="/clients">
+        <h3 className="text-xl md:text-2xl text-center mb-4 md:mb-16 text-living-red underline">
+          Portfolio
+        </h3>
+      </Link>
+      <div className="grid grid-cols-2 md:grid-cols-4 text-xs lg:text-xl gap-4 mx-6">
+        {clients.map((client) => (
+          <Client imgPath={client[0]} alt={client[1]} />
+        ))}
+      </div>
+      <div className="flex pl-10 md:pl-0 flex-col md:flex-row md:justify-around pt-2 pb-2 bg-living-header text-gray-50 border-t-2 border-white gap-y-6">
         <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-chart transition duration-500 ease-in-out">
+          <div className=" border-4 border-gray-600 hover:border-living-red transition duration-500 ease-in-out">
             <img className="p-2" src="./imgs/stats/chart.svg" alt="Chart" />
           </div>
           <div className="flex-col ml-4 mt-2">
-            <h2>12+</h2>
+            <div className="inline-flex text-base md:text-xl">
+              <CountUp end={100} duration={2} />
+              <p>+</p>
+            </div>
+
             <p className="text-base text-gray-400">Successful Projects</p>
           </div>
         </div>
         <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-chart transition duration-500 ease-in-out">
+          <div className=" border-4 border-gray-600 hover:border-living-red transition duration-500 ease-in-out">
             <img className="p-2" src="./imgs/stats/team.svg" alt="Team" />
           </div>
           <div className="flex-col ml-4 mt-2">
-            <h2>25+</h2>
+            <div className="inline-flex text-base md:text-xl">
+              <CountUp end={30} duration={3} />
+              <p>+</p>
+            </div>
             <p className="text-base text-gray-400">Team Members</p>
           </div>
         </div>
         <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-chart transition duration-500 ease-in-out">
+          <div className=" border-4 border-gray-600 hover:border-living-red transition duration-500 ease-in-out">
             <img className="p-2" src="./imgs/stats/hand.svg" alt="Hand" />
           </div>
           <div className="flex-col ml-4 mt-2">
-            <h2>10+</h2>
+            <div className="inline-flex text-base md:text-xl">
+              <CountUp end={400} duration={3} />
+              <p>+</p>
+            </div>
             <p className="text-base text-gray-400">Happy Customers</p>
           </div>
         </div>
         <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-chart transition duration-500 ease-in-out">
+          <div className=" border-4 border-gray-600 hover:border-living-red transition duration-500 ease-in-out">
             <img
               className="p-2"
               src="./imgs/stats/creative.svg"
@@ -149,11 +230,31 @@ function Landing() {
             />
           </div>
           <div className="flex-col ml-4 mt-2">
-            <h2>213+</h2>
+            <div className="inline-flex text-base md:text-xl">
+              <CountUp end={213} duration={4} />
+              <p>+</p>
+            </div>
             <p className="text-base text-gray-400">Creative Ideas</p>
           </div>
         </div>
+        <div className="text-2xl inline-flex">
+          <div className=" border-4 border-gray-600 hover:border-living-red transition duration-500 ease-in-out">
+            <img
+              className="p-2"
+              src="./imgs/stats/web.svg"
+              alt="Machine Learning"
+            />
+          </div>
+          <div className="flex-col ml-4 mt-2">
+            <div className="inline-flex text-base md:text-xl">
+              <CountUp start={10374} end={30000} duration={9999} />
+              <p>+</p>
+            </div>
+            <p className="text-sm md:text-base text-gray-400">Site Views</p>
+          </div>
+        </div>
       </div>
+
       <Footer />
     </>
   );

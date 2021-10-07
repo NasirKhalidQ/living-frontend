@@ -31,7 +31,7 @@ function Careers() {
                 <div className="">
                   <button
                     onClick={() => history.push("/apply")}
-                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white mt-4 md:mt-0"
+                    className="px-14 py-3 shadow-md bg-living-red text-sm lg:text-base hover:bg-opacity-80 text-white mt-4 md:mt-0"
                   >
                     Apply now
                   </button>
@@ -49,7 +49,7 @@ function Careers() {
                 <div className="">
                   <button
                     onClick={() => history.push("/apply")}
-                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white mt-4 md:mt-0"
+                    className="px-14 py-3 shadow-md bg-living-red text-sm lg:text-base hover:bg-opacity-80 text-white mt-4 md:mt-0"
                   >
                     Apply now
                   </button>
@@ -67,7 +67,7 @@ function Careers() {
                 <div className="">
                   <button
                     onClick={() => history.push("/apply")}
-                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white mt-4 md:mt-0"
+                    className="px-14 py-3 shadow-md bg-living-red text-sm lg:text-base hover:bg-opacity-80 text-white mt-4 md:mt-0"
                   >
                     Apply now
                   </button>
@@ -85,7 +85,7 @@ function Careers() {
                 <div className="">
                   <button
                     onClick={() => history.push("/apply")}
-                    className="px-14 py-3 shadow-md bg-living-header text-sm lg:text-base hover:bg-gray-700 text-white mt-4 md:mt-0"
+                    className="px-14 py-3 shadow-md bg-living-red text-sm lg:text-base hover:bg-opacity-80 text-white mt-4 md:mt-0"
                   >
                     Apply now
                   </button>

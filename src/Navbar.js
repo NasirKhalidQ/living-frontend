@@ -38,15 +38,13 @@ function NavBar() {
         </nav>
       )}
 
-      <div className="flex cursor-default bg-living-header sm:px-12">
+      <div className="flex cursor-default bg-living-header border-b-2 border-living-yellow pl-0 md:px-12">
         <div className="">
           <Link to="/">
             <img
-              className="flex w-1/2 md:w-full "
-              src="./imgs/logo.svg"
-              width="200"
-              height="200"
-              alt="logo"
+              className="w-3/4 md:w-auto"
+              src="./imgs/lv.svg"
+              alt="living logo"
             />
           </Link>
         </div>
@@ -72,7 +70,7 @@ function NavBar() {
           <li className="hover:text-living-red transition duration-500 ease-in-out">
             <Link to="/contact">Contact</Link>
           </li>
-          <li className="hover:text-living-red transition duration-500 ease-in-out">
+          <li className="py-2 px-4 shadow-md bg-living-red hover:opacity-80 text-white cursor-pointer text-center">
             <Link to="/contact">Get a Quote</Link>
           </li>
         </ul>

@@ -13,9 +13,7 @@ const Article = () => {
     <Query query={ARTICLE_QUERY} slug={id}>
       {({ data: { articles } }) => {
         if (articles.length) {
-          const imageUrl =
-            "https://living-solutions-blog.herokuapp.com" +
-            articles[0].image.url;
+          const imageUrl = articles[0].image.url;
 
           return (
             <div>

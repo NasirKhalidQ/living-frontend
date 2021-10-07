@@ -5,9 +5,9 @@ module.exports = {
     extend: {
       colors: {
         "living-bg": "#F69921",
-        "living-header": "#0B0D17",
+        "living-header": "#054f6A",
+        "living-yellow": "#F69921",
         "living-red": "#EB3728",
-        "living-chart": "#D0651A",
       },
       backgroundImage: {
         about:

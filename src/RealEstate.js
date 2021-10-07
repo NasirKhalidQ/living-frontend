@@ -34,7 +34,7 @@ function RealEstate() {
             </p>
             <div className="grid justify-items-center mt-12 mb-10 md:mb-10">
               <button
-                className="py-2 px-8 shadow-md bg-living-header hover:bg-gray-700 text-white"
+                className="py-2 px-8 shadow-md bg-living-red hover:opacity-80 text-white"
                 onClick={() => history.push("/rudn")}
               >
                 Learn More
@@ -66,7 +66,7 @@ function RealEstate() {
             </p>
             <div className="grid justify-items-center mt-12 mb-10 md:mb-10">
               <button
-                className="py-2 px-8 shadow-md bg-living-header hover:bg-gray-700 text-white sm:mb-10 md:mb-0"
+                className="py-2 px-8 shadow-md bg-living-red hover:opacity-80 text-white"
                 onClick={() => history.push("#")}
               >
                 Learn More

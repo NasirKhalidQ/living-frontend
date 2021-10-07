@@ -77,7 +77,7 @@ function Apply() {
                     {...register("name")}
                     type="text"
                     id="name"
-                    className="mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
+                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                   />
                 </label>
                 <label className="block">
@@ -86,7 +86,7 @@ function Apply() {
                     {...register("email", { required: true })}
                     type="email"
                     id="email"
-                    className="mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
+                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                   />
                   {errors.email && (
                     <span className="text-xs text-red-700" id="emailHelp">
@@ -104,7 +104,7 @@ function Apply() {
                     })}
                     type="number"
                     id="phone"
-                    className="mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
+                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                   />
                   {errors.number && (
                     <span className="text-xs text-red-700" id="mobileHelp">
@@ -118,7 +118,7 @@ function Apply() {
                     {...register("position")}
                     type="text"
                     id="position"
-                    className="form-select mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
+                    className="form-select mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                   >
                     <option value="Marketing Executive">
                       Marketing Executive
@@ -138,14 +138,14 @@ function Apply() {
                     {...register("intro")}
                     type="text"
                     id="intro"
-                    className="mt-1 block w-full bg-transparent rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
+                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                     rows="6"
                   ></textarea>
                 </label>
 
                 <label
                   for="file-upload"
-                  className="py-2 w-full px-4 rounded-lg shadow-md border-blue-400 border-2 hover:bg-blue-50 text-blue-400 cursor-pointer text-center"
+                  className="py-2 w-full px-4 shadow-md bg-living-red hover:opacity-80 text-white cursor-pointer text-center"
                 >
                   {uploading ? "Uploading..." : "Upload CV"}
                 </label>
@@ -174,7 +174,7 @@ function Apply() {
                   disabled={fileName ? true : false}
                 />
                 <button
-                  className="py-2 w-full px-4 rounded-lg shadow-md border-green-400 border-2 hover:bg-green-50 text-green-400"
+                  className="py-2 w-full px-4 bg-living-red hover:opacity-80 text-white"
                   disabled={sending ? true : false}
                 >
                   {sending ? "Sending..." : "Submit"}

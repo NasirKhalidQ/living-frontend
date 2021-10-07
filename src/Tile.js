@@ -9,12 +9,15 @@ function Tile({ imgPath, alt, link }) {
       <figure className="group cursor-pointer">
         <img
           onClick={() => history.push(link)}
-          className="mt-2 border-2 border-black opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out"
+          className="opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"
           src={imgPath}
           alt={alt}
           width="100%"
         />
-        <Link to="#" className="text-sm md:text-xl group-hover:text-living-red">
+        <Link
+          to="#"
+          className="text-sm grid justify-center md:text-xl text-living-yellow group-hover:text-living-red"
+        >
           {alt}
         </Link>
       </figure>
