@@ -1,7 +1,7 @@
 import gql from "graphql-tag";
 
 const CATEGORY_ARTICLES_QUERY = gql`
-  query Category($slug: String!) {
+  query Category($slug: String!, sort: "id:desc") {
     categories(where: { slug: $slug }) {
       name
       articles {

@@ -1,22 +1,29 @@
 function Footer() {
   return (
     <>
-      <footer className="footer p-4 grid grid-cols-3  bg-living-header text-white border-living-yellow border-t-2">
-        <div className="grid grid-rows-4 gap-y-3 grid-flow-col text-sm md:text-base">
-          <div>Living Solutions</div>
-          <div>Copyright © 2021</div>
-          <div>
-            Office # 1 and 2, Plaza 57, Wallayat Complex, Bahria Town Phase 7,
-            Rawalpindi
+      <footer className="footer p-4 grid md:grid-cols-3  bg-living-header text-white border-living-yellow border-t-2">
+        <div className="gap-y-1 grid-flow-col text-sm md:text-base">
+          <div className="flow-root my-2">
+            <p>Office # 1 and 2, Plaza 57, Wallayat Complex, </p>
+            <p>Bahria Town Phase 7, Rawalpindi</p>
           </div>
-          <div>0311-7862211</div>
+          <div className="flow-root my-2">0311-7862211</div>
+          <div className="flow-root my-2">
+            Living Solutions Copyright © 2021
+          </div>
         </div>
-        <img
-          className="w-3/4 md:w-auto"
-          src="./imgs/lv.svg"
-          alt="living logo"
-        />
-        <div className="gap-4 flex justify-end ml-auto mt-2">
+        <div className="grid justify-start order-first md:order-none md:justify-center">
+          <img
+            className="w-3/4 md:w-auto"
+            src="./imgs/lv.svg"
+            alt="living logo"
+          />
+        </div>
+        <div className="gap-4 grid grid-cols-3 md:justify-end md:ml-auto mt-2">
+          <h3 className="text-base md:text-xl col-span-3 grid justify-self-center">
+            Follow Us!
+          </h3>
+
           <a
             className="cursor-pointer hover:text-blue-500"
             href="https://www.facebook.com/livingsolutionpk"
