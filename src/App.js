@@ -14,7 +14,7 @@ import Blog from "./Blog";
 import Articles from "./Articles/index";
 import Article from "./Article/index";
 import Nav from "./components/Nav";
-import Category from "./category/index";
+import Category from "./Category/index";
 
 function App() {
   return (
