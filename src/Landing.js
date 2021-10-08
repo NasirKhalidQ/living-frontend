@@ -133,17 +133,14 @@ function Landing() {
           />
         </div>
       </div> */}
-      <h2 className="text-2xl mt-10 mb-4 font-bold ml-6 md:ml-4 text-living-red">
-        Delivering Excellence
-      </h2>
-      <div className="grid md:grid-cols-2">
-        <img
-          className="ml-6 w-3/4 md:w-auto "
-          src="https://res.cloudinary.com/living-solutions/image/upload/v1633610147/main-page/Title_Image_ojw3k8.svg"
-          alt="main"
-        />
+
+      <div className="grid ">
+        <img className="w-screen" src="./imgs/title.jpg" alt="main" />
         <div>
-          <div className="mx-6 grid gap-6 text-justify mt-6 md:mt-0">
+          <div className="mx-6 grid gap-6 text-justify">
+            <h2 className="md:text-2xl mt-2 mb-2 md:mb-6 text-living-red">
+              Delivering Excellence
+            </h2>
             <h2 className="text-base md:text-2xl font-bold text-living-red">
               What we do
             </h2>
