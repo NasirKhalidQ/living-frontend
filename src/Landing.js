@@ -138,12 +138,12 @@ function Landing() {
       </h2>
       <div className="grid md:grid-cols-2">
         <img
-          className="ml-6 md:mx-0 w-3/4 md:w-auto"
+          className="ml-6 w-3/4 md:w-auto"
           src="https://res.cloudinary.com/living-solutions/image/upload/v1633610147/main-page/Title_Image_ojw3k8.svg"
           alt="main"
         />
         <div>
-          <div className=" mx-6 grid gap-6 font-normal md:font-bold">
+          <div className=" mx-6 grid gap-6 text-justify mt-6 md:mt-0">
             <h2 className="text-base md:text-2xl font-bold text-living-red">
               What we do
             </h2>
