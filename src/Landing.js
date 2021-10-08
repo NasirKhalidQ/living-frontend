@@ -143,7 +143,7 @@ function Landing() {
           alt="main"
         />
         <div>
-          <div className=" mx-6 grid gap-6 text-justify mt-6 md:mt-0">
+          <div className="mx-6 grid gap-6 text-justify mt-6 md:mt-0">
             <h2 className="text-base md:text-2xl font-bold text-living-red">
               What we do
             </h2>
