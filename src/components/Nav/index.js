@@ -12,10 +12,10 @@ const Nav = () => {
           return (
             <div>
               <nav className="flex px-12 py-10">
-                <div className="uppercase text-lg">
+                <div className="uppercase text-2xl">
                   <Link to="/blog">Blog</Link>
                 </div>
-                <div className="w-full items-center">
+                {/* <div className="w-full items-center">
                   <ul className="flex justify-end gap-12 uppercase text-sm">
                     {categories.map((category, i) => {
                       return (
@@ -27,7 +27,7 @@ const Nav = () => {
                       );
                     })}
                   </ul>
-                </div>
+                </div> */}
               </nav>
             </div>
           );

@@ -11,13 +11,64 @@ function Team() {
           <div className="mb-8">
             <img
               className="object-center object-cover rounded-full h-36 w-36"
-              src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+              src="./imgs/sana.jpeg"
+              alt="sana"
+            />
+          </div>
+          <div className="text-center">
+            <p className="text-xl text-gray-700 font-bold mb-2">Sana Amin</p>
+            <p className="text-base text-gray-400 font-normal">
+              Founder and CEO
+            </p>
+          </div>
+        </div>
+        <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
+          <div className="mb-8">
+            <img
+              className="object-center object-cover rounded-full h-36 w-36"
+              src="./imgs/ali.jpeg"
               alt="ali"
             />
           </div>
           <div className="text-center">
-            <p className="text-xl text-gray-700 font-bold mb-2">Mister Ali</p>
-            <p className="text-base text-gray-400 font-normal">Owner</p>
+            <p className="text-xl text-gray-700 font-bold mb-2">Ali Aziz</p>
+            <p className="text-base text-gray-400 font-normal">
+              Managing Director
+            </p>
+          </div>
+        </div>
+        <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
+          <div className="mb-8">
+            <img
+              className="object-center object-cover rounded-full h-36 w-36"
+              src="./imgs/shahid.jpeg"
+              alt="shahid"
+            />
+          </div>
+          <div className="text-center">
+            <p className="text-xl text-gray-700 font-bold mb-2">
+              Bgr Shahid Saeed
+            </p>
+            <p className="text-base text-gray-400 font-normal">
+              Chief Operating Officer
+            </p>
+          </div>
+        </div>
+        <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
+          <div className="mb-8">
+            <img
+              className="object-center object-cover rounded-full h-36 w-36"
+              src="./imgs/gibran.jpeg"
+              alt="gibran"
+            />
+          </div>
+          <div className="text-center">
+            <p className="text-xl text-gray-700 font-bold mb-2">
+              Gibran Bin Tahir
+            </p>
+            <p className="text-base text-gray-400 font-normal">
+              Marketing Specialist
+            </p>
           </div>
         </div>
         <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
@@ -28,18 +79,17 @@ function Team() {
               alt="safa"
             />
           </div>
+
           <div className="text-center">
-            <p className="text-xl text-gray-700 font-bold mb-2">Madam Safa</p>
-            <p className="text-base text-gray-400 font-normal">
-              Recruitment Specialist
-            </p>
+            <p className="text-xl text-gray-700 font-bold mb-2">Safa Khalid</p>
+            <p className="text-base text-gray-400 font-normal">HR Executive</p>
           </div>
         </div>
         <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
           <div className="mb-8">
             <img
               className="object-center object-cover rounded-full h-36 w-36"
-              src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1176&q=80"
+              src="./imgs/nasir.jpeg"
               alt="nasir"
             />
           </div>
@@ -52,12 +102,45 @@ function Team() {
           <div className="mb-8">
             <img
               className="object-center object-cover rounded-full h-36 w-36"
-              src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+              src="./imgs/hamza.jpg"
               alt="hamza"
             />
           </div>
           <div className="text-center">
-            <p className="text-xl text-gray-700 font-bold mb-2">Mister Hamza</p>
+            <p className="text-xl text-gray-700 font-bold mb-2">Hamza Ali</p>
+            <p className="text-base text-gray-400 font-normal">
+              Graphic Designer
+            </p>
+          </div>
+        </div>
+
+        <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
+          <div className="mb-8">
+            <img
+              className="object-center object-cover rounded-full h-36 w-36"
+              src="./imgs/mursaleen.jpeg"
+              alt="mursaleen"
+            />
+          </div>
+          <div className="text-center">
+            <p className="text-xl text-gray-700 font-bold mb-2">
+              Mursaleen Khalid
+            </p>
+            <p className="text-base text-gray-400 font-normal">
+              Business Development Executive
+            </p>
+          </div>
+        </div>
+        <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
+          <div className="mb-8">
+            <img
+              className="object-center object-cover rounded-full h-36 w-36"
+              src="./imgs/hiba.jpeg"
+              alt="hiba"
+            />
+          </div>
+          <div className="text-center">
+            <p className="text-xl text-gray-700 font-bold mb-2">Hiba Nasir</p>
             <p className="text-base text-gray-400 font-normal">
               Graphic Designer
             </p>
@@ -67,16 +150,14 @@ function Team() {
           <div className="mb-8">
             <img
               className="object-center object-cover rounded-full h-36 w-36"
-              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-              alt="gibran"
+              src="./imgs/khalid.jpeg"
+              alt="khaled"
             />
           </div>
           <div className="text-center">
-            <p className="text-xl text-gray-700 font-bold mb-2">
-              Mister Gibran
-            </p>
+            <p className="text-xl text-gray-700 font-bold mb-2">Khaled Javed</p>
             <p className="text-base text-gray-400 font-normal">
-              Marketing Specialist
+              SEO/Content Specialist
             </p>
           </div>
         </div>
@@ -84,13 +165,26 @@ function Team() {
           <div className="mb-8">
             <img
               className="object-center object-cover rounded-full h-36 w-36"
-              src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1176&q=80"
-              alt="sana"
+              src="./imgs/sameel.png"
+              alt="sameel"
             />
           </div>
           <div className="text-center">
-            <p className="text-xl text-gray-700 font-bold mb-2">Madam Sana</p>
-            <p className="text-base text-gray-400 font-normal">Owner</p>
+            <p className="text-xl text-gray-700 font-bold mb-2">Sameel Atif</p>
+            <p className="text-base text-gray-400 font-normal">Videographer</p>
+          </div>
+        </div>
+        <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
+          <div className="mb-8">
+            <img
+              className="object-center object-cover rounded-full h-36 w-36"
+              src="./imgs/ayan.png"
+              alt="sameel"
+            />
+          </div>
+          <div className="text-center">
+            <p className="text-xl text-gray-700 font-bold mb-2">Ayan Atif</p>
+            <p className="text-base text-gray-400 font-normal">Videographer</p>
           </div>
         </div>
       </div>

@@ -134,7 +134,7 @@ function Landing() {
         </div>
       </div> */}
       <h2 className="text-2xl mt-10 mb-4 font-bold ml-6 md:ml-4 text-living-red">
-        Catchy Heading
+        Delivering Excellence
       </h2>
       <div className="grid md:grid-cols-2">
         <img
@@ -143,22 +143,46 @@ function Landing() {
           alt="main"
         />
         <div>
-          <div className="pt-10 md:pt-40 pb-20 md:pb-72 mx-6 grid gap-6 font-normal md:font-bold">
+          <div className=" mx-6 grid gap-6 font-normal md:font-bold">
             <h2 className="text-base md:text-2xl font-bold text-living-red">
-              About us
+              What we do
             </h2>
             <h3 className="text-base md:text-xl font-bold">
-              We are here to manage quality consulting service and investment
+              We are here to manage quality consulting services and investment
               plan
             </h3>
             <p className="text-base">
-              We provide expert Business Coaching to both individuals and
-              businesses. With over 10 years of experience, we’ll ensure that
-              you’re always getting the best guidance from the top people in the
-              entire industry.
+              Getting solutions for business or individual investments with the
+              right path and experience is essential in this challenging
+              business environment, it is very important to have the right
+              decision at right time with the right team, now you need a full
+              team of experienced professionals to provide you with right
+              solutions, to calibrate with new challenges, we need to work by
+              covering all dimensions to compete in this global village, today
+              we have more competition and complex business environment than
+              ever before, to take care of these challenges living solutions is
+              your right choice.
             </p>
-            <p className="text-base">
-              Our experts are just a phone call away from you.
+            <p>
+              Providing solutions under one roof is our prime target, we have a
+              very experienced professional team for your convenience.
+            </p>
+            <p>
+              Living solutions provides solutions to Marketing and Branding,
+              Real Estate, Town planning, Construction interior designing,
+              architecture, General Insurance, Event Management, Digital
+              Marketing, Sales Management, SEO, Social Media Marketing, Video
+              Production, Graphic Designing, IT solutions, Web development,
+              Software development, Graphic Designing, Content writing if you
+              need solutions to these areas living solutions is best solution
+              provider company.
+            </p>
+            <p>
+              We deliver an expert business approach to both individuals and
+              businesses with more than 10 years of experience. We will ensure
+              that you always get the best guidance from the top people in the
+              entire industry. Our professionals have spent years collecting
+              practical, pragmatic tools, techniques, and models.
             </p>
           </div>
         </div>

@@ -14,7 +14,7 @@ function NavBar() {
               <Link to="/">Home</Link>
             </li>
             <li className="mt-2 hover:text-living-red">
-              <Link to="/about">About</Link>
+              <Link to="/about">Our Team</Link>
             </li>
             <li className="mt-2 hover:text-living-red">
               <Link to="/services">Services</Link>
@@ -53,7 +53,7 @@ function NavBar() {
             <Link to="/">Home</Link>
           </li>
           <li className="hover:text-living-red transition duration-500 ease-in-out">
-            <Link to="/about">About</Link>
+            <Link to="/about">Our Team</Link>
           </li>
           <li className="hover:text-living-red transition duration-500 ease-in-out">
             <Link to="/services">Services</Link>

@@ -5,10 +5,6 @@ import Client from "./Client";
 function Clients() {
   const clients = [
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598560/clients/rudn_clbgkd.svg",
-      "rudn enclave",
-    ],
-    [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598549/clients/kabir_bw4dk5.svg",
       "Fauji Kabirwala",
     ],
@@ -17,16 +13,26 @@ function Clients() {
       "iveco-astra",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598577/clients/rmrsco_sgml1z.svg",
-      "RMRSCO Pvt limited",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598530/clients/chamber_atoepj.svg",
+      "islamabad chamber of commerce and industry",
     ],
+
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598535/clients/imos_qdsfmj.svg",
       "imos",
     ],
     [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598547/clients/latif_nmqe2y.svg",
+      "Latif Group",
+    ],
+
+    [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598552/clients/uic_cxj9ej.svg",
       "UIC insurance Pakistan",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598550/clients/spi_sfoapp.svg",
+      "SPI insurance Pakistan",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/foundation_i64ngg.svg",
@@ -40,10 +46,7 @@ function Clients() {
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/icon_ydgtba.svg",
       "icon enclave",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598550/clients/spi_sfoapp.svg",
-      "SPI insurance Pakistan",
-    ],
+
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598550/clients/ithm_q2eitr.svg",
       "ITHM rawalpindi",
@@ -53,12 +56,20 @@ function Clients() {
       "Xenia Group of Hospitality",
     ],
     [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598560/clients/rudn_clbgkd.svg",
+      "rudn enclave",
+    ],
+    [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598553/clients/vs_duqbjs.svg",
       "Vectors and Scalers",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598550/clients/property_t9xf3d.svg",
       "Pak Property",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598577/clients/rmrsco_sgml1z.svg",
+      "RMRSCO Pvt limited",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598527/clients/bike_zy6drs.svg",
@@ -84,14 +95,7 @@ function Clients() {
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598580/clients/jugnu_ugct75.svg",
       "Jugnu",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598547/clients/latif_nmqe2y.svg",
-      "Latif Group",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598530/clients/chamber_atoepj.svg",
-      "islamabad chamber of commerce and industry",
-    ],
+
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598546/clients/isha_xcds8u.svg",
       "Beauty Salon and makeup artist",
