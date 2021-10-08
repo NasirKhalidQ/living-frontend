@@ -1,27 +1,23 @@
 function Footer() {
   return (
     <>
-      <footer className="footer p-4 grid md:grid-cols-3  bg-living-header text-white border-living-yellow border-t-2">
-        <div className="gap-y-1 grid-flow-col text-sm md:text-base">
+      <footer className="footer px-4 grid md:grid-cols-3 bg-living-header text-white border-living-yellow border-t-2">
+        <div className="gap-y-1 grid-flow-col text-sm mt-6">
           <div className="flow-root my-2">
-            <p>Office # 1 and 2, Plaza 57, Wallayat Complex, </p>
-            <p>Bahria Town Phase 7, Rawalpindi</p>
-          </div>
-          <div className="flow-root my-2">0311-7862211</div>
-          <div className="flow-root my-2">
-            Living Solutions Copyright © 2021
+            <p className="mb-4">
+              Office #1/2, Plaza 57, Wallayat Complex, 0311-7862211
+            </p>
+            <p>
+              Bahria Town Phase 7, Rawalpindi. Living Solutions Copyright © 2021
+            </p>
           </div>
         </div>
         <div className="grid justify-start order-first md:order-none md:justify-center">
-          <img
-            className="w-3/4 md:w-auto"
-            src="./imgs/lv.svg"
-            alt="living logo"
-          />
+          <img className="w-3/4" src="./imgs/lv.svg" alt="living logo" />
         </div>
-        <div className="gap-4 grid grid-cols-3 md:justify-end md:ml-auto mt-2">
-          <h3 className="text-base md:text-xl col-span-3 grid justify-self-center">
-            Follow Us!
+        <div className="gap-4 flex md:justify-end md:ml-auto mt-10">
+          <h3 className="text-base md:text-xl grid justify-self-center text-white">
+            Follow Us:
           </h3>
 
           <a
