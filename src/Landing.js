@@ -138,7 +138,7 @@ function Landing() {
       </h2>
       <div className="grid md:grid-cols-2">
         <img
-          className="ml-6 w-3/4 md:w-auto"
+          className="ml-6 w-3/4 md:w-auto "
           src="https://res.cloudinary.com/living-solutions/image/upload/v1633610147/main-page/Title_Image_ojw3k8.svg"
           alt="main"
         />
