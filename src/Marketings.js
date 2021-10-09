@@ -5,43 +5,48 @@ import Tile from "./Tile";
 function Marketings() {
   const tiles = [
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610119/main-page/Marketing_Branding_bjudp1.svg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/digital_marketing_ljo5on.jpg",
       "Digital Marketing",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Real_Esate_n0cjki.svg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764317/sub-categories/sub/SEO_ekuiby.jpg",
       "SEO",
       "#",
     ],
 
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075702/living-images/insurance_xccutc.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764319/sub-categories/sub/Social_Media_marketing_bukdxj.jpg",
       "Social Media Marketing",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610121/main-page/Event_Management_nyrpqx.svg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
       "Video Production",
       "Video production",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610121/main-page/IT_Solutions_wsuotr.svg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/call_center_solution_krt4zs.jpg",
+      "Call Center Solutions",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/call_center_solution_krt4zs.jpg",
       "Telemarketing",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Social_Responsibility_zvs1pz.svg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/product_management_seybrx.png",
       "Product Management  ",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610121/main-page/Event_Management_nyrpqx.svg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764324/sub-categories/sub/Sales_Management_zfzvg7.jpg",
       "Sales Management",
       "Video production",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610121/main-page/IT_Solutions_wsuotr.svg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Graphic_Design_wukbui.jpg",
       "Graphic Design",
       "#",
     ],

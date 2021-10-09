@@ -5,28 +5,28 @@ import Tile from "./Tile";
 function IT() {
   const tiles = [
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610119/main-page/Marketing_Branding_bjudp1.svg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633766685/sub-categories/sub/web_unlnuk.jpg",
       "Web Development ",
-      "#",
+      "web",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Real_Esate_n0cjki.svg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/app_development_udigsf.jpg",
       "App Development ",
       "#",
     ],
 
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075702/living-images/insurance_xccutc.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633766686/sub-categories/sub/software_pefcdj.jpg",
       "Software Development",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610121/main-page/Event_Management_nyrpqx.svg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Graphic_Design_wukbui.jpg",
       "Graphic Designing",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610121/main-page/IT_Solutions_wsuotr.svg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/content_writing_p1eios.jpg",
       "Content Writing ",
       "#",
     ],

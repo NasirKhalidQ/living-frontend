@@ -62,7 +62,7 @@ function Landing() {
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610121/main-page/Event_Management_nyrpqx.svg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Event_management_fy3enr.jpg",
       "Event Management",
       "#",
     ],
@@ -151,28 +151,26 @@ function Landing() {
             <p className="text-base">
               Getting solutions for business or individual investments with the
               right path and experience is essential in this challenging
-              business environment, it is very important to have the right
-              decision at right time with the right team, now you need a full
-              team of experienced professionals to provide you with right
-              solutions, to calibrate with new challenges, we need to work by
-              covering all dimensions to compete in this global village, today
-              we have more competition and complex business environment than
-              ever before, to take care of these challenges living solutions is
-              your right choice.
+              business environment. It is very important to have the right
+              decision at the right time with the right team. To get the best
+              result you need a full team of experienced professionals to
+              provide you with the right solutions, to calibrate with new
+              challenges. It is essential to work diversely by covering all
+              dimensions to compete in this global village. Today we have more
+              competition and a complex business environment than ever before.
+              To take care of these challenges, living solutions are your right
+              choice.
             </p>
             <p>
               Providing solutions under one roof is our prime target, we have a
               very experienced professional team for your convenience.
             </p>
             <p>
-              Living solutions provides solutions to Marketing and Branding,
-              Real Estate, Town planning, Construction interior designing,
-              architecture, General Insurance, Event Management, Digital
-              Marketing, Sales Management, SEO, Social Media Marketing, Video
-              Production, Graphic Designing, IT solutions, Web development,
-              Software development, Graphic Designing, Content writing if you
-              need solutions to these areas living solutions is best solution
-              provider company.
+              Living solutions provide complete solutions to your product and
+              brand, whether you are planning your dream house, planning a
+              holiday trip, investing in Real Estate, rather you are an
+              experienced Real estate developer, or planning to launch a product
+              living solutions is the best solution provider company.
             </p>
             <p>
               We deliver an expert business approach to both individuals and

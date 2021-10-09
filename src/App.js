@@ -17,6 +17,7 @@ import Category from "./Category/index";
 import Marketings from "./Marketings";
 import RealEstates from "./RealEstates";
 import IT from "./IT";
+import Web from "./Web";
 
 function App() {
   return (
@@ -51,6 +52,9 @@ function App() {
         </Route>
         <Route path="/clients">
           <Clients />
+        </Route>
+        <Route path="/web">
+          <Web />
         </Route>
         <Route path="/about">
           <About />

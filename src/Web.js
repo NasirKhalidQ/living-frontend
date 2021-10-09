@@ -2,16 +2,16 @@ import Footer from "./Footer";
 import NavBar from "./Navbar";
 import Tile from "./Tile";
 
-function RealEstates() {
+function Web() {
   const tiles = [
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Property_Management_c9duvi.jpg",
-      "Property Management",
+      "Real Estate",
       "#",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764319/sub-categories/sub/town_Management_v0agmv.jpg",
-      "Town Management",
+      "E-commerce",
       "#",
     ],
 
@@ -47,4 +47,4 @@ function RealEstates() {
   );
 }
 
-export default RealEstates;
+export default Web;
