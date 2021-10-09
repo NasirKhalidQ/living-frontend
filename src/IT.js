@@ -10,14 +10,8 @@ function IT() {
       "web",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/app_development_udigsf.jpg",
-      "App Development ",
-      "#",
-    ],
-
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633766686/sub-categories/sub/software_pefcdj.jpg",
-      "Software Development",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764317/sub-categories/sub/SEO_ekuiby.jpg",
+      "SEO",
       "#",
     ],
     [
@@ -26,8 +20,14 @@ function IT() {
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/content_writing_p1eios.jpg",
-      "Content Writing ",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/app_development_udigsf.jpg",
+      "App Development ",
+      "#",
+    ],
+
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633766686/sub-categories/sub/software_pefcdj.jpg",
+      "Software Development",
       "#",
     ],
   ];

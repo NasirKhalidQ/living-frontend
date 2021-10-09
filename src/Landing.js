@@ -46,13 +46,23 @@ function Landing() {
   ];
   const tiles = [
     [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/interior_designing_ta0osr.jpg",
+      "Interior Designing",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/architecture_etnqx8.jpg",
+      "Architecture",
+      "#",
+    ],
+    [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610119/main-page/Marketing_Branding_bjudp1.svg",
       "Marketing and Branding",
       "marketing",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Real_Esate_n0cjki.svg",
-      "Real Estate",
+      "Investment Management",
       "realestate",
     ],
 
@@ -74,6 +84,11 @@ function Landing() {
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Social_Responsibility_zvs1pz.svg",
       "Social Responsibility",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/content_writing_p1eios.jpg",
+      "Content Creation ",
       "#",
     ],
   ];
@@ -158,26 +173,20 @@ function Landing() {
               challenges. It is essential to work diversely by covering all
               dimensions to compete in this global village. Today we have more
               competition and a complex business environment than ever before.
-              To take care of these challenges, living solutions are your right
-              choice.
+              To take care of these challenges, LIVING SOLUTIONS is one stop
+              solution for your product.
             </p>
             <p>
               Providing solutions under one roof is our prime target, we have a
-              very experienced professional team for your convenience.
+              very experienced professional team in LIVING SOLUTIONS.
             </p>
-            <p>
-              Living solutions provide complete solutions to your product and
-              brand, whether you are planning your dream house, planning a
-              holiday trip, investing in Real Estate, rather you are an
-              experienced Real estate developer, or planning to launch a product
-              living solutions is the best solution provider company.
-            </p>
+
             <p>
               We deliver an expert business approach to both individuals and
               businesses with more than 10 years of experience. We will ensure
               that you always get the best guidance from the top people in the
               entire industry. Our professionals have spent years collecting
-              practical, pragmatic tools, techniques, and models.
+              practical &amp; pragmatic tools, techniques, and models.
             </p>
           </div>
         </div>

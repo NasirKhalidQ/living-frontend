@@ -9,27 +9,13 @@ function Marketings() {
       "Digital Marketing",
       "#",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764317/sub-categories/sub/SEO_ekuiby.jpg",
-      "SEO",
-      "#",
-    ],
 
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764319/sub-categories/sub/Social_Media_marketing_bukdxj.jpg",
-      "Social Media Marketing",
-      "#",
-    ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
       "Video Production",
       "Video production",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/call_center_solution_krt4zs.jpg",
-      "Call Center Solutions",
-      "#",
-    ],
+
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/call_center_solution_krt4zs.jpg",
       "Telemarketing",

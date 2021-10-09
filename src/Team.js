@@ -3,7 +3,7 @@ import Member from "./Member";
 function Team() {
   const teamData = [
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633761073/team-members/sana_vfhpqz.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633782037/team-members/sana_h5ihpq.jpg",
       "Sana Amin",
       "Founder and CEO",
     ],
@@ -12,10 +12,9 @@ function Team() {
       "Ali Aziz",
       "Managing Director",
     ],
-
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633761073/team-members/shahid_phmpvk.jpg",
-      "Bgr Shahid Saeed",
+      "Brig(R) Shahid Saeed",
       "Chief Operating Officer",
     ],
     [
@@ -34,7 +33,7 @@ function Team() {
       "Web Developer",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633761072/team-members/hamza_ucfphe.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633778086/team-members/hamza_hcdoms.jpg",
       "Hamza Shafique",
       "Graphic Designer",
     ],
@@ -50,7 +49,7 @@ function Team() {
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633761072/team-members/khalid_zwuwie.jpg",
-      "Khaled Javed",
+      "Khalid Javed",
       "SEO/Content Specialist",
     ],
     [
@@ -67,8 +66,8 @@ function Team() {
   return (
     <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
       <div className="text-center pb-12">
-        <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-gray-200">
-          Check our awesome team members
+        <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-living-red">
+          Our Team
         </h1>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">

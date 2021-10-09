@@ -6,28 +6,13 @@ function RealEstates() {
   const tiles = [
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Property_Management_c9duvi.jpg",
-      "Property Management",
-      "#",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764319/sub-categories/sub/town_Management_v0agmv.jpg",
-      "Town Management",
+      "Consultancy and Projects",
       "#",
     ],
 
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/construction_fn6ceb.jpg",
-      "Construction",
-      "#",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/interior_designing_ta0osr.jpg",
-      "Interior Designing",
-      "#",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/architecture_etnqx8.jpg",
-      "Architecture",
+      "Civil Construction Services",
       "#",
     ],
   ];

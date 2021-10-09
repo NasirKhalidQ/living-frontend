@@ -22,8 +22,12 @@ function Clients() {
       "imos",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598547/clients/latif_nmqe2y.svg",
-      "Latif Group",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598560/clients/rudn_clbgkd.svg",
+      "rudn enclave",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598577/clients/rmrsco_sgml1z.svg",
+      "RMRSCO Pvt limited",
     ],
 
     [
@@ -46,39 +50,11 @@ function Clients() {
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/icon_ydgtba.svg",
       "icon enclave",
     ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598529/clients/bug_wzrang.svg",
+      "ShutterBug",
+    ],
 
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598550/clients/ithm_q2eitr.svg",
-      "ITHM rawalpindi",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598553/clients/xenia_udopn3.svg",
-      "Xenia Group of Hospitality",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598560/clients/rudn_clbgkd.svg",
-      "rudn enclave",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598553/clients/vs_duqbjs.svg",
-      "Vectors and Scalers",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598550/clients/property_t9xf3d.svg",
-      "Pak Property",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598577/clients/rmrsco_sgml1z.svg",
-      "RMRSCO Pvt limited",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598527/clients/bike_zy6drs.svg",
-      "Bike Master",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598527/clients/adam_st7gy8.svg",
-      "adam motors",
-    ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598534/clients/cart_lmdnls.svg",
       "D Road Cart",
@@ -88,26 +64,41 @@ function Clients() {
       "Catalyst",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598531/clients/ehtesham_euahh9.svg",
-      "Ehteshaam photography",
-    ],
-    [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598580/clients/jugnu_ugct75.svg",
       "Jugnu",
-    ],
-
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598546/clients/isha_xcds8u.svg",
-      "Beauty Salon and makeup artist",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598549/clients/keto_iiqkjn.svg",
       "Planet Keto",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598529/clients/bug_wzrang.svg",
-      "ShutterBug",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598547/clients/latif_nmqe2y.svg",
+      "Latif Group",
     ],
+
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598527/clients/bike_zy6drs.svg",
+      "Bike Master",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598527/clients/adam_st7gy8.svg",
+      "adam motors",
+    ],
+
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598531/clients/ehtesham_euahh9.svg",
+      "Ehteshaam photography",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598553/clients/vs_duqbjs.svg",
+      "Vectors and Scalers",
+    ],
+
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598546/clients/isha_xcds8u.svg",
+      "Beauty Salon and makeup artist",
+    ],
+
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598533/clients/huma_lr1eow.svg",
       "Ghar ka khana by Huma",
@@ -124,7 +115,7 @@ function Clients() {
   return (
     <>
       <NavBar />
-      <h3 className="text-xl md:text-3xl text-center mb-4 mt-4 md:mb-16 md:mt-10">
+      <h3 className="text-xl md:text-3xl text-center mb-4 mt-4 md:mb-16 md:mt-10 text-living-red">
         Our Clients
       </h3>
       <div className="grid grid-cols-2 md:grid-cols-4 text-xs lg:text-xl gap-4 mb-4 md:mb-16">
