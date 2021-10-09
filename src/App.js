@@ -8,13 +8,15 @@ import Careers from "./Careers";
 import Apply from "./Apply";
 import Services from "./Services";
 import About from "./About";
-import Marketing from "./Marketing";
 import RealEstate from "./RealEstate";
 import Blog from "./Blog";
 import Articles from "./Articles/index";
 import Article from "./Article/index";
 import Nav from "./components/Nav";
 import Category from "./Category/index";
+import Marketings from "./Marketings";
+import RealEstates from "./RealEstates";
+import IT from "./IT";
 
 function App() {
   return (
@@ -39,10 +41,13 @@ function App() {
           <Blog />
         </Route>
         <Route path="/marketing">
-          <Marketing />
+          <Marketings />
         </Route>
         <Route path="/realestate">
-          <RealEstate />
+          <RealEstates />
+        </Route>
+        <Route path="/it">
+          <IT />
         </Route>
         <Route path="/clients">
           <Clients />

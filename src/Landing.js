@@ -69,7 +69,7 @@ function Landing() {
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610121/main-page/IT_Solutions_wsuotr.svg",
       "IT Solutions",
-      "#",
+      "it",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Social_Responsibility_zvs1pz.svg",

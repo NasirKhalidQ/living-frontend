@@ -9,7 +9,7 @@ const Query = ({ children, query, slug }) => {
   if (loading)
     return (
       <svg
-        className="sm:w-1/5 md:w-auto"
+        className="hidden md:flex md:w-auto animate-pulse"
         version="1.1"
         id="Layer_1"
         x="0px"
