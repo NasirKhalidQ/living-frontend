@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { useState } from "react";
 import Hamburger from "hamburger-react";
 
 function NavBar() {
   const [isOpen, setOpen] = useState(false);
+  const history = useHistory();
 
   return (
     <>
@@ -70,8 +71,13 @@ function NavBar() {
           <li className="hover:text-living-red transition duration-500 ease-in-out">
             <Link to="/contact">Contact</Link>
           </li>
-          <li className="py-2 px-4 shadow-md bg-living-red hover:opacity-80 text-white cursor-pointer text-center">
-            <Link to="/contact">Get a Quote</Link>
+          <li className>
+            <button
+              className="py-2 px-4 shadow-md bg-living-red hover:opacity-80 text-white"
+              onClick={() => history.push("/contact")}
+            >
+              Get a Quote
+            </button>
           </li>
         </ul>
         <div className="absolute px-6 py-4 sm:hidden top-0 right-0 z-10">

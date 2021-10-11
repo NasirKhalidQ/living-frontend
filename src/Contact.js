@@ -154,8 +154,8 @@ function Contact() {
               <div className="inline-flex">
                 <Location />
                 <p className="ml-2">
-                  Visit our Office: Office # 1 and 2, Plaza 57, Wallayat
-                  Complex, Bahria Town Phase 7, Rawalpindi.
+                  Office # 1 and 2, Plaza 57, Wallayat Complex, Bahria Town
+                  Phase 7, Rawalpindi.
                 </p>
               </div>
               <div className="inline-flex">
