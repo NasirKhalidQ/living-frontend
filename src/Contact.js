@@ -194,6 +194,14 @@ function Contact() {
               </div>
             </div>
           </div>
+          <div className="mt-10 aspect-w-16 aspect-h-9">
+            <iframe
+              title="map"
+              loading="lazy"
+              allowfullscreen
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ__6L3bLt3zgRFAZNEB6gGBs&key=AIzaSyD2s1FDzF_5X-W8LZ22Gc_ontqiUHm5YZc"
+            ></iframe>
+          </div>
         </div>
       </section>
       <Footer />

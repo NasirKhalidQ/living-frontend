@@ -72,10 +72,13 @@ function Clients() {
       "Planet Keto",
     ],
     [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634120070/clients/vision4life_esyiul.svg",
+      "Vision 4 life",
+    ],
+    [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598547/clients/latif_nmqe2y.svg",
       "Latif Group",
     ],
-
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598527/clients/bike_zy6drs.svg",
       "Bike Master",
@@ -115,7 +118,8 @@ function Clients() {
   return (
     <>
       <NavBar />
-      <h3 className="text-xl md:text-3xl text-center mb-4 mt-4 md:mb-16 md:mt-10 text-living-red">
+
+      <h3 className="font-bold text-3xl md:text-4xl lg:text-5xl text-center mb-4 mt-4 md:mb-16 md:mt-10 text-living-red">
         Our Clients
       </h3>
       <div className="grid grid-cols-2 md:grid-cols-4 text-xs lg:text-xl gap-4 mb-4 md:mb-16">

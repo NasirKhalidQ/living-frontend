@@ -26,43 +26,7 @@ function Careers() {
                   <p className="mb-4">
                     Bahria Town Phase 7, Rawalpindi | Full Time
                   </p>
-                  <p>Marketing Executive</p>
-                </div>
-                <div className="">
-                  <button
-                    onClick={() => history.push("/apply")}
-                    className="px-14 py-3 shadow-md bg-living-red text-sm lg:text-base hover:bg-opacity-80 text-white mt-4 md:mt-0"
-                  >
-                    Apply now
-                  </button>
-                </div>
-              </li>
-              <hr />
-
-              <li className="flex flex-wrap space-y-2 justify-around lg:justify-between">
-                <div className="">
-                  <p className="mb-4">
-                    Bahria Town Phase 7, Rawalpindi | Full Time
-                  </p>
-                  <p>Sales Executive (Real Estate)</p>
-                </div>
-                <div className="">
-                  <button
-                    onClick={() => history.push("/apply")}
-                    className="px-14 py-3 shadow-md bg-living-red text-sm lg:text-base hover:bg-opacity-80 text-white mt-4 md:mt-0"
-                  >
-                    Apply now
-                  </button>
-                </div>
-              </li>
-              <hr />
-
-              <li className="flex flex-wrap space-y-2 justify-around lg:justify-between">
-                <div className="">
-                  <p className="mb-4">
-                    Bahria Town Phase 7, Rawalpindi | Full Time
-                  </p>
-                  <p>Content Writer</p>
+                  <p>Sales Executive</p>
                 </div>
                 <div className="">
                   <button

@@ -43,7 +43,9 @@ function Services() {
       <NavBar />
       <section className="relative">
         <div className="text-base grid mt-10 justify-center font-semibold md:text-2xl text-living-red">
-          <h2>The services we offer</h2>
+          <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-living-red">
+            The services we offer
+          </h1>
         </div>
         <div className="grid grid-cols-2 items-center text-left mt-2 md:mt-14 mx-2 md:mx-24 gap-6 mb-2 md:mb-10">
           <div className="grid grid-flow-row gap-6">

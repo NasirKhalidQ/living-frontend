@@ -23,7 +23,7 @@ function Team() {
       "Business Development Manager",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633761073/team-members/safa_bsifxl.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634106008/team-members/WhatsApp_Image_2021-10-13_at_10.43.43_AM_vsmpip.jpg",
       "Safa Khalid",
       "HR Executive",
     ],
@@ -66,7 +66,7 @@ function Team() {
   return (
     <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
       <div className="text-center pb-12">
-        <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-living-red">
+        <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-living-red">
           Our Team
         </h1>
       </div>
