@@ -8,6 +8,9 @@ const ARTICLES_QUERY = gql`
       description
       author {
         name
+        picture {
+          url
+        }
       }
       category {
         slug

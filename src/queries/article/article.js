@@ -8,6 +8,9 @@ const ARTICLE_QUERY = gql`
       content
       author {
         name
+        picture {
+          url
+        }
       }
       category {
         slug

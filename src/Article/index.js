@@ -29,7 +29,15 @@ const Article = () => {
               <div>
                 <div className="prose prose-sm md:prose-lg mx-2 md:mx-auto mt-10">
                   <ReactMarkdown children={articles[0].content} />
-                  <p>By: {articles[0].author.name}</p>
+                  <div className=" inline-flex">
+                    <img
+                      className="w-8 h-8 rounded-full mr-4 avatar"
+                      data-tippy-content="Author name"
+                      src={articles[0].author.picture.url}
+                      alt="Avatar of Author"
+                    />
+                    <p>By: {articles[0].author.name}</p>
+                  </div>
                   <p>
                     <Moment format="MMM Do YYYY">
                       {articles[0].published_at}

@@ -27,7 +27,7 @@ const Card = ({ article }) => {
             <img
               className="w-8 h-8 rounded-full mr-4 avatar"
               data-tippy-content="Author name"
-              src="http://i.pravatar.cc/300"
+              src={article.author.picture.url}
               alt="Avatar of Author"
             />
           </div>
