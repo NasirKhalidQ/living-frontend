@@ -6,7 +6,7 @@ function Services() {
   const services = [
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/interior_designing_ta0osr.jpg",
-      "Interior Design",
+      "Interior Designing",
       "#",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
     ],

@@ -43,7 +43,7 @@ function Landing() {
   const tiles = [
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/interior_designing_ta0osr.jpg",
-      "Interior Design",
+      "Interior Designing",
       "#",
     ],
     ["./imgs/architecture.png", "Architectural Design", "#"],

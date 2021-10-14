@@ -26,6 +26,9 @@ module.exports = {
   variants: {
     extend: {
       filter: ["hover"],
+      cursor: ["disabled"],
+      pointerEvents: ["disabled"],
+      opacity: ["disabled"],
     },
   },
 };
