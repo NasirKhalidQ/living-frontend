@@ -1,8 +1,6 @@
 import Footer from "./Footer";
 import NavBar from "./Navbar";
 import Tile from "./Tile";
-import "react-image-gallery/styles/css/image-gallery.css";
-// import ReactImageGallery from "react-image-gallery";
 import CountUp from "react-countup";
 import Client from "./Client";
 import { Link } from "react-router-dom";
