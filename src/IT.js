@@ -4,11 +4,7 @@ import Tile from "./Tile";
 
 function IT() {
   const tiles = [
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633766685/sub-categories/sub/web_unlnuk.jpg",
-      "Web Development ",
-      "web",
-    ],
+    ["./imgs/web.png", "Web Development ", "web"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764317/sub-categories/sub/SEO_ekuiby.jpg",
       "SEO",

@@ -11,13 +11,13 @@ function Services() {
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/architecture_etnqx8.jpg",
+      "./imgs/architecture.png",
       "Architectural Design",
       "#",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610119/main-page/Marketing_Branding_bjudp1.svg",
+      "./imgs/marketing.png",
       "Marketing and Branding",
       "marketing",
       "The branding approach is the plan that directs your image. Fostering a branding approach permits you to compete in the commercial center and accomplish the best results. We'll uphold you to set up a powerful brand procedure, so you have a solid formation for your future promoting strategies.",
@@ -42,7 +42,7 @@ function Services() {
       "Living solutions Pvt Ltd was established in the last decade. And from the start, we are doing General business including Group Health Insurance, Travel Bonds & Guarantees, Travel Insurance (Health), Livestock and Crop Insurance, Car Insurance. In collaboration with UIC one of the best insurance companies in Pakistan.",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Event_management_fy3enr.jpg",
+      "./imgs/event.png",
       "Event Management",
       "#",
       "Most Technologically Advanced Venues. Committed Events Team. We Have a Range of Function Spaces and All-Inclusive Packages to Suit Your Tastes. Marvelous Concerts. Luxury Hotels, Grant Winning Restaurants.",
@@ -66,13 +66,13 @@ function Services() {
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
+      "./imgs/video.png",
       "Videography",
       "#",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/content_writing_p1eios.jpg",
+      "./imgs/content.jpeg",
       "Content Creation ",
       "#",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",

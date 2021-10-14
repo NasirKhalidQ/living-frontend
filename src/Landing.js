@@ -46,11 +46,7 @@ function Landing() {
       "Interior Design",
       "#",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/architecture_etnqx8.jpg",
-      "Architectural Design",
-      "#",
-    ],
+    ["./imgs/architecture.png", "Architectural Design", "#"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Real_Esate_n0cjki.svg",
       "Investment Management",
@@ -61,21 +57,13 @@ function Landing() {
       "Civil Construction Services",
       "#",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610119/main-page/Marketing_Branding_bjudp1.svg",
-      "Marketing and Branding",
-      "marketing",
-    ],
+    ["./imgs/marketing.png", "Marketing and Branding", "marketing"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633075702/living-images/insurance_xccutc.png",
       "General Insurance",
       "#",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Event_management_fy3enr.jpg",
-      "Event Management",
-      "#",
-    ],
+    ["./imgs/event.png", "Event Management", "#"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610121/main-page/IT_Solutions_wsuotr.svg",
       "IT Solutions",
@@ -91,16 +79,8 @@ function Landing() {
       "Photography",
       "#",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
-      "Videography",
-      "#",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/content_writing_p1eios.jpg",
-      "Content Creation ",
-      "#",
-    ],
+    ["./imgs/video.png", "Videography", "#"],
+    ["./imgs/content.jpeg", "Content Creation ", "#"],
   ];
   // const images = [
   // {
