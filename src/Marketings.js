@@ -27,7 +27,7 @@ function Marketings() {
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634129035/sub-categories/sub/product_marketing_ulniq3.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634208203/sub-categories/sub/product-management_qikw00.png",
       "Product Management  ",
       "#",
     ],

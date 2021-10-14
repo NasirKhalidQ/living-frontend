@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 
-function Service({ title, imgPath, link }) {
+function Service({ title, imgPath, link, headline }) {
   const history = useHistory();
 
   return (
@@ -18,10 +18,7 @@ function Service({ title, imgPath, link }) {
           {title}
         </Link>
       </figure>
-      <p className="text-xs md:text-base">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
-        fermentum amet faucibus sed id nisi lectus at.
-      </p>
+      <p className="text-xs md:text-base">{headline}</p>
     </div>
   );
 }

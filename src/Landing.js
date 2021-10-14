@@ -52,16 +52,20 @@ function Landing() {
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610119/main-page/Marketing_Branding_bjudp1.svg",
-      "Marketing and Branding",
-      "marketing",
-    ],
-    [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Real_Esate_n0cjki.svg",
       "Investment Management",
       "realestate",
     ],
-
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/construction_fn6ceb.jpg",
+      "Civil Construction Services",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633610119/main-page/Marketing_Branding_bjudp1.svg",
+      "Marketing and Branding",
+      "marketing",
+    ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633075702/living-images/insurance_xccutc.png",
       "General Insurance",
