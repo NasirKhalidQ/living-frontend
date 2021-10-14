@@ -1,8 +1,8 @@
 import gql from "graphql-tag";
 
 const ARTICLES_QUERY = gql`
-  query Articles {
-    articles(sort: "id:desc") {
+  query Articles($start: Int!, $limit: Int!) {
+    articles(sort: "id:desc", start: $start, limit: $limit) {
       slug
       title
       description

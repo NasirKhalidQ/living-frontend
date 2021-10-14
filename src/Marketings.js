@@ -31,11 +31,7 @@ function Marketings() {
       "Product Management  ",
       "#",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764324/sub-categories/sub/Sales_Management_zfzvg7.jpg",
-      "Sales Management",
-      "Video production",
-    ],
+    ["./imgs/sales.png", "Sales Management", "Video production"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Graphic_Design_wukbui.jpg",
       "Graphic Design",

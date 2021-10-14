@@ -13,3 +13,12 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield; /* Firefox */
 }
+
+@layer components {
+  .paginateBtns {
+    @apply my-10 flex items-center space-x-1;
+  }
+  .paginateBtns a {
+    @apply px-4 py-2 text-gray-700 bg-gray-200 rounded-md hover:bg-blue-400 hover:text-white;
+  }
+}
