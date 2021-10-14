@@ -5,10 +5,6 @@ import ARTICLES_QUERY from "../queries/article/articles";
 import { useState } from "react";
 
 const Home = () => {
-  const limit = 6;
-  const [pageNumber, setPageNumber] = useState(0);
-  const pagesVisited = pageNumber * limit;
-  const offset = pagesVisited + limit;
   return (
     <div>
       <div className="">
@@ -16,9 +12,7 @@ const Home = () => {
           <Query query={ARTICLES_QUERY} limit={6} start={0}>
             {({ data: { articles } }) => {
               console.log(articles);
-              return (
-                <Articles articles={articles} setPageNumber={setPageNumber} />
-              );
+              return <Articles articles={articles} />;
             }}
           </Query>
         </div>

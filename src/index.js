@@ -6,11 +6,20 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { ApolloProvider } from "@apollo/client";
 import client from "./utils/apolloClient";
+import FloatingWhatsApp from "react-floating-whatsapp";
 
 ReactDOM.render(
   <BrowserRouter>
     <ApolloProvider client={client}>
       <App />
+      <FloatingWhatsApp
+        phoneNumber="+923005059740"
+        accountName="Living Solutions(Gibran)"
+        avatar="https://res.cloudinary.com/living-solutions/image/upload/v1633761071/team-members/gibran_gduyfg.jpg"
+        statusMessage="Typically replies within 10 minutes."
+        allowClickAway={true}
+        chatMessage="Please leave us a message."
+      />
     </ApolloProvider>
   </BrowserRouter>,
   document.getElementById("root")

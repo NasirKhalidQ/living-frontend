@@ -38,7 +38,7 @@ function Footer() {
           </a>
           <a
             className="cursor-pointer hover:text-gray-800"
-            href="https://api.whatsapp.com/send/?phone=928005059740&text&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=923005059740&text&app_absent=0"
             target="_blank"
             rel="noreferrer"
           >
