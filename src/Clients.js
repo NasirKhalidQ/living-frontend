@@ -8,9 +8,10 @@ function Clients() {
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598549/clients/kabir_bw4dk5.svg",
       "Fauji Kabirwala",
     ],
+
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/iveco_jkzuh0.svg",
-      "iveco-astra",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634120070/clients/vision4life_esyiul.svg",
+      "Vision 4 life",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598530/clients/chamber_atoepj.svg",
@@ -51,8 +52,8 @@ function Clients() {
       "icon enclave",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598529/clients/bug_wzrang.svg",
-      "ShutterBug",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/iveco_jkzuh0.svg",
+      "iveco-astra",
     ],
 
     [
@@ -71,10 +72,7 @@ function Clients() {
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598549/clients/keto_iiqkjn.svg",
       "Planet Keto",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634120070/clients/vision4life_esyiul.svg",
-      "Vision 4 life",
-    ],
+
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598547/clients/latif_nmqe2y.svg",
       "Latif Group",
@@ -109,6 +107,10 @@ function Clients() {
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598556/clients/vision_o49ehy.svg",
       "True Sight Pakistan",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598529/clients/bug_wzrang.svg",
+      "ShutterBug",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598547/clients/car_vrfiy6.svg",

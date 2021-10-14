@@ -33,7 +33,7 @@ function NavBar() {
               <Link to="/contact">Contact</Link>
             </li>
             <li className="mt-2 hover:text-living-red">
-              <Link to="/contact">Get a Quote</Link>
+              <Link to="/quote">Get a Quote</Link>
             </li>
           </ul>
         </nav>
@@ -74,7 +74,7 @@ function NavBar() {
           <li className>
             <button
               className="py-2 px-4 shadow-md bg-living-red hover:opacity-80 text-white"
-              onClick={() => history.push("/contact")}
+              onClick={() => history.push("/quote")}
             >
               Get a Quote
             </button>

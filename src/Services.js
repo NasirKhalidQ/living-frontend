@@ -3,7 +3,17 @@ import NavBar from "./Navbar";
 import Service from "./Service";
 
 function Services() {
-  const services1 = [
+  const services = [
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/interior_designing_ta0osr.jpg",
+      "Interior Design",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/architecture_etnqx8.jpg",
+      "Architectural Design",
+      "#",
+    ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610119/main-page/Marketing_Branding_bjudp1.svg",
       "Marketing and Branding",
@@ -11,7 +21,7 @@ function Services() {
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Real_Esate_n0cjki.svg",
-      "Real Estate",
+      "Investment Management",
       "realestate",
     ],
 
@@ -20,8 +30,6 @@ function Services() {
       "General Insurance",
       "#",
     ],
-  ];
-  const services2 = [
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Event_management_fy3enr.jpg",
       "Event Management",
@@ -37,6 +45,21 @@ function Services() {
       "Social Responsibility",
       "#",
     ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
+      "Photography",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
+      "Videography",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/content_writing_p1eios.jpg",
+      "Content Creation ",
+      "#",
+    ],
   ];
   return (
     <>
@@ -47,22 +70,14 @@ function Services() {
             The services we offer
           </h1>
         </div>
-        <div className="grid grid-cols-2 items-center text-left mt-2 md:mt-14 mx-2 md:mx-24 gap-6 mb-2 md:mb-10">
-          <div className="grid grid-flow-row gap-6">
-            {services1.map((service) => (
+        <div className="mt-2 md:mt-14 mx-2 md:mx-24 mb-2 md:mb-10">
+          <div className="grid md:grid-cols-2 gap-y-10 gap-x-6">
+            {services.map((service, index) => (
               <Service
                 title={service[1]}
                 imgPath={service[0]}
                 link={service[2]}
-              />
-            ))}
-          </div>
-          <div className="grid grid-flow-row gap-6">
-            {services2.map((service) => (
-              <Service
-                title={service[1]}
-                imgPath={service[0]}
-                link={service[2]}
+                key={index}
               />
             ))}
           </div>

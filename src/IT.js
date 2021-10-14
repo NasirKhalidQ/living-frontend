@@ -15,11 +15,6 @@ function IT() {
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Graphic_Design_wukbui.jpg",
-      "Graphic Designing",
-      "#",
-    ],
-    [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/app_development_udigsf.jpg",
       "App Development ",
       "#",

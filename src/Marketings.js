@@ -9,6 +9,11 @@ function Marketings() {
       "Digital Marketing",
       "#",
     ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
+      "Product Photography",
+      "#",
+    ],
 
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
@@ -22,7 +27,7 @@ function Marketings() {
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/product_management_seybrx.png",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634129035/sub-categories/sub/product_marketing_ulniq3.jpg",
       "Product Management  ",
       "#",
     ],

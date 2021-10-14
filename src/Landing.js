@@ -28,12 +28,8 @@ function Landing() {
     ],
 
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598550/clients/ithm_q2eitr.svg",
-      "ITHM rawalpindi",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/iveco_jkzuh0.svg",
-      "iveco-astra",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634120070/clients/vision4life_esyiul.svg",
+      "Vision 4 life",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598577/clients/rmrsco_sgml1z.svg",
@@ -47,12 +43,12 @@ function Landing() {
   const tiles = [
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/interior_designing_ta0osr.jpg",
-      "Interior Designing",
+      "Interior Design",
       "#",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/architecture_etnqx8.jpg",
-      "Architecture",
+      "Architectural Design",
       "#",
     ],
     [
@@ -84,6 +80,16 @@ function Landing() {
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Social_Responsibility_zvs1pz.svg",
       "Social Responsibility",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
+      "Photography",
+      "#",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
+      "Videography",
       "#",
     ],
     [
@@ -213,7 +219,7 @@ function Landing() {
       </div>
       <div className="flex pl-10 md:pl-0 flex-col md:flex-row md:justify-around pt-2 pb-2 bg-living-header text-gray-50 border-t-2 border-white gap-y-6">
         <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-red transition duration-500 ease-in-out">
+          <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
             <img className="p-2" src="./imgs/stats/chart.svg" alt="Chart" />
           </div>
           <div className="flex-col ml-4 mt-2">
@@ -226,31 +232,31 @@ function Landing() {
           </div>
         </div>
         <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-red transition duration-500 ease-in-out">
+          <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
             <img className="p-2" src="./imgs/stats/team.svg" alt="Team" />
           </div>
           <div className="flex-col ml-4 mt-2">
             <div className="inline-flex text-base md:text-xl">
-              <CountUp end={30} duration={3} />
+              <CountUp end={30} duration={6} />
               <p>+</p>
             </div>
             <p className="text-base text-gray-400">Team Members</p>
           </div>
         </div>
         <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-red transition duration-500 ease-in-out">
+          <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
             <img className="p-2" src="./imgs/stats/hand.svg" alt="Hand" />
           </div>
           <div className="flex-col ml-4 mt-2">
             <div className="inline-flex text-base md:text-xl">
-              <CountUp end={400} duration={3} />
+              <CountUp end={400} duration={6} />
               <p>+</p>
             </div>
             <p className="text-base text-gray-400">Happy Customers</p>
           </div>
         </div>
         <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-red transition duration-500 ease-in-out">
+          <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
             <img
               className="p-2"
               src="./imgs/stats/creative.svg"
@@ -259,14 +265,14 @@ function Landing() {
           </div>
           <div className="flex-col ml-4 mt-2">
             <div className="inline-flex text-base md:text-xl">
-              <CountUp end={213} duration={4} />
+              <CountUp end={213} duration={6} />
               <p>+</p>
             </div>
             <p className="text-base text-gray-400">Creative Ideas</p>
           </div>
         </div>
         <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-red transition duration-500 ease-in-out">
+          <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
             <img
               className="p-2"
               src="./imgs/stats/web.svg"

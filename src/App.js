@@ -18,6 +18,7 @@ import Marketings from "./Marketings";
 import RealEstates from "./RealEstates";
 import IT from "./IT";
 import Web from "./Web";
+import Quote from "./Quote";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/quote">
+          <Quote />
         </Route>
         <Route path="/careers">
           <Careers />
