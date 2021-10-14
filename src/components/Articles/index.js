@@ -1,10 +1,17 @@
 import React from "react";
 import Card from "../Card";
+import ReactPaginate from "react-paginate";
+import { useState } from "react";
 
 const Articles = ({ articles }) => {
   // const leftArticlesCount = Math.ceil(articles.length / 5);
   // const leftArticles = articles.slice(0, leftArticlesCount);
   // const rightArticles = articles.slice(leftArticlesCount, articles.length);
+  const [pageNumber, setPageNumber] = useState(0);
+  const articlesPerPage = 6;
+  const pagesVisited = pageNumber * articlesPerPage;
+
+  const displayArticles = () => {};
 
   return (
     <div className="grid">

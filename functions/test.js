@@ -21,7 +21,7 @@ exports.handler = async function (event, context) {
 
   await transporter.sendMail({
     from: `${userName}`, // sender address
-    to: "careers@livingsolutions.com.pk", // list of receivers
+    to: "info@livingsolutions.com.pk", // list of receivers
     subject: `Email from ${userName}`, // Subject line
     text: `\nName: ${userName} \n
     Email: ${userEmail} \n
