@@ -87,8 +87,8 @@ function Services() {
             The Services we offer
           </h1>
         </div>
-        <div className="mt-2 md:mt-14 mx-2 md:mx-40 mb-2 md:mb-10">
-          <div className="grid md:grid-cols-2 gap-y-10 gap-x-28">
+        <div className="mt-2 md:mt-14 mx-2 md:mx-20 mb-2 md:mb-10">
+          <div className="grid md:grid-cols-3 gap-y-10 gap-x-10">
             {services.map((service, index) => (
               <Service
                 title={service[1]}

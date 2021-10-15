@@ -44,7 +44,7 @@ function NavBar() {
           <Link to="/">
             <img
               className="w-3/4 md:w-auto"
-              src="./imgs/lv.svg"
+              src="/imgs/lv.svg"
               alt="living logo"
             />
           </Link>

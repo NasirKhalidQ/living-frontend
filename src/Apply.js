@@ -1,8 +1,9 @@
 import { useState } from "react";
 import Modal from "./Modal";
-import NavBar from "./Navbar";
 import Footer from "./Footer";
 import { useForm } from "react-hook-form";
+import { useParams } from "react-router";
+import NavBar from "./Navbar";
 
 function Apply() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,10 +19,11 @@ function Apply() {
   function closeModal() {
     setIsOpen(false);
   }
+  const { position } = useParams();
 
   const submit = async (data) => {
     setSending(true);
-    const { name, email, position, intro, number } = data;
+    const { name, email, intro, number } = data;
 
     const encodedName = encodeURIComponent(name);
     const encodedEmail = encodeURIComponent(email);
@@ -112,18 +114,7 @@ function Apply() {
                     </span>
                   )}
                 </label>
-                <label className="block">
-                  <span className="text-accusoft-white">Position applied</span>
-                  <select
-                    {...register("position")}
-                    type="text"
-                    id="position"
-                    className="form-select mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
-                  >
-                    <option value="Sales Executive">Sales Executive</option>
-                    <option value="Architect">Architect</option>
-                  </select>
-                </label>
+
                 <label className="block">
                   <span className="text-accusoft-white">
                     Brief Introduction
@@ -182,11 +173,7 @@ function Apply() {
               />
             </div>
             <div className="hidden sm:flex row-span-2 pl-10 ">
-              <img
-                className="w-full h-full"
-                src="./imgs/apply.svg"
-                alt=""
-              ></img>
+              <img className="w-full h-full" src="/imgs/apply.svg" alt=""></img>
             </div>
           </div>
         </div>

@@ -74,7 +74,7 @@ function Clients() {
       "icon enclave",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598527/clients/bike_zy6drs.svg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634294726/clients/bike_siu7kn.svg",
       "Bike Master",
     ],
     [

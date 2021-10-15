@@ -36,7 +36,7 @@ function App() {
         <Route path="/careers">
           <Careers />
         </Route>
-        <Route path="/apply">
+        <Route path="/apply/:position" exact>
           <Apply />
         </Route>
         <Route path="/services">
