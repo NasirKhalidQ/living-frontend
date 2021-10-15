@@ -4,17 +4,13 @@ import Tile from "./Tile";
 
 function IT() {
   const tiles = [
-    ["./imgs/web.png", "Web Development ", "web"],
+    ["./imgs/web.jpg", "Web Development ", "web"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764317/sub-categories/sub/SEO_ekuiby.jpg",
       "SEO",
       "#",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/app_development_udigsf.jpg",
-      "App Development ",
-      "#",
-    ],
+    ["./imgs/app.jpg", "App Development ", "#"],
 
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633766686/sub-categories/sub/software_pefcdj.jpg",

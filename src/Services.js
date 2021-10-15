@@ -5,19 +5,19 @@ import Service from "./Service";
 function Services() {
   const services = [
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/interior_designing_ta0osr.jpg",
+      "./imgs/interior.jpg",
       "Interior Designing",
       "#",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
     ],
     [
-      "./imgs/architecture.png",
+      "./imgs/architecture.jpg",
       "Architectural Design",
       "#",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
     ],
     [
-      "./imgs/marketing.png",
+      "./imgs/marketing.jpg",
       "Marketing and Branding",
       "marketing",
       "The branding approach is the plan that directs your image. Fostering a branding approach permits you to compete in the commercial center and accomplish the best results. We'll uphold you to set up a powerful brand procedure, so you have a solid formation for your future promoting strategies.",
@@ -29,7 +29,7 @@ function Services() {
       "Living Solutions Pvt Ltd is an asset manager with an active, long-term, and responsible approach to investment. Diversify your portfolio with the best investment targeting Completely Marked Dividends. An ethical investment company. Get market insight into real estate. Understand market dynamics. Get financial plans. Invest Now.",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/construction_fn6ceb.jpg",
+      "./imgs/construction.jpg",
       "Civil Construction Services",
       "#",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
@@ -42,7 +42,7 @@ function Services() {
       "Living solutions Pvt Ltd was established in the last decade. And from the start, we are doing General business including Group Health Insurance, Travel Bonds & Guarantees, Travel Insurance (Health), Livestock and Crop Insurance, Car Insurance. In collaboration with UIC one of the best insurance companies in Pakistan.",
     ],
     [
-      "./imgs/event.png",
+      "./imgs/event.jpg",
       "Event Management",
       "#",
       "Most Technologically Advanced Venues. Committed Events Team. We Have a Range of Function Spaces and All-Inclusive Packages to Suit Your Tastes. Marvelous Concerts. Luxury Hotels, Grant Winning Restaurants.",
@@ -60,19 +60,19 @@ function Services() {
       "Corporate Social Responsibility (CSR) has become a major issue for the whole world. To be a part of this global issue, Living Solutions Pvt Ltd is trying to do its part with full efforts and dedication it’s all about companies' active and efficient work with the environment, human rights, labor, and anti-corruption issues which represent they take concern for the impacts on the environment and society.",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
+      "./imgs/photography.jpg",
       "Photography",
       "#",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
     ],
     [
-      "./imgs/video.png",
+      "./imgs/videography.jpg",
       "Videography",
       "#",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
     ],
     [
-      "./imgs/content.jpeg",
+      "./imgs/content.jpg",
       "Content Creation ",
       "#",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",

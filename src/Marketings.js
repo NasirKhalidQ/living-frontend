@@ -4,34 +4,22 @@ import Tile from "./Tile";
 
 function Marketings() {
   const tiles = [
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/digital_marketing_ljo5on.jpg",
-      "Digital Marketing",
-      "#",
-    ],
+    ["./imgs/digital.jpg", "Digital Marketing", "#"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
       "Product Photography",
       "#",
     ],
 
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
-      "Video Production",
-      "Video production",
-    ],
+    ["./imgs/videography.jpg", "Video Production", "Video production"],
 
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/call_center_solution_krt4zs.jpg",
       "Telemarketing",
       "#",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634208203/sub-categories/sub/product-management_qikw00.png",
-      "Product Management  ",
-      "#",
-    ],
-    ["./imgs/sales.png", "Sales Management", "Video production"],
+    ["./imgs/product.jpg", "Product Management  ", "#"],
+    ["./imgs/sales.jpg", "Sales Management", "Video production"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Graphic_Design_wukbui.jpg",
       "Graphic Design",

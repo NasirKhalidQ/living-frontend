@@ -39,29 +39,21 @@ function Landing() {
     ],
   ];
   const tiles = [
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/interior_designing_ta0osr.jpg",
-      "Interior Designing",
-      "#",
-    ],
-    ["./imgs/architecture.png", "Architectural Design", "#"],
+    ["./imgs/interior.jpg", "Interior Designing", "#"],
+    ["./imgs/architecture.jpg", "Architectural Design", "#"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Real_Esate_n0cjki.svg",
       "Investment Management",
       "realestate",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/construction_fn6ceb.jpg",
-      "Civil Construction Services",
-      "#",
-    ],
-    ["./imgs/marketing.png", "Marketing and Branding", "marketing"],
+    ["./imgs/construction.jpg", "Civil Construction Services", "#"],
+    ["./imgs/marketing.jpg", "Marketing and Branding", "marketing"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633075702/living-images/insurance_xccutc.png",
       "General Insurance",
       "#",
     ],
-    ["./imgs/event.png", "Event Management", "#"],
+    ["./imgs/event.jpg", "Event Management", "#"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610121/main-page/IT_Solutions_wsuotr.svg",
       "IT Solutions",
@@ -72,13 +64,9 @@ function Landing() {
       "Social Responsibility",
       "#",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
-      "Photography",
-      "#",
-    ],
-    ["./imgs/video.png", "Videography", "#"],
-    ["./imgs/content.jpeg", "Content Creation ", "#"],
+    ["./imgs/photography.jpg", "Photography", "#"],
+    ["./imgs/videography.jpg", "Videography", "#"],
+    ["./imgs/content.jpg", "Content Creation ", "#"],
   ];
   // const images = [
   // {
