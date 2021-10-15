@@ -8,7 +8,6 @@ import Careers from "./Careers";
 import Apply from "./Apply";
 import Services from "./Services";
 import About from "./About";
-import RealEstate from "./RealEstate";
 import Blog from "./Blog";
 import Articles from "./Articles/index";
 import Article from "./Article/index";

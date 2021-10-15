@@ -17,11 +17,7 @@ function Team() {
       "Brig(R) Shahid Saeed",
       "Chief Operating Officer",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633761071/team-members/gibran_gduyfg.jpg",
-      "Gibran Bin Tahir",
-      "Business Development Manager",
-    ],
+    ["./imgs/gibran.jpg", "Gibran Bin Tahir", "Business Development Manager"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634106008/team-members/WhatsApp_Image_2021-10-13_at_10.43.43_AM_vsmpip.jpg",
       "Safa Khalid",
