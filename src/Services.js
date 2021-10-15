@@ -32,7 +32,7 @@ function Services() {
       "./imgs/construction.jpg",
       "Civil Construction Services",
       "#",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
+      "Living Solutions Pvt Ltd is a civil construction company in Pakistan expert in an extensive range of civil construction solutions. We intend to offer you a complete solution where you have all of your civil construction solutions dealt with by one expert solution company.",
     ],
 
     [
@@ -63,13 +63,13 @@ function Services() {
       "./imgs/photography.jpg",
       "Photography",
       "#",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
+      "Here in Living Solutions Pvt Ltd, we have a specialized photography team with huge experience in Commercial, Editorial, Corporate, Industrial, and Time-Lapse photography.",
     ],
     [
       "./imgs/videography.jpg",
       "Videography",
       "#",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
+      "Best video production solutions in town. Affordable packages, specialists in creating videos for corporate organizations and the public sector. Reach Us Today. Get a quote. Select Living Solutions Pvt Ltd.",
     ],
     [
       "./imgs/content.jpg",
