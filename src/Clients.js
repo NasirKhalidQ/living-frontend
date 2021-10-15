@@ -22,14 +22,6 @@ function Clients() {
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598535/clients/imos_qdsfmj.svg",
       "imos",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598560/clients/rudn_clbgkd.svg",
-      "rudn enclave",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598577/clients/rmrsco_sgml1z.svg",
-      "RMRSCO Pvt limited",
-    ],
 
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598552/clients/uic_cxj9ej.svg",
@@ -46,14 +38,6 @@ function Clients() {
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598548/clients/next_vlvxtr.svg",
       "Next Health Pakistans",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/icon_ydgtba.svg",
-      "icon enclave",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/iveco_jkzuh0.svg",
-      "iveco-astra",
     ],
 
     [
@@ -78,6 +62,18 @@ function Clients() {
       "Latif Group",
     ],
     [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598560/clients/rudn_clbgkd.svg",
+      "rudn enclave",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598577/clients/rmrsco_sgml1z.svg",
+      "RMRSCO Pvt limited",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/icon_ydgtba.svg",
+      "icon enclave",
+    ],
+    [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598527/clients/bike_zy6drs.svg",
       "Bike Master",
     ],
@@ -90,6 +86,11 @@ function Clients() {
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598531/clients/ehtesham_euahh9.svg",
       "Ehteshaam photography",
     ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/iveco_jkzuh0.svg",
+      "iveco-astra",
+    ],
+
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598553/clients/vs_duqbjs.svg",
       "Vectors and Scalers",
@@ -124,7 +125,7 @@ function Clients() {
       <h3 className="font-bold text-3xl md:text-4xl lg:text-5xl text-center mb-4 mt-4 md:mb-16 md:mt-10 text-living-red">
         Our Clients
       </h3>
-      <div className="grid grid-cols-2 md:grid-cols-4 text-xs lg:text-xl gap-4 mb-4 md:mb-16">
+      <div className="grid grid-cols-4 md:grid-cols-6 text-xs lg:text-xl gap-4 mb-4 md:mb-16">
         {clients.map((client) => (
           <Client imgPath={client[0]} alt={client[1]} />
         ))}

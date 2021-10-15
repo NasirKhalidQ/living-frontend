@@ -8,7 +8,7 @@ function Services() {
       "./imgs/interior.jpg",
       "Interior Designing",
       "#",
-      "At Living Solutions Pvt Ltd, we have confidence in advancing lives through the plan. This philosophy of thinking is replicated in our work, in our design decisions, and in the vendors and partners that we team up with. It is mounted in our solid conviction that an interior should counterbalance style with visual liberality. We focus that interior matches our client's sense and personality.Find out more about our visual generosity, by quick contact with our team at Living solutions Pvt Ltd.",
+      "At Living Solutions Pvt Ltd, we have confidence in advancing lives through the plan. This philosophy of thinking is replicated in our work, in our design decisions and in the vendors and partners that we team up with. It is mounted in our solid conviction that an interior should counterbalance style with visual liberality. We focus that interior matches our client's sense and personality.Find out more about our visual generosity, by quick contact with our team at Living solutions Pvt Ltd.",
     ],
     [
       "./imgs/architecture.jpg",
@@ -84,11 +84,11 @@ function Services() {
       <section className="relative">
         <div className="text-base grid mt-10 justify-center font-semibold md:text-2xl text-living-red">
           <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-living-red">
-            The services we offer
+            The Services we offer
           </h1>
         </div>
-        <div className="mt-2 md:mt-14 mx-2 md:mx-24 mb-2 md:mb-10">
-          <div className="grid md:grid-cols-2 gap-y-10 gap-x-6">
+        <div className="mt-2 md:mt-14 mx-2 md:mx-40 mb-2 md:mb-10">
+          <div className="grid md:grid-cols-2 gap-y-10 gap-x-28">
             {services.map((service, index) => (
               <Service
                 title={service[1]}

@@ -65,7 +65,9 @@ function RealEstates() {
     <>
       <NavBar />
       <div className="grid justify-center text-xl md:text-2xl text-living-red">
-        <h1 className="mt-16 mb-10">Investment Management</h1>
+        <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-living-red mt-16 mb-10">
+          Investment Management
+        </h1>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 pb-16 gap-x-6 md:gap-x-16 gap-y-4 md:gap-y-10 px-6 text-xs pt-6 lg:text-xl">
         {tiles.map((tile, index) => (

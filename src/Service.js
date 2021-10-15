@@ -14,9 +14,11 @@ function Service({ title, imgPath, link, headline }) {
           width="100%"
           onClick={() => history.push(link)}
         />
-        <Link className="text-md md:text-xl hover:text-blue-700" to={link}>
-          {title}
-        </Link>
+        <div className="mb-4 font-semibold">
+          <Link className="text-md md:text-xl hover:text-blue-700" to={link}>
+            {title}
+          </Link>
+        </div>
       </figure>
       <p className="text-xs md:text-base">{headline}</p>
     </div>

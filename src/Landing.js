@@ -8,12 +8,13 @@ import { Link } from "react-router-dom";
 function Landing() {
   const clients = [
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598560/clients/rudn_clbgkd.svg",
-      "rudn enclave",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598535/clients/imos_qdsfmj.svg",
+      "imos",
     ],
+
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598549/clients/kabir_bw4dk5.svg",
-      "Fauji Kabirwala",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634120070/clients/vision4life_esyiul.svg",
+      "Vision 4 life",
     ],
 
     [
@@ -24,18 +25,17 @@ function Landing() {
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/foundation_i64ngg.svg",
       "foundation wind energy limited",
     ],
-
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634120070/clients/vision4life_esyiul.svg",
-      "Vision 4 life",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598549/clients/kabir_bw4dk5.svg",
+      "Fauji Kabirwala",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598560/clients/rudn_clbgkd.svg",
+      "rudn enclave",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598577/clients/rmrsco_sgml1z.svg",
       "RMRSCO Pvt limited",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598535/clients/imos_qdsfmj.svg",
-      "imos",
     ],
   ];
   const tiles = [
@@ -129,15 +129,15 @@ function Landing() {
         <img className="w-screen" src="./imgs/title.jpg" alt="main" />
         <div>
           <div className="mx-6 grid gap-6 text-justify">
-            <h2 className="md:text-2xl mt-2 mb-2 md:mb-6 text-living-red">
+            <h2 className="text-base md:text-4xl font-bold text-living-red mt-4 uppercase">
               Delivering Excellence
             </h2>
             <h2 className="text-base md:text-2xl font-bold text-living-red">
               What we do
             </h2>
             <h3 className="text-base md:text-xl font-bold">
-              We are here to manage quality consulting services and investment
-              plan
+              We are here to manage Quality Consulting Services and Investment
+              Plan
             </h3>
             <p className="text-base">
               Getting solutions for business or individual investments with the
@@ -168,7 +168,7 @@ function Landing() {
         </div>
       </div>
       <Link to="/services">
-        <h2 className="grid w-full justify-center pt-4 text-xl md:text-2xl text-living-red underline">
+        <h2 className="grid w-full justify-center pt-4 text-base md:text-2xl font-bold text-living-red underline">
           Our Services
         </h2>
       </Link>
@@ -178,11 +178,11 @@ function Landing() {
         ))}
       </div>
       <Link to="/clients">
-        <h3 className="text-xl md:text-2xl text-center mb-4 md:mb-16 text-living-red underline">
+        <h3 className="text-base md:text-2xl font-bold text-center mb-4 md:mb-16 text-living-red underline">
           Portfolio
         </h3>
       </Link>
-      <div className="grid grid-cols-2 md:grid-cols-4 text-xs lg:text-xl gap-4 mx-6 mb-4 md:mb-10">
+      <div className="grid grid-cols-4 md:grid-cols-6 text-xs lg:text-xl gap-4 mx-6 mb-4 md:mb-10">
         {clients.map((client) => (
           <Client imgPath={client[0]} alt={client[1]} />
         ))}
