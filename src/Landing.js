@@ -133,7 +133,7 @@ function Landing() {
               Delivering Excellence
             </h2>
             <h2 className="text-base md:text-2xl font-bold text-living-red">
-              What we do
+              What We Do
             </h2>
             <h3 className="text-base md:text-xl font-bold">
               We are here to manage Quality Consulting Services and Investment

@@ -123,7 +123,7 @@ function Clients() {
       <NavBar />
 
       <h3 className="font-bold text-3xl md:text-4xl lg:text-5xl text-center mb-4 mt-4 md:mb-16 md:mt-10 text-living-red">
-        Our Clients
+        Our Portfolio
       </h3>
       <div className="grid grid-cols-4 md:grid-cols-6 text-xs lg:text-xl gap-4 mb-4 md:mb-16">
         {clients.map((client) => (
