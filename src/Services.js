@@ -8,13 +8,13 @@ function Services() {
       "./imgs/interior.jpg",
       "Interior Designing",
       "#",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
+      "At Living Solutions Pvt Ltd, we have confidence in advancing lives through the plan. This philosophy of thinking is replicated in our work, in our design decisions, and in the vendors and partners that we team up with. It is mounted in our solid conviction that an interior should counterbalance style with visual liberality. We focus that interior matches our client's sense and personality.Find out more about our visual generosity, by quick contact with our team at Living solutions Pvt Ltd.",
     ],
     [
       "./imgs/architecture.jpg",
       "Architectural Design",
       "#",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
+      "We create and design unique architects with the intellectual wisdom of harmony, which complements nature around premises. If you desire an experienced professional architect, we are here for your service.",
     ],
     [
       "./imgs/marketing.jpg",
@@ -75,7 +75,7 @@ function Services() {
       "./imgs/content.jpg",
       "Content Creation ",
       "#",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
+      "Spark your clients with Living solutions Pvt Ltd, build your image, and yield your leads. Get start with Living Solutions Pvt Ltd today for a better tomorrow. Our effective writers and designers make content that your audience will adore. Allow us to convey more. Let’s make the best Content Strategy, more content advancement, more content broadcasting, and more Brand Storytelling. Provide you Anthology. We give you more advertising, content promotion, improve your Influence in the market. We are Living solutions Pvt Ltd.",
     ],
   ];
   return (
