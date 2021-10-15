@@ -8,14 +8,26 @@ const Articles = ({ articles, offset, setOffset }) => {
   const handleNext = () => {
     setOffset(offset + 6);
   };
-  console.log(offset > 0);
   return (
     <div className="grid">
-      <div className="grid lg:grid-cols-3 gap-y-6 gap-x-6 mx-4">
-        {articles.map((article) => {
-          return <Card article={article} key={`article__${article.slug}`} />;
-        })}
-      </div>
+      {articles.length ? (
+        <div className="grid lg:grid-cols-3 gap-y-6 gap-x-6 mx-4">
+          {articles.map((article) => {
+            return <Card article={article} key={`article__${article.slug}`} />;
+          })}
+        </div>
+      ) : (
+        <div className="my-60 grid justify-center text-center gap-y-6">
+          <div className="text-xl md:text-3xl inline-flex">
+            <h3>No more articles to display </h3>
+            <p className="animate-spin ml-4">🙈</p>
+          </div>
+          <button className="text-blue-700" onClick={handlePrev}>
+            Go Back ⬅
+          </button>
+        </div>
+      )}
+
       <div className="flex justify-evenly my-10">
         <button
           onClick={handlePrev}
