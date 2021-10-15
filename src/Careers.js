@@ -19,7 +19,7 @@ function Careers() {
       <div className="pb-10 lg:pb-40 pt-10 lg:pt-20 bg-blue-50">
         <div className="space-y-8 mx-8 md:mx-40 lg:mx-72 border-living-header border-2 rounded-xl bg-white font-base lg:font-semibold">
           <div className="grid space-y-8 ml-4 lg:ml-14 mr-4 lg:mr-14">
-            <h2 className="text-xl md:text-3xl text-center pt-10 lg:font-bold">
+            <h2 className="text-xl md:text-3xl text-center pt-10 lg:font-bold text-living-red">
               Careers at Living Solutions Pakistan
             </h2>
 
