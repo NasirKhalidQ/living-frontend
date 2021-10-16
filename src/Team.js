@@ -18,23 +18,20 @@ function Team() {
       "Chief Operating Officer",
     ],
     ["./imgs/gibran.jpg", "Gibran Bin Tahir", "Business Development Manager"],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634106008/team-members/WhatsApp_Image_2021-10-13_at_10.43.43_AM_vsmpip.jpg",
-      "Safa Khalid",
-      "HR Executive",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633761370/team-members/nasir_kqozie.jpg",
-      "Nasir Khalid",
-      "Web Developer",
-    ],
+    ["./imgs/safa.jpeg", "Safa Khalid", "HR Executive"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633778086/team-members/hamza_hcdoms.jpg",
       "Hamza Shafique",
       "Graphic Designer",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633761072/team-members/mursaleen_j7heg4.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633761370/team-members/nasir_kqozie.jpg",
+      "Nasir Khalid",
+      "Web Developer",
+    ],
+
+    [
+      "./imgs/mursaleen.jpg",
       "Mursaleen Khalid",
       "Business Development Executive",
     ],

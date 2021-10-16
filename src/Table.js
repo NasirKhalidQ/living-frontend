@@ -1,3 +1,5 @@
+import Tick from "./Tick";
+
 function Table() {
   return (
     <div className="container flex flex-wrap pt-4 pb-10 m-auto mt-6 md:mt-15 lg:px-12 xl:px-16">
@@ -21,6 +23,20 @@ function Table() {
                 <p className="text-xs text-center uppercase text-blue-500">
                   monthly
                 </p>
+                <div className="grid gap-y-2 text-blue-500 mt-10 mb-32">
+                  <div className="inline-flex">
+                    <Tick fill="#699BF7" />
+                    <p> Feature 1</p>
+                  </div>
+                  <div className="inline-flex">
+                    <Tick fill="#699BF7" />
+                    <p> Feature 2</p>
+                  </div>
+                  <div className="inline-flex">
+                    <Tick fill="#699BF7" />
+                    <p> Feature 3</p>
+                  </div>
+                </div>
               </div>
               <div className="flex flex-col items-center justify-center w-full h-full py-6 rounded-b-lg bg-blue-500">
                 <p className="text-xl text-white">1 month</p>
@@ -43,6 +59,28 @@ function Table() {
                 <p className="text-xs text-center uppercase text-white">
                   monthly
                 </p>
+                <div className="grid gap-y-2 text-blue-900 mt-10 mb-20">
+                  <div className="inline-flex">
+                    <Tick fill="#22417B" />
+                    <p> Feature 1</p>
+                  </div>
+                  <div className="inline-flex">
+                    <Tick fill="#22417B" />
+                    <p> Feature 2</p>
+                  </div>
+                  <div className="inline-flex">
+                    <Tick fill="#22417B" />
+                    <p> Feature 3</p>
+                  </div>
+                  <div className="inline-flex">
+                    <Tick fill="#22417B" />
+                    <p> Feature 4</p>
+                  </div>
+                  <div className="inline-flex">
+                    <Tick fill="#22417B" />
+                    <p> Feature 5</p>
+                  </div>
+                </div>
               </div>
               <div className="flex flex-col items-center justify-center w-full h-full py-6 rounded-b-lg bg-blue-700">
                 <p className="text-xl text-white">3 months</p>
@@ -62,9 +100,39 @@ function Table() {
                 <p className="text-3xl font-bold text-center text-blue-500">
                   PKR 18,000
                 </p>
-                <p className="text-xs text-center uppercasetext-blue-500">
+                <p className="text-xs text-center uppercase text-blue-500">
                   monthly
                 </p>
+                <div className="grid gap-y-2 text-blue-500 mt-10">
+                  <div className="inline-flex">
+                    <Tick fill="#699BF7" />
+                    <p> Feature 1</p>
+                  </div>
+                  <div className="inline-flex">
+                    <Tick fill="#699BF7" />
+                    <p> Feature 2</p>
+                  </div>
+                  <div className="inline-flex">
+                    <Tick fill="#699BF7" />
+                    <p> Feature 3</p>
+                  </div>
+                  <div className="inline-flex">
+                    <Tick fill="#699BF7" />
+                    <p> Feature 4</p>
+                  </div>
+                  <div className="inline-flex">
+                    <Tick fill="#699BF7" />
+                    <p> Feature 5</p>
+                  </div>
+                  <div className="inline-flex">
+                    <Tick fill="#699BF7" />
+                    <p> Feature 6</p>
+                  </div>
+                  <div className="inline-flex">
+                    <Tick fill="#699BF7" />
+                    <p> Feature 7</p>
+                  </div>
+                </div>
               </div>
               <div className="flex flex-col items-center justify-center w-full h-full py-6 rounded-b-lg bg-blue-500">
                 <p className="text-xl text-white">6 months</p>
