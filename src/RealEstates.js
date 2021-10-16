@@ -5,58 +5,58 @@ import Tile from "./Tile";
 function RealEstates() {
   const tiles = [
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Property_Management_c9duvi.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634384729/sub-categories/investment-management/rudn_hjqqjl.jpg",
       "Rudn Enclave",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Property_Management_c9duvi.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/icon_c9k7oc.jpg",
       "Icon Enclave",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Property_Management_c9duvi.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634385221/sub-categories/investment-management/b17_yx9j11.jpg",
       "B-17 (Residential and Commercial)",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Property_Management_c9duvi.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/D12_hcphas.jpg",
       "D-12",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Property_Management_c9duvi.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/e11_y7ip7j.jpg",
       "E-11",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Property_Management_c9duvi.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634384729/sub-categories/investment-management/mumtaz_lnb73k.jpg",
       "Mumtaz City",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Property_Management_c9duvi.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/life_fuji1q.jpg",
       "Life Residencia",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Property_Management_c9duvi.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634384729/sub-categories/investment-management/top-city_hoemkz.jpg",
       "Top City",
       "#",
     ],
 
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Property_Management_c9duvi.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634385025/sub-categories/investment-management/zarar_ukblwz.jpg",
       "Al-Zarar Heights",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Property_Management_c9duvi.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/bahria_an7dqf.jpg",
       "Bahria Phase 1-8",
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Property_Management_c9duvi.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/Dha_jea3d2.jpg",
       "DHA Phase 1-3",
       "#",
     ],
