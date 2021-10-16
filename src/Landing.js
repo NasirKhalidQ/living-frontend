@@ -11,10 +11,18 @@ function Landing() {
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598535/clients/imos_qdsfmj.svg",
       "imos",
     ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/iveco_jkzuh0.svg",
+      "iveco-astra",
+    ],
 
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634120070/clients/vision4life_esyiul.svg",
       "Vision 4 life",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/foundation_i64ngg.svg",
+      "foundation wind energy limited",
     ],
 
     [
@@ -22,12 +30,21 @@ function Landing() {
       "UIC insurance Pakistan",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633598538/clients/foundation_i64ngg.svg",
-      "foundation wind energy limited",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598550/clients/spi_sfoapp.svg",
+      "SPI insurance Pakistan",
+    ],
+
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598548/clients/next_vlvxtr.svg",
+      "Next Health Pakistan",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598549/clients/kabir_bw4dk5.svg",
       "Fauji Kabirwala",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598530/clients/chamber_atoepj.svg",
+      "islamabad chamber of commerce and industry",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598560/clients/rudn_clbgkd.svg",
@@ -36,6 +53,10 @@ function Landing() {
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598577/clients/rmrsco_sgml1z.svg",
       "RMRSCO Pvt limited",
+    ],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1633598546/clients/isha_xcds8u.svg",
+      "Beauty Salon and makeup artist",
     ],
   ];
   const tiles = [
@@ -251,7 +272,7 @@ function Landing() {
           </div>
           <div className="flex-col ml-4 mt-2">
             <div className="inline-flex text-base md:text-xl">
-              <CountUp start={10374} end={30000} duration={9999} />
+              <CountUp start={10374} end={30000} duration={99999} />
               <p>+</p>
             </div>
             <p className="text-sm md:text-base text-gray-400">Site Views</p>

@@ -18,6 +18,8 @@ import RealEstates from "./RealEstates";
 import IT from "./IT";
 import Web from "./Web";
 import Quote from "./Quote";
+import General from "./General";
+import Pricing from "./Pricing";
 
 function App() {
   return (
@@ -43,6 +45,12 @@ function App() {
         </Route>
         <Route path="/blog">
           <Blog />
+        </Route>
+        <Route path="/general">
+          <General />
+        </Route>
+        <Route path="/pricing">
+          <Pricing />
         </Route>
         <Route path="/marketing">
           <Marketings />

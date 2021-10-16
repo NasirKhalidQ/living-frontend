@@ -13,6 +13,10 @@ module.exports = {
         about:
           "url('https://res.cloudinary.com/living-solutions/image/upload/v1633087266/living-images/about_udyfbh.jpg')",
       },
+      shadow: ["hover"],
+      boxShadow: {
+        "3xl": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
+      },
     },
     fontFamily: {
       Montserrat: ["Montserrat, sans-serif"],
@@ -29,6 +33,7 @@ module.exports = {
       cursor: ["disabled"],
       pointerEvents: ["disabled"],
       opacity: ["disabled"],
+      scale: ["group-hover"],
     },
   },
 };

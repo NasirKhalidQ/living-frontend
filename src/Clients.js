@@ -37,7 +37,7 @@ function Clients() {
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633598548/clients/next_vlvxtr.svg",
-      "Next Health Pakistans",
+      "Next Health Pakistan",
     ],
 
     [
