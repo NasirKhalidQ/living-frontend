@@ -60,7 +60,13 @@ function Landing() {
     ],
   ];
   const tiles = [
-    ["./imgs/interior.jpg", "Interior Designing", "#"],
+    [
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634537948/main-page/interior_rtqkla.jpg",
+      "Interior Designing",
+      "#",
+    ],
+    ["./imgs/marketing.jpg", "Marketing and Branding", "marketing"],
+
     ["./imgs/architecture.jpg", "Architectural Design", "#"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Real_Esate_n0cjki.svg",
@@ -68,7 +74,6 @@ function Landing() {
       "realestate",
     ],
     ["./imgs/construction.jpg", "Civil Construction Services", "#"],
-    ["./imgs/marketing.jpg", "Marketing and Branding", "marketing"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633075702/living-images/insurance_xccutc.png",
       "General Insurance",

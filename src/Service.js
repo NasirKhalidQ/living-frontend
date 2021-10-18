@@ -24,7 +24,7 @@ function Service({ title, imgPath, link, headline }) {
         </div>
       </figure>
       <p className="text-xs md:text-base">
-        {headline.slice(0, 110)}..........
+        {headline}..........
         <Link className=" text-living-header" to="/">
           read more
         </Link>

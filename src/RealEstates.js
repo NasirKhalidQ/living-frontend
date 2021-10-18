@@ -10,25 +10,17 @@ function RealEstates() {
       "#",
     ],
     [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/icon_c9k7oc.jpg",
+      "https://res.cloudinary.com/living-solutions/image/upload/v1634537133/sub-categories/investment-management/icon_it4t5j.png",
       "Icon Enclave",
       "#",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634385221/sub-categories/investment-management/b17_yx9j11.jpg",
-      "B-17 (Residential and Commercial)",
-      "#",
-    ],
+
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/D12_hcphas.jpg",
-      "D-12",
+      "CDA Sectors",
       "#",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/e11_y7ip7j.jpg",
-      "E-11",
-      "#",
-    ],
+
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634384729/sub-categories/investment-management/mumtaz_lnb73k.jpg",
       "Mumtaz City",
