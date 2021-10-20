@@ -94,63 +94,9 @@ function Landing() {
     ["./imgs/videography.jpg", "Videography", "#"],
     ["./imgs/content.jpg", "Content Creation ", "#"],
   ];
-  // const images = [
-  // {
-  //   original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085818/living-images/carousel-images/rudn-c_q9zut3.png`,
-  //   alt: `Rudn Enclave`,
-  // },
-  // {
-  //   original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085812/living-images/carousel-images/kabir-c_j1hczr.png`,
-
-  //   alt: `Fauji Kabirwala Power Plant`,
-  // },
-  // {
-  //   original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085805/living-images/carousel-images/uic-c_zrydtc.jpg`,
-
-  //   alt: `UIC Pakistan`,
-  // },
-
-  // {
-  //   original: `https://res.cloudinary.com/living-solutions/image/upload/v1633085816/living-images/carousel-images/wind-c_yordfk.png`,
-  //   alt: `Foundation Wind Pakistan`,
-  // },
-  // {
-  //   original: `https://scontent.fisb5-1.fna.fbcdn.net/v/t1.6435-9/173150569_257525429448213_5624051672270074730_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=e3f864&_nc_ohc=BV6hLA5gKmYAX8oIj29&_nc_ht=scontent.fisb5-1.fna&oh=bf17cc6f893596388d40ffef23b3472b&oe=6182A17F`,
-  //   alt: "Living Solutions",
-  // },
-  // {
-  //   original: `https://scontent.fisb5-1.fna.fbcdn.net/v/t1.6435-9/156202236_219977533203003_7062472743001516321_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=e3f864&_nc_ohc=-qFc_9SlX2QAX-w8xla&_nc_ht=scontent.fisb5-1.fna&oh=60e37ddbb87a72b9f4fdc78532eeb205&oe=6181F3F0`,
-  //   alt: "Living Solutions",
-  // },
-  // {
-  //   original: `https://scontent.fisb5-1.fna.fbcdn.net/v/t1.6435-9/129044168_157348076132616_174287923300070880_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=e3f864&_nc_ohc=rVhOveeEjWgAX-co83w&tn=svU6cqP2Xm7TWh2n&_nc_ht=scontent.fisb5-1.fna&oh=76365bebd8fb6f9572ca99a27311509d&oe=618171CD`,
-  //   alt: "Living Solutions",
-  // },
-  // {
-  //   original: `https://scontent.fisb5-2.fna.fbcdn.net/v/t1.6435-9/122481832_129246602276097_6164394889491914409_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=-2iV_-4bSboAX9K3frR&_nc_ht=scontent.fisb5-2.fna&oh=b8ee15659ac0ed7dda3ffde80a3add5f&oe=6184BC5D`,
-  //   alt: "Living Solutions",
-  // },
-  // ];
   return (
     <>
       <NavBar />
-      {/* <div className="w-screen flex justify-center">
-        <div className="w-auto md:w-3/4">
-          <ReactImageGallery
-            showPlayButton={false}
-            lazyLoad={true}
-            items={images}
-            showBullets={true}
-            showIndex={false}
-            showThumbnails={false}
-            showNav={false}
-            showFullscreenButton={false}
-            slideDuration={1000}
-            slideInterval={5000}
-          />
-        </div>
-      </div> */}
-
       <div className="grid ">
         <img className="w-screen" src="./imgs/title.jpg" alt="main" />
         <div>
@@ -209,8 +155,8 @@ function Landing() {
         </h3>
       </Link>
       <div className="grid grid-cols-4 md:grid-cols-6 text-xs lg:text-xl gap-4 mx-6 mb-4 md:mb-10">
-        {clients.map((client) => (
-          <Client imgPath={client[0]} alt={client[1]} />
+        {clients.map((client, index) => (
+          <Client key={index} imgPath={client[0]} alt={client[1]} />
         ))}
       </div>
       <div className="flex pl-10 md:pl-0 flex-col md:flex-row md:justify-around pt-2 pb-2 bg-living-header text-gray-50 border-t-2 border-white gap-y-6">

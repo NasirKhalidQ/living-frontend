@@ -13,7 +13,7 @@ function Footer() {
           </div>
         </div>
         <div className="grid justify-start order-first md:order-none md:justify-center">
-          <img className="w-3/4" src="./imgs/lv.svg" alt="living logo" />
+          <img className="w-3/4" src="/imgs/lv.svg" alt="living logo" />
         </div>
         <div className="gap-4 flex md:justify-end md:ml-auto mt-10">
           <h3 className="text-base md:text-xl grid justify-self-center text-white">

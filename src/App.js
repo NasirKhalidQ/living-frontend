@@ -20,6 +20,7 @@ import Web from "./Web";
 import Quote from "./Quote";
 import General from "./General";
 import Pricing from "./Pricing";
+import RealEstate from "./RealEstate";
 
 function App() {
   return (
@@ -55,8 +56,11 @@ function App() {
         <Route path="/marketing">
           <Marketings />
         </Route>
-        <Route path="/realestate">
+        <Route path="/realestate" exact>
           <RealEstates />
+        </Route>
+        <Route path="/realestate/:area" exact>
+          <RealEstate />
         </Route>
         <Route path="/it">
           <IT />
