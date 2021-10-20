@@ -49,7 +49,7 @@ function RealEstate() {
   orci ex. Aliquam erat volutpat. Sed ornare id diam quis iaculis. Etiam
   non libero neque. In non ultrices nisi.`;
 
-  const data = {
+  const areaData = {
     rudn: {
       heading: "Rudn Enclave",
       description: lorem,
@@ -116,7 +116,7 @@ function RealEstate() {
 
     const encodedName = encodeURIComponent(name);
     const encodedEmail = encodeURIComponent(email);
-    const encodedCategory = encodeURIComponent(data[area].heading);
+    const encodedCategory = encodeURIComponent(areaData[area].heading);
     const encodedMessage = encodeURIComponent(message);
     const encodedPhone = encodeURIComponent(number);
 
@@ -135,8 +135,8 @@ function RealEstate() {
       <NavBar />
       <img src="/imgs/banner.jpg" alt="banner" />
       <div className="prose-sm md:prose-lg m-10">
-        <h2>{data[area].heading}</h2>
-        <p>{data[area].description}</p>
+        <h2>{areaData[area].heading}</h2>
+        <p>{areaData[area].description}</p>
         <section className="relative">
           <div className="text-lg mt-30 justify-center md:w-1/2 mx-auto px-6 py-12 divide-y md:max-w-4xl">
             <div className="grid">
