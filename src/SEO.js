@@ -1,9 +1,7 @@
-import { useHistory } from "react-router";
 import Footer from "./Footer";
 import NavBar from "./Navbar";
 
 function SEO() {
-  const history = useHistory();
   return (
     <>
       <NavBar />
