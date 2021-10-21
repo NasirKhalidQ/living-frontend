@@ -4,11 +4,7 @@ import Tile from "./Tile";
 
 function RealEstates() {
   const tiles = [
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634384729/sub-categories/investment-management/rudn_hjqqjl.jpg",
-      "Rudn Enclave",
-      "realestate/rudn",
-    ],
+    ["./imgs/rudn.jpg", "Rudn Enclave", "realestate/rudn"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634537133/sub-categories/investment-management/icon_it4t5j.png",
       "Icon Enclave",
@@ -21,16 +17,8 @@ function RealEstates() {
       "realestate/cda",
     ],
 
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634384729/sub-categories/investment-management/mumtaz_lnb73k.jpg",
-      "Mumtaz City",
-      "realestate/mumtaz",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/life_fuji1q.jpg",
-      "Life Residencia",
-      "realestate/life",
-    ],
+    ["./imgs/mumtaz.jpg", "Mumtaz City", "realestate/mumtaz"],
+    ["./imgs/life.jpg", "Life Residencia", "realestate/life"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634384729/sub-categories/investment-management/top-city_hoemkz.jpg",
       "Top City",
@@ -47,11 +35,7 @@ function RealEstates() {
       "Bahria Phase 1-8",
       "realestate/bahria",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/Dha_jea3d2.jpg",
-      "DHA Phase 1-3",
-      "realestate/dha",
-    ],
+    ["./imgs/dha.jpg", "DHA Phase 1-3", "realestate/dha"],
   ];
   return (
     <>
