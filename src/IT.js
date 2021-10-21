@@ -8,7 +8,7 @@ function IT() {
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764317/sub-categories/sub/SEO_ekuiby.jpg",
       "SEO",
-      "#",
+      "seo",
     ],
     ["./imgs/app.jpg", "App Development ", "#"],
 

@@ -13,11 +13,7 @@ function Marketings() {
 
     ["./imgs/videography.jpg", "Video Production", "Video production"],
 
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764315/sub-categories/sub/call_center_solution_krt4zs.jpg",
-      "Telemarketing",
-      "general",
-    ],
+    ["./imgs/telemarketing.jpg", "Telemarketing", "general"],
     ["./imgs/product.jpg", "Product Management  ", "#"],
     ["./imgs/sales.jpg", "Sales Management", "Video production"],
     [

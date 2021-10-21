@@ -21,6 +21,7 @@ import Quote from "./Quote";
 import General from "./General";
 import Pricing from "./Pricing";
 import RealEstate from "./RealEstate";
+import SEO from "./SEO";
 
 function App() {
   return (
@@ -55,6 +56,9 @@ function App() {
         </Route>
         <Route path="/marketing">
           <Marketings />
+        </Route>
+        <Route path="/seo">
+          <SEO />
         </Route>
         <Route path="/realestate" exact>
           <RealEstates />
