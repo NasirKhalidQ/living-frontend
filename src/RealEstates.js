@@ -32,10 +32,10 @@ function RealEstates() {
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/bahria_an7dqf.jpg",
-      "Bahria Phase 1-8",
+      "Bahria Town",
       "realestate/bahria",
     ],
-    ["./imgs/dha.jpg", "DHA Phase 1-3", "realestate/dha"],
+    ["./imgs/dha.jpg", "DHA", "realestate/dha"],
   ];
   return (
     <>

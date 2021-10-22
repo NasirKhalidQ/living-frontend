@@ -3,6 +3,7 @@ import React from "react";
 const Tick = ({ fill }) => {
   return (
     <svg
+      className="min-w-max pr-1"
       width="20"
       height="20"
       viewBox="0 0 20 20"
