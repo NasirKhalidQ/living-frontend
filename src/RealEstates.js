@@ -21,19 +21,24 @@ function RealEstates() {
     ["./imgs/life.jpg", "Life Residencia", "realestate/life"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634384729/sub-categories/investment-management/top-city_hoemkz.jpg",
-      "Top City",
+      "Top City 1 & 2",
       "realestate/top",
     ],
 
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634385025/sub-categories/investment-management/zarar_ukblwz.jpg",
-      "Al-Zarar Heights",
+      "Al-Zarar Heights B-17",
       "realestate/zarar",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/bahria_an7dqf.jpg",
       "Bahria Town",
       "realestate/bahria",
+    ],
+    [
+      "https://gulbergheights.com.pk/wp-content/uploads/elementor/thumbs/gulberg-greens-maps-plots-oy3nzga02n5olz2gwjfp11bsdkwbzcob1hue0tmuls.jpg",
+      "Gulberg Greens Islamabad",
+      "realestate/gulberg",
     ],
     ["./imgs/dha.jpg", "DHA", "realestate/dha"],
   ];

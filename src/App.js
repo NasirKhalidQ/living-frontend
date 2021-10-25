@@ -22,6 +22,8 @@ import General from "./General";
 import Pricing from "./Pricing";
 import RealEstate from "./RealEstate";
 import SEO from "./SEO";
+import Sectors from "./Sectors";
+import Marketing from "./Marketing";
 
 function App() {
   return (
@@ -63,9 +65,9 @@ function App() {
         <Route path="/realestate" exact>
           <RealEstates />
         </Route>
-        <Route path="/realestate/:area" exact>
+        {/* <Route path="/realestate/:area" exact>
           <RealEstate />
-        </Route>
+        </Route> */}
         <Route path="/it">
           <IT />
         </Route>
@@ -88,6 +90,9 @@ function App() {
         </Route>
         <Route path="/category/:id" exact>
           <Category />
+        </Route>
+        <Route path="/:area/:sector" exact>
+          <Sectors />
         </Route>
       </Switch>
     </BrowserRouter>

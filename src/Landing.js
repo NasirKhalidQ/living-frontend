@@ -68,17 +68,9 @@ function Landing() {
     ["./imgs/marketing.jpg", "Marketing and Branding", "marketing"],
 
     ["./imgs/architecture.jpg", "Architectural Design", "#"],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633610120/main-page/Real_Esate_n0cjki.svg",
-      "Investment Management",
-      "realestate",
-    ],
+    ["./imgs/investment.jpg", "Investment Management", "realestate"],
     ["./imgs/construction.jpg", "Civil Construction Services", "#"],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633075702/living-images/insurance_xccutc.png",
-      "General Insurance",
-      "#",
-    ],
+    ["./imgs/insurance.jpg", "General Insurance", "#"],
     ["./imgs/event.jpg", "Event Management", "#"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633610121/main-page/IT_Solutions_wsuotr.svg",

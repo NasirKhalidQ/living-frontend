@@ -45,16 +45,8 @@ function Team() {
       "Khalid Javed",
       "SEO/Content Specialist",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633761073/team-members/sameel_sl56f7.png",
-      "Sameel Atif",
-      "Videographer",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633761072/team-members/ayan_h9whev.png",
-      "Ayan Atif",
-      "Videographer",
-    ],
+    ["./imgs/sameel.png", "Sameel Atif", "Videographer"],
+    ["./imgs/ayan.png", "Ayan Atif", "Videographer"],
   ];
   return (
     <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">

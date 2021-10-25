@@ -6,7 +6,6 @@ function Careers() {
   const history = useHistory();
   const positions = [
     "Sales Executive",
-    "Architect",
     "Sales Executive",
     "Graphic Designer",
     "Web Developer",
@@ -47,23 +46,6 @@ function Careers() {
               </li>
               <hr />
 
-              <li className="flex flex-wrap space-y-2 justify-around md:justify-between">
-                <div className="">
-                  <p className="mb-4">{positions[1]}</p>
-                  <p className="font-normal">
-                    Bahria Town Phase 7, Rawalpindi | Full Time
-                  </p>
-                </div>
-                <div className="">
-                  <button
-                    onClick={() => history.push(`/apply/${positions[1]}`)}
-                    className="px-14 py-3 shadow-md bg-living-red text-sm lg:text-base hover:bg-opacity-80 text-white mt-4 md:mt-0"
-                  >
-                    Apply now
-                  </button>
-                </div>
-              </li>
-              <hr />
               <h3 className="text-lg md:text-xl underline">Drop Your CV</h3>
               <hr />
               <li className="flex flex-wrap space-y-2 justify-around md:justify-between">

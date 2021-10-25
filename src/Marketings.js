@@ -5,11 +5,7 @@ import Tile from "./Tile";
 function Marketings() {
   const tiles = [
     ["./imgs/digital.jpg", "Digital Marketing", "pricing"],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Video_production_ujjk4j.jpg",
-      "Product Photography",
-      "#",
-    ],
+    ["./imgs/product-photography.jpg", "Product Photography", "#"],
 
     ["./imgs/videography.jpg", "Video Production", "Video production"],
 

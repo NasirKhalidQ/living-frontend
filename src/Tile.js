@@ -16,7 +16,7 @@ function Tile({ imgPath, alt, link }) {
         />
         <Link
           to={link}
-          className="text-sm grid justify-center md:text-xl text-living-yellow group-hover:text-living-red font-semibold"
+          className="text-sm grid justify-center md:text-xl text-gray-800 group-hover:text-blue-700 transition duration-1000 ease-in-out font-semibold"
         >
           {alt}
         </Link>

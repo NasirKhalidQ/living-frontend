@@ -19,7 +19,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      Montserrat: ["Montserrat, sans-serif"],
+      Spectral: ["Spectral, sans-serif"],
     },
   },
   plugins: [
