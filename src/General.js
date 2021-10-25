@@ -104,8 +104,8 @@ function General() {
     },
     web: {
       heading: "Web Development",
-      description:
-        "Today everyone understands the potential of website development, now it’s a basic need for any business to stay and bloom in the market, Living Solutions Pvt Ltd has a bunch of passionate and creative team members with an extreme focus on transforming your digital experience. We assure to deliver your vision from scratch to the screen by providing the best Web developers and their services.",
+      description: `Our IT solutions professionals enabling people through technology – one service at a time. Our team takes the time to comprehend clients' requirements by deep study of their business and suggest best solutions with advanced.
+        Today everyone understands the potential of website development, now it’s a basic need for any business to stay and bloom in the market, Living Solutions Pvt Ltd has a bunch of passionate and creative team members with an extreme focus on transforming your digital experience. We assure to deliver your vision from scratch to the screen by providing the best Web developers and their services.`,
       imgSrc: "",
       price: "PKR X,XXX",
       priceDescription: "as per client's requirements",
@@ -171,7 +171,7 @@ function General() {
                 <p className="text-3xl font-bold text-center text-living-header">
                   {categoryData[category].price}
                 </p>
-                <p className="text-xs text-center uppercase text-living-header">
+                <p className="text-xs text-center uppercase whitespace-nowrap text-living-header">
                   {categoryData[category].priceDescription}
                 </p>
               </div>

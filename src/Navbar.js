@@ -1,6 +1,7 @@
 import { Link, useHistory } from "react-router-dom";
 import { useState } from "react";
 import Hamburger from "hamburger-react";
+import { SocialIcon } from "react-social-icons";
 
 function NavBar() {
   const [isOpen, setOpen] = useState(false);
@@ -82,6 +83,38 @@ function NavBar() {
         </ul>
         <div className="absolute px-6 py-4 sm:hidden top-0 right-0 z-10">
           <Hamburger toggled={isOpen} toggle={setOpen} color="white" />
+        </div>
+        <div className="fixed top-1/2 grid grid-flow-row right-2 z-10">
+          <SocialIcon
+            url="https://www.facebook.com/livingsolutionpk"
+            fgColor="white"
+            target="_blank"
+          />
+          <SocialIcon
+            url="https://api.whatsapp.com/send/?phone=923005059740&text&app_absent=0"
+            fgColor="white"
+            target="_blank"
+          />
+          <SocialIcon
+            url="https://twitter.com/pvt_living?t=EiV2w3Mqx5wy_oKLsKZRgw&s=09"
+            fgColor="white"
+            target="_blank"
+          />
+          <SocialIcon
+            url="https://www.youtube.com/channel/UCLF-FxK_37E3CImuzdTJ64g"
+            fgColor="white"
+            target="_blank"
+          />
+          <SocialIcon
+            url="https://www.instagram.com/livingsolutionspk/"
+            fgColor="white"
+            target="_blank"
+          />
+          <SocialIcon
+            url="https://www.linkedin.com/company/living-solution/"
+            fgColor="white"
+            target="_blank"
+          />
         </div>
       </div>
     </>

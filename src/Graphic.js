@@ -30,45 +30,49 @@ function Graphic() {
           </p>
           <div className="flex flex-wrap items-center justify-center py-4 pt-0">
             <div className="w-full p-4 md:w-1/2 lg:w-1/4">
-              <label className="flex flex-col rounded-lg shadow-lg group relative cursor-pointer hover:shadow-2xl">
-                <div className="w-full px-4 pt-10 rounded-t-lg bg-red-100">
-                  <h3 className="mx-auto text-base font-semibold text-center underline text-living-header">
-                    Logo Designing
-                  </h3>
-                  <p className="text-3xl font-bold text-center text-living-header">
-                    PKR 5-7,000
-                  </p>
-                  <p className="text-xs text-center uppercase text-living-header">
-                    per logo
-                  </p>
-                </div>
-                <div className="flex flex-col items-center justify-center w-full h-full py-6 rounded-b-lg bg-red-500">
-                  <button className="w-5/6 py-2 mt-2 font-semibold text-center uppercase bg-white border border-transparent rounded text-red-500">
-                    Get Started
-                  </button>
-                </div>
-              </label>
+              <Link to="/quote">
+                <label className="flex flex-col rounded-lg shadow-lg group relative cursor-pointer hover:shadow-2xl">
+                  <div className="w-full px-4 pt-10 rounded-t-lg bg-red-100">
+                    <h3 className="mx-auto text-base font-semibold text-center underline text-living-header">
+                      Logo Designing
+                    </h3>
+                    <p className="text-3xl font-bold text-center text-living-header">
+                      PKR 5-7,000
+                    </p>
+                    <p className="text-xs text-center uppercase text-living-header">
+                      per logo
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center w-full h-full py-6 rounded-b-lg bg-red-500">
+                    <button className="w-5/6 py-2 mt-2 font-semibold text-center uppercase bg-white border border-transparent rounded text-red-500">
+                      Get Started
+                    </button>
+                  </div>
+                </label>
+              </Link>
             </div>
 
             <div className="w-full p-4 md:w-1/2 lg:w-1/4">
-              <label className="flex flex-col rounded-lg shadow-lg relative cursor-pointer hover:shadow-2xl">
-                <div className="w-full px-4 pt-10 rounded-t-lg bg-red-400">
-                  <h3 className="mx-auto text-base font-semibold text-center underline text-white">
-                    Post Designing
-                  </h3>
-                  <p className="text-3xl font-bold text-center text-white">
-                    PKR 1,500
-                  </p>
-                  <p className="text-xs text-center uppercase text-white">
-                    per post
-                  </p>
-                </div>
-                <div className="flex flex-col items-center justify-center w-full h-full py-6 rounded-b-lg bg-red-700">
-                  <button className="w-5/6 py-2 mt-2 font-semibold text-center uppercase bg-white border border-transparent rounded text-red-500">
-                    Get Started
-                  </button>
-                </div>
-              </label>
+              <Link to="/quote">
+                <label className="flex flex-col rounded-lg shadow-lg relative cursor-pointer hover:shadow-2xl">
+                  <div className="w-full px-4 pt-10 rounded-t-lg bg-red-400">
+                    <h3 className="mx-auto text-base font-semibold text-center underline text-white">
+                      Post Designing
+                    </h3>
+                    <p className="text-3xl font-bold text-center text-white">
+                      PKR 1,500
+                    </p>
+                    <p className="text-xs text-center uppercase text-white">
+                      per post
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center w-full h-full py-6 rounded-b-lg bg-red-700">
+                    <button className="w-5/6 py-2 mt-2 font-semibold text-center uppercase bg-white border border-transparent rounded text-red-500">
+                      Get Started
+                    </button>
+                  </div>
+                </label>
+              </Link>
             </div>
           </div>
         </div>
