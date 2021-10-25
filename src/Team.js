@@ -24,6 +24,7 @@ function Team() {
       "Hamza Shafique",
       "Graphic Designer",
     ],
+    ["/imgs/ahtisham.jpeg", "Ahtisham Sabir", "Project Contractor"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633761370/team-members/nasir_kqozie.jpg",
       "Nasir Khalid",

@@ -99,9 +99,9 @@ function App() {
         <Route path="/category/:id" exact>
           <Category />
         </Route>
-        {/* <Route path="/:area/:sector" exact>
+        <Route path="/realestate/:area" exact>
           <Sectors />
-        </Route> */}
+        </Route>
       </Switch>
     </BrowserRouter>
   );

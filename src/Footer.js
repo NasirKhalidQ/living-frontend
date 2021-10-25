@@ -58,7 +58,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://www.twitter.com"
+            href="https://twitter.com/pvt_living?t=EiV2w3Mqx5wy_oKLsKZRgw&s=09"
             target="_blank"
             className="cursor-pointer hover:text-gray-800 mt-1"
             rel="noreferrer"

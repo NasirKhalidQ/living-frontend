@@ -4,11 +4,11 @@ import Tile from "./Tile";
 
 function RealEstates() {
   const tiles = [
-    ["./imgs/rudn.jpg", "Rudn Enclave", "realestate/rudn"],
+    ["./imgs/rudn.jpg", "Rudn Enclave", "/quote"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634537133/sub-categories/investment-management/icon_it4t5j.png",
       "Icon Enclave",
-      "realestate/icon",
+      "/quote",
     ],
 
     [
@@ -17,18 +17,18 @@ function RealEstates() {
       "realestate/cda",
     ],
 
-    ["./imgs/mumtaz.jpg", "Mumtaz City", "realestate/mumtaz"],
-    ["./imgs/life.jpg", "Life Residencia", "realestate/life"],
+    ["./imgs/mumtaz.jpg", "Mumtaz City", "/quote"],
+    ["./imgs/life.jpg", "Life Residencia", "/quote"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634384729/sub-categories/investment-management/top-city_hoemkz.jpg",
       "Top City 1 & 2",
-      "realestate/top",
+      "/quote",
     ],
 
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634385025/sub-categories/investment-management/zarar_ukblwz.jpg",
       "Al-Zarar Heights B-17",
-      "realestate/zarar",
+      "/quote",
     ],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/bahria_an7dqf.jpg",
@@ -38,7 +38,7 @@ function RealEstates() {
     [
       "https://gulbergheights.com.pk/wp-content/uploads/elementor/thumbs/gulberg-greens-maps-plots-oy3nzga02n5olz2gwjfp11bsdkwbzcob1hue0tmuls.jpg",
       "Gulberg Greens Islamabad",
-      "realestate/gulberg",
+      "/quote",
     ],
     ["./imgs/dha.jpg", "DHA", "realestate/dha"],
   ];
