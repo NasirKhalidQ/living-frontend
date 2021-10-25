@@ -24,6 +24,8 @@ import RealEstate from "./RealEstate";
 import SEO from "./SEO";
 import Sectors from "./Sectors";
 import Marketing from "./Marketing";
+import Social from "./Social";
+import Graphic from "./Graphic";
 
 function App() {
   return (
@@ -32,34 +34,40 @@ function App() {
         <Route exact path="/">
           <Landing />
         </Route>
-        <Route path="/contact">
+        <Route exact path="/contact">
           <Contact />
         </Route>
-        <Route path="/quote">
+        <Route exact path="/quote">
           <Quote />
         </Route>
-        <Route path="/careers">
+        <Route exact path="/careers">
           <Careers />
         </Route>
         <Route path="/apply/:position" exact>
           <Apply />
         </Route>
-        <Route path="/services">
+        <Route exact path="/services">
           <Services />
         </Route>
-        <Route path="/blog">
+        <Route exact path="/blog">
           <Blog />
         </Route>
-        <Route path="/general">
+        <Route exact path="/services/:category">
           <General />
         </Route>
-        <Route path="/pricing">
+        <Route exact path="/social">
+          <Social />
+        </Route>
+        <Route exact path="/graphic">
+          <Graphic />
+        </Route>
+        <Route exact path="/pricing">
           <Pricing />
         </Route>
-        <Route path="/marketing">
+        <Route exact path="/marketing">
           <Marketings />
         </Route>
-        <Route path="/seo">
+        <Route exact path="/seo">
           <SEO />
         </Route>
         <Route path="/realestate" exact>
@@ -68,16 +76,16 @@ function App() {
         {/* <Route path="/realestate/:area" exact>
           <RealEstate />
         </Route> */}
-        <Route path="/it">
+        <Route exact path="/it">
           <IT />
         </Route>
-        <Route path="/clients">
+        <Route exact path="/clients">
           <Clients />
         </Route>
-        <Route path="/web">
+        <Route exact path="/web">
           <Web />
         </Route>
-        <Route path="/about">
+        <Route exact path="/about">
           <About />
         </Route>
         <Route path="/articles" exact>
@@ -91,9 +99,9 @@ function App() {
         <Route path="/category/:id" exact>
           <Category />
         </Route>
-        <Route path="/:area/:sector" exact>
+        {/* <Route path="/:area/:sector" exact>
           <Sectors />
-        </Route>
+        </Route> */}
       </Switch>
     </BrowserRouter>
   );

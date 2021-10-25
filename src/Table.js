@@ -4,7 +4,7 @@ function Table() {
   return (
     <div className="container flex flex-wrap pt-4 pb-10 m-auto mt-6 md:mt-15 lg:px-12 xl:px-16">
       <div className="w-full px-0 lg:px-4">
-        <h2 className="px-12 font-bold text-center text-xl md:text-2xl text-living-red">
+        <h2 className="px-12 font-bold text-center text-xl md:text-4xl text-living-red">
           Choose your plan
         </h2>
         <p className="py-1 text-sm text-center text-living-red mb-10">
@@ -95,9 +95,9 @@ function Table() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center w-full h-full py-6 rounded-b-lg bg-red-700">
-                <p className="text-xl text-white">3 months</p>
+                <p className="text-xl text-white">1 month</p>
                 <button className="w-5/6 py-2 mt-2 font-semibold text-center uppercase bg-white border border-transparent rounded text-red-500">
-                  Save 15%
+                  Get Started
                 </button>
               </div>
             </label>
@@ -143,15 +143,15 @@ function Table() {
                     </p>
                   </div>
                   <div className="inline-flex">
-                    <Tick fill="#B91C1C" />
+                    <Tick fill="#EF4444" />
                     <p> Marketing Research</p>
                   </div>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center w-full h-full py-6 rounded-b-lg bg-red-500">
-                <p className="text-xl text-white">6 months</p>
+                <p className="text-xl text-white">1 month</p>
                 <button className="w-5/6 py-2 mt-2 font-semibold text-center uppercase bg-white border border-transparent rounded text-red-500">
-                  Save 25%
+                  Get Started
                 </button>
               </div>
             </label>
@@ -213,9 +213,9 @@ function Table() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center w-full h-full py-6 rounded-b-lg bg-red-700">
-                <p className="text-xl text-white">3 months</p>
+                <p className="text-xl text-white">1 month</p>
                 <button className="w-5/6 py-2 mt-2 font-semibold text-center uppercase bg-white border border-transparent rounded text-red-500">
-                  Save 15%
+                  Get Started
                 </button>
               </div>
             </label>

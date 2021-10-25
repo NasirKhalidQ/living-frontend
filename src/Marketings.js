@@ -5,17 +5,25 @@ import Tile from "./Tile";
 function Marketings() {
   const tiles = [
     ["./imgs/digital.jpg", "Digital Marketing", "pricing"],
-    ["./imgs/product-photography.jpg", "Product Photography", "#"],
+    [
+      "./imgs/product-photography.jpg",
+      "Product Photography",
+      "/services/productPhotography",
+    ],
 
-    ["./imgs/videography.jpg", "Video Production", "Video production"],
+    ["./imgs/videography.jpg", "Video Production", "/services/videoProduction"],
 
-    ["./imgs/telemarketing.jpg", "Telemarketing", "general"],
-    ["./imgs/product.jpg", "Product Management  ", "#"],
-    ["./imgs/sales.jpg", "Sales Management", "Video production"],
+    ["./imgs/telemarketing.jpg", "Telemarketing", "/services/telemarketing"],
+    [
+      "./imgs/product.jpg",
+      "Product Management  ",
+      "/services/productManagement",
+    ],
+    ["./imgs/sales.jpg", "Sales Management", "/services/salesManagement"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Graphic_Design_wukbui.jpg",
       "Graphic Design",
-      "#",
+      "/graphic",
     ],
   ];
   return (
