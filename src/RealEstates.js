@@ -11,35 +11,15 @@ function RealEstates() {
       "/quote",
     ],
 
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/D12_hcphas.jpg",
-      "CDA Sectors",
-      "realestate/cda",
-    ],
+    ["./imgs/cda.jpg", "CDA Sectors", "realestate/cda"],
 
     ["./imgs/mumtaz.jpg", "Mumtaz City", "/quote"],
     ["./imgs/life.jpg", "Life Residencia", "/quote"],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634384729/sub-categories/investment-management/top-city_hoemkz.jpg",
-      "Top City 1 & 2",
-      "/quote",
-    ],
+    ["/imgs/top.jpg", "Top City 1 & 2", "/quote"],
 
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634385025/sub-categories/investment-management/zarar_ukblwz.jpg",
-      "Al-Zarar Heights B-17",
-      "/quote",
-    ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/bahria_an7dqf.jpg",
-      "Bahria Town",
-      "realestate/bahria",
-    ],
-    [
-      "https://gulbergheights.com.pk/wp-content/uploads/elementor/thumbs/gulberg-greens-maps-plots-oy3nzga02n5olz2gwjfp11bsdkwbzcob1hue0tmuls.jpg",
-      "Gulberg Greens Islamabad",
-      "/quote",
-    ],
+    ["/imgs/zarar.jpg", "Al-Zarar Heights B-17", "/quote"],
+    ["/imgs/bahria.jpg", "Bahria Town", "realestate/bahria"],
+    ["/imgs/gulberg.jpg", "Gulberg Greens Islamabad", "/quote"],
     ["./imgs/dha.jpg", "DHA", "realestate/dha"],
   ];
   return (

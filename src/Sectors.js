@@ -39,8 +39,7 @@ function Sectors() {
     top: {
       heading: "Top City 1 & 2",
       sectors: [],
-      imgSrc:
-        "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/D12_hcphas.jpg",
+      imgSrc: "/imgs/top.jpeg",
     },
     zarar: {
       heading: "Al-Zarar Heights B-17",
