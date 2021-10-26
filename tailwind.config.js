@@ -9,7 +9,7 @@ module.exports = {
         "living-yellow": "#F69921",
         "living-red": "#EB3728",
         "living-contrast": "#2c2d2f",
-        "living-background": "#f0f2f3",
+        "living-background": "#c0c2c2",
         "living-brown": "#523d3c",
         "living-c1-header": "#fefbe9",
         "living-c1-background": "#e1eedd",

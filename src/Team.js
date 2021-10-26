@@ -62,7 +62,7 @@ function Team() {
       "./imgs/khalid.jpg",
       "Khalid Javed",
       "SEO/Content Specialist",
-      "I’m an MBA finance & BBA (Hons) graduate in Management. Multitalented with 13 years of experience in the Finance and IT sector, working as a Certified Content writer from 2013.",
+      "I’m an MBA finance & BBA (Hons) graduate in Management. Multitalented with 13 years of experience in the Finance and IT sector, working as a Certified Content writer and SEO consultant from 2013.",
     ],
     ["./imgs/sameel.png", "Sameel Atif", "Videographer"],
     ["./imgs/ayan.png", "Ayan Atif", "Videographer", ""],

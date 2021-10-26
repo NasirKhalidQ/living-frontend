@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <NavBar />
-      <section className="bg-about">
+      <section>
         <Team />
         <Footer />
       </section>
