@@ -159,14 +159,14 @@ function Landing() {
           <Client key={index} imgPath={client[0]} alt={client[1]} />
         ))}
       </div>
-      <div className="flex pl-10 md:pl-0 flex-col md:flex-row md:justify-around pt-2 pb-2 bg-living-header text-gray-50 border-t-2 border-white gap-y-6">
+      <div className="flex pl-10 md:pl-0 flex-col md:flex-row md:justify-around pt-2 pb-2 bg-living-contrast text-gray-50 border-t-2 border-white gap-y-6">
         <div className="text-2xl inline-flex">
           <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
             <img className="p-2" src="./imgs/stats/chart.svg" alt="Chart" />
           </div>
           <div className="flex-col ml-4 mt-2">
             <div className="inline-flex text-base md:text-xl">
-              <CountUp end={100} duration={2} />
+              <CountUp end={400} duration={6} />
               <p>+</p>
             </div>
 
@@ -194,7 +194,7 @@ function Landing() {
               <CountUp end={400} duration={6} />
               <p>+</p>
             </div>
-            <p className="text-base text-gray-400">Happy Customers</p>
+            <p className="text-base text-gray-400">Happy Clients</p>
           </div>
         </div>
         <div className="text-2xl inline-flex">

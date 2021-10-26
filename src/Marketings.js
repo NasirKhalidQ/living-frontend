@@ -23,7 +23,7 @@ function Marketings() {
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Graphic_Design_wukbui.jpg",
       "Graphic Design",
-      "/graphic",
+      "services/graphic",
     ],
   ];
   return (

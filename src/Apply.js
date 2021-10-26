@@ -67,7 +67,7 @@ function Apply() {
                 </span>
               </label>
               <label className="block w-full">
-                <p className=" text-gray-400 text-sm">
+                <p className=" text-gray-800 text-sm">
                   Please fill out the form below and we will review your
                   application.
                 </p>

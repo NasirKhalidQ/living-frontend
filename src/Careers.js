@@ -15,7 +15,7 @@ function Careers() {
   return (
     <>
       <NavBar />
-      <div className="pb-10 lg:pb-40 pt-10 lg:pt-20 bg-blue-50">
+      <div className="pb-10 lg:pb-40 pt-10 lg:pt-20">
         <div className="space-y-8 mx-8 md:mx-40 lg:mx-72 border-living-header border-2 rounded-xl bg-white font-base lg:font-semibold">
           <div className="grid space-y-8 ml-4 lg:ml-14 mr-4 lg:mr-14">
             <h2 className="text-xl md:text-3xl text-center pt-10 lg:font-bold text-living-red">
@@ -32,7 +32,7 @@ function Careers() {
                 <div className="">
                   <p className="mb-4">{positions[0]}</p>
                   <p className="font-normal">
-                    Bahria Town Phase 7, Rawalpindi | Full Time
+                    Wallayat Complex, Rawalpindi | Full Time
                   </p>
                 </div>
                 <div className="">
@@ -52,7 +52,7 @@ function Careers() {
                 <div className="">
                   <p className="mb-4">{positions[2]}</p>
                   <p className="font-normal">
-                    Bahria Town Phase 7, Rawalpindi | Full Time
+                    Wallayat Complex, Rawalpindi | Full Time
                   </p>
                 </div>
                 <div className="">
@@ -69,7 +69,7 @@ function Careers() {
                 <div className="">
                   <p className="mb-4">{positions[3]}</p>
                   <p className="font-normal">
-                    Bahria Town Phase 7, Rawalpindi | Full Time
+                    Wallayat Complex, Rawalpindi | Full Time
                   </p>
                 </div>
                 <div className="">
@@ -86,7 +86,7 @@ function Careers() {
                 <div className="">
                   <p className="mb-4">{positions[4]}</p>
                   <p className="font-normal">
-                    Bahria Town Phase 7, Rawalpindi | Full Time
+                    Wallayat Complex, Rawalpindi | Full Time
                   </p>
                 </div>
                 <div className="">
@@ -103,7 +103,7 @@ function Careers() {
                 <div className="">
                   <p className="mb-4">{positions[5]}</p>
                   <p className="font-normal">
-                    Bahria Town Phase 7, Rawalpindi | Full Time
+                    Wallayat Complex, Rawalpindi | Full Time
                   </p>
                 </div>
                 <div className="">

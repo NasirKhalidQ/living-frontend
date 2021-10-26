@@ -50,10 +50,10 @@ function Sectors() {
     bahria: {
       heading: "Bahria Town",
       sectors: [
-        "Bahria Town Islamabad",
-        "Bahria Town Peshawar",
-        "Bahria Town Karachi",
+        "Bahria Enclave Islamabad",
         "Bahria Town Lahore",
+        "Bahria Town Karachi",
+        "Bahria Town Peshawar",
       ],
       imgSrc:
         "https://res.cloudinary.com/living-solutions/image/upload/v1634384728/sub-categories/investment-management/D12_hcphas.jpg",
@@ -61,13 +61,13 @@ function Sectors() {
     dha: {
       heading: "DHA",
       sectors: [
-        "DHA Islamabad Phase 1-5",
-        "DHA Lahore Phase 1-12",
-        "DHA Quetta",
-        "DHA Bhawalpur",
+        "DHA Islamabad",
+        "DHA Lahore",
         "DHA Multan",
         "DHA Karachi",
+        "DHA Quetta",
         "DHA Peshawar",
+        "DHA Bahawalpur",
         "DHA Hyderabad",
         "DHA Gujranwala",
       ],

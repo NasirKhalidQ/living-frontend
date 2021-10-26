@@ -15,7 +15,7 @@ function RealEstates() {
 
     ["./imgs/mumtaz.jpg", "Mumtaz City", "/quote"],
     ["./imgs/life.jpg", "Life Residencia", "/quote"],
-    ["/imgs/top.jpg", "Top City 1 & 2", "/quote"],
+    ["/imgs/multi.jpg", "Multi Gardens B17", "/quote"],
 
     ["/imgs/zarar.jpg", "Al-Zarar Heights B-17", "/quote"],
     ["/imgs/bahria.jpg", "Bahria Town", "realestate/bahria"],

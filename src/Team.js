@@ -18,7 +18,7 @@ function Team() {
       "Chief Operating Officer",
     ],
     ["./imgs/gibran.jpg", "Gibran Bin Tahir", "Business Development Manager"],
-    ["./imgs/safa.jpeg", "Safa Khalid", "HR Executive"],
+    ["./imgs/safa.jpg", "Safa Khalid", "HR Executive"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633778086/team-members/hamza_hcdoms.jpg",
       "Hamza Shafique",
@@ -41,11 +41,7 @@ function Team() {
       "Hiba Nasir",
       "Graphic Designer",
     ],
-    [
-      "https://res.cloudinary.com/living-solutions/image/upload/v1633761072/team-members/khalid_zwuwie.jpg",
-      "Khalid Javed",
-      "SEO/Content Specialist",
-    ],
+    ["./imgs/khalid.jpg", "Khalid Javed", "SEO/Content Specialist"],
     ["./imgs/sameel.png", "Sameel Atif", "Videographer"],
     ["./imgs/ayan.png", "Ayan Atif", "Videographer"],
   ];

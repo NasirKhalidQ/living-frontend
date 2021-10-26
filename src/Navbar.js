@@ -40,7 +40,7 @@ function NavBar() {
         </nav>
       )}
 
-      <div className="flex cursor-default bg-living-header border-b-2 border-living-yellow pl-0 md:px-12">
+      <div className="flex cursor-default bg-living-contrast border-b-2 border-living-yellow pl-0 md:px-12">
         <div className="">
           <Link to="/">
             <img
@@ -50,7 +50,7 @@ function NavBar() {
             />
           </Link>
         </div>
-        <ul className="hidden sm:flex flex-auto justify-end items-center gap-12 text-white uppercase text-sm">
+        <ul className="hidden sm:flex flex-auto justify-end items-center gap-12 text-gray-50 uppercase text-sm">
           <li className="hover:text-living-red transition duration-500 ease-in-out">
             <Link to="/">Home</Link>
           </li>

@@ -122,11 +122,12 @@ function Quote() {
                   </select>
                 </label>
                 <label className="block">
-                  <span className="text-accusoft-white">Your Query</span>
+                  <span className="text-accusoft-white">Your Query *</span>
                   <textarea
                     {...register("message")}
                     type="text"
                     id="message"
+                    required="true"
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring-1 focus:ring-indigo-200 focus:ring-opacity-50"
                     rows="6"
                   ></textarea>

@@ -8,6 +8,15 @@ module.exports = {
         "living-header": "#054f6A",
         "living-yellow": "#F69921",
         "living-red": "#EB3728",
+        "living-contrast": "#2c2d2f",
+        "living-background": "#f0f2f3",
+        "living-brown": "#523d3c",
+        "living-c1-header": "#fefbe9",
+        "living-c1-background": "#e1eedd",
+        "living-c2-header": "#2b6777",
+        "living-c2-background": "#c8d8e4",
+        "living-c3-header": "#ef9273",
+        "living-c3-background": "#fef9f8",
       },
       backgroundImage: {
         about:

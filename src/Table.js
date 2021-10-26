@@ -13,7 +13,7 @@ function Table() {
         <div className="flex flex-wrap items-center justify-center py-4 pt-0">
           <div className="w-full p-4 md:w-1/2 lg:w-1/4 plan-card">
             <label className="flex flex-col rounded-lg shadow-lg group relative cursor-pointer hover:shadow-2xl">
-              <div className="w-full px-4 py-10 rounded-t-lg card-section-1 bg-red-100">
+              <div className="w-full px-4 pt-10 rounded-t-lg card-section-1 bg-red-100">
                 <h3 className="mx-auto text-base font-semibold text-center underline text-living-header">
                   Bronze
                 </h3>
@@ -23,7 +23,7 @@ function Table() {
                 <p className="text-xs text-center uppercase text-living-header">
                   monthly
                 </p>
-                <div className="grid gap-y-2 text-living-header mt-10 mb-72">
+                <div className="grid gap-y-2 text-living-header mt-10 mb-52">
                   <div className="inline-flex">
                     <Tick fill="#EF4444" />
                     <p> Logo design--1 option</p>
@@ -34,7 +34,7 @@ function Table() {
                   </div>
                   <div className="inline-flex">
                     <Tick fill="#EF4444" />
-                    <p> Daily posting(Fb,Insta, Twitter)</p>
+                    <p> Daily posting (Facebook,Instagram, Twitter)</p>
                   </div>
                 </div>
               </div>
@@ -66,11 +66,7 @@ function Table() {
                   </div>
                   <div className="inline-flex">
                     <Tick fill="#B91C1C" />
-                    <p>Annual Audience Reach(Fb, Insta)--200k</p>
-                  </div>
-                  <div className="inline-flex">
-                    <Tick fill="#B91C1C" />
-                    <p> Videos(Fb, Insta, Twitter)--once</p>
+                    <p> Videos(Facebook, Instagram, Twitter)--one video</p>
                   </div>
                   <div className="inline-flex">
                     <Tick fill="#B91C1C" />
@@ -86,7 +82,7 @@ function Table() {
                   </div>
                   <div className="inline-flex">
                     <Tick fill="#B91C1C" />
-                    <p> 24/7 Based Support Daily Boosts--200PKR</p>
+                    <p>Daily Boosts--200PKR</p>
                   </div>
                   <div className="inline-flex">
                     <Tick fill="#B91C1C" />
@@ -122,11 +118,7 @@ function Table() {
                   </div>
                   <div className="inline-flex">
                     <Tick fill="#EF4444" />
-                    <p>Annual Audience Reach(Fb, Insta)--300k</p>
-                  </div>
-                  <div className="inline-flex">
-                    <Tick fill="#EF4444" />
-                    <p> Videos(Fb, Insta, Twitter)--monthly</p>
+                    <p> Videos(Facebook, Instagram, Twitter)--once a month</p>
                   </div>
                   <div className="inline-flex">
                     <Tick fill="#EF4444" />
@@ -134,7 +126,7 @@ function Table() {
                   </div>
                   <div className="inline-flex">
                     <Tick fill="#EF4444" />
-                    <p> 24/7 Based Support Daily Boosts--300PKR</p>
+                    <p>Daily Boosts--300PKR</p>
                   </div>
                   <div className="inline-flex">
                     <Tick fill="#EF4444" />
@@ -176,11 +168,7 @@ function Table() {
                   </div>
                   <div className="inline-flex">
                     <Tick fill="#B91C1C" />
-                    <p>Annual Audience Reach(Fb, Insta)--400k</p>
-                  </div>
-                  <div className="inline-flex">
-                    <Tick fill="#B91C1C" />
-                    <p> Videos(Fb, Insta, Twitter)--weekly</p>
+                    <p> Videos(Facebook, Instagram, Twitter)--once a week</p>
                   </div>
                   <div className="inline-flex">
                     <Tick fill="#B91C1C" />
@@ -200,7 +188,7 @@ function Table() {
                   </div>
                   <div className="inline-flex">
                     <Tick fill="#B91C1C" />
-                    <p> 24/7 Based Support Daily Boosts--500PKR</p>
+                    <p> Daily Boosts--500PKR</p>
                   </div>
                   <div className="inline-flex">
                     <Tick fill="#B91C1C" />
