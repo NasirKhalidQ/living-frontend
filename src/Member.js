@@ -1,4 +1,4 @@
-function Member({ name, designation, image }) {
+function Member({ name, designation, image, intro }) {
   return (
     <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
       <div className="mb-8">
@@ -11,6 +11,7 @@ function Member({ name, designation, image }) {
       <div className="text-center">
         <p className="text-xl text-gray-700 font-bold mb-2">{name}</p>
         <p className="text-base text-gray-400 font-normal">{designation}</p>
+        <p className="text-sm text-center pt-1">{intro}</p>
       </div>
     </div>
   );

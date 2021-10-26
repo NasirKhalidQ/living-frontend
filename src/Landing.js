@@ -4,6 +4,7 @@ import Tile from "./Tile";
 import CountUp from "react-countup";
 import Client from "./Client";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function Landing() {
   const clients = [
@@ -96,6 +97,16 @@ function Landing() {
   ];
   return (
     <>
+      <Helmet>
+        <title>
+          Living Solutions Pakistan - The best Real Estate and Marketing agency
+          in Islamabad!
+        </title>
+        <meta
+          name="description"
+          content="Living Solutions Pakistan - The best Real Estate and Marketing agency in Islamabad!"
+        />
+      </Helmet>
       <NavBar />
       <div className="grid ">
         <img className="w-screen" src="./imgs/title.jpg" alt="main" />
