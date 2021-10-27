@@ -11,14 +11,14 @@ function Marketings() {
       "/services/productPhotography",
     ],
 
-    ["./imgs/videography.jpg", "Video Production", "/services/videoProduction"],
+    [
+      "./imgs/video-production.jpg",
+      "Video Production",
+      "/services/videoProduction",
+    ],
 
     ["./imgs/telemarketing.jpg", "Telemarketing", "/services/telemarketing"],
-    [
-      "./imgs/product.jpg",
-      "Product Management  ",
-      "/services/productManagement",
-    ],
+    ["./imgs/product.jpg", "Product Management", "/services/productManagement"],
     ["./imgs/sales.jpg", "Sales Management", "/services/salesManagement"],
     [
       "https://res.cloudinary.com/living-solutions/image/upload/v1633764316/sub-categories/sub/Graphic_Design_wukbui.jpg",

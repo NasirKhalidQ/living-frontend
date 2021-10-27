@@ -97,17 +97,23 @@ function Landing() {
   ];
   return (
     <>
+      <NavBar />
       <Helmet>
         <title>
           Living Solutions Pakistan - The best Real Estate and Marketing agency
           in Islamabad!
         </title>
         <meta
-          name="description"
-          content="Living Solutions Pakistan - The best Real Estate and Marketing agency in Islamabad!"
+          name="keywords"
+          content="hello i am a tag"
+          data-react-helmet="true"
         />
+        {/* <meta
+          property="og:image"
+          itemprop="image"
+          content="https://res.cloudinary.com/living-solutions/image/upload/v1633598546/clients/isha_xcds8u.svg"
+        /> */}
       </Helmet>
-      <NavBar />
       <div className="grid ">
         <img className="w-screen" src="./imgs/title.jpg" alt="main" />
         <div>
