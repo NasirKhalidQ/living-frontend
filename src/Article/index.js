@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import Query from "../components/Query";
 import Moment from "react-moment";
@@ -37,10 +37,11 @@ const Article = () => {
                       alt="Avatar of Author"
                     />
                     <p>By: {articles[0].author.name}</p>
+                    <p>{articles[0].author.description}</p>
                   </div>
                   <p>
                     <Moment format="MMM Do YYYY">
-                      {articles[0].published_at}
+                      {articles[0].created_at}
                     </Moment>
                   </p>
                 </div>

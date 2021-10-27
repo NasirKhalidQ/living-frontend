@@ -16,7 +16,7 @@ function Footer() {
           </h3>
 
           <a
-            className="cursor-pointer hover:text-gray-800"
+            className="cursor-pointer hover:text-living-red"
             href="https://www.facebook.com/livingsolutionpk"
             target="_blank"
             rel="noreferrer"
@@ -32,7 +32,7 @@ function Footer() {
             </svg>
           </a>
           <a
-            className="cursor-pointer hover:text-gray-800"
+            className="cursor-pointer hover:text-living-red"
             href="https://api.whatsapp.com/send/?phone=923005059740&text&app_absent=0"
             target="_blank"
             rel="noreferrer"
@@ -55,7 +55,7 @@ function Footer() {
           <a
             href="https://twitter.com/pvt_living?t=EiV2w3Mqx5wy_oKLsKZRgw&s=09"
             target="_blank"
-            className="cursor-pointer hover:text-gray-800 mt-1"
+            className="cursor-pointer hover:text-living-red mt-1"
             rel="noreferrer"
           >
             <svg
@@ -72,7 +72,7 @@ function Footer() {
           <a
             href="https://www.youtube.com/channel/UCLF-FxK_37E3CImuzdTJ64g"
             target="_blank"
-            className="cursor-pointer hover:text-gray-800"
+            className="cursor-pointer hover:text-living-red"
             rel="noreferrer"
           >
             <svg
@@ -88,7 +88,7 @@ function Footer() {
           <a
             href="https://www.instagram.com/livingsolutionspk/"
             target="_blank"
-            className="cursor-pointer hover:text-gray-800 mt-0.5"
+            className="cursor-pointer hover:text-living-red mt-0.5"
             rel="noreferrer"
           >
             <svg
@@ -104,7 +104,7 @@ function Footer() {
           <a
             href="https://www.linkedin.com/company/living-solution/"
             target="_blank"
-            className="cursor-pointer hover:text-gray-800"
+            className="cursor-pointer hover:text-living-red"
             rel="noreferrer"
           >
             <svg

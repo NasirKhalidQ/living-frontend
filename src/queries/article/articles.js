@@ -5,6 +5,7 @@ const ARTICLES_QUERY = gql`
     articles(sort: "id:desc", start: $start, limit: $limit) {
       slug
       title
+      created_at
       description
       author {
         name
