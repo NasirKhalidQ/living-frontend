@@ -1,4 +1,5 @@
 import React from "react";
+import Moment from "react-moment";
 import { Link } from "react-router-dom";
 
 const Card = ({ article }) => {
@@ -31,9 +32,10 @@ const Card = ({ article }) => {
               alt="Avatar of Author"
             />
           </div>
-          <p className="w-full text-gray-600 text-xs md:text-sm px-6">
+          <p className="w-full text-gray-600 text-xs md:text-sm px-6 pb-4">
             {article.author.name}
           </p>
+          <Moment format="MMM Do YYYY">{article.created_at}</Moment>
         </div>
       </div>
     </Link>
