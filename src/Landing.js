@@ -4,7 +4,7 @@ import Tile from "./Tile";
 import CountUp from "react-countup";
 import Client from "./Client";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 function Landing() {
   const clients = [
@@ -97,158 +97,157 @@ function Landing() {
   ];
   return (
     <>
-      <NavBar />
-      <Helmet>
-        <title>
-          Living Solutions Pakistan - The best Real Estate and Marketing agency
-          in Islamabad!
-        </title>
-        <meta
-          name="keywords"
-          content="hello i am a tag"
-          data-react-helmet="true"
-        />
-        {/* <meta
+      <HelmetProvider>
+        <NavBar />
+        <Helmet>
+          <title>
+            Living Solutions Pakistan - The best Real Estate and Marketing
+            agency in Islamabad!
+          </title>
+          <meta name="description" content="hello i am a tag" />
+          <meta name="title" content="hello hello" />
+
+          {/* <meta
           property="og:image"
           itemprop="image"
           content="https://res.cloudinary.com/living-solutions/image/upload/v1633598546/clients/isha_xcds8u.svg"
         /> */}
-      </Helmet>
-      <div className="grid ">
-        <img className="w-screen" src="./imgs/title.jpg" alt="main" />
-        <div>
-          <div className="mx-6 grid gap-6 text-justify">
-            <h2 className="text-base md:text-4xl font-bold text-living-red mt-4 uppercase">
-              Delivering Excellence
-            </h2>
-            <h2 className="text-base md:text-2xl font-bold text-living-red">
-              What We Do
-            </h2>
-            <h3 className="text-base md:text-xl font-bold">
-              We are here to manage Quality Consulting Services and Investment
-              Plan
-            </h3>
-            <p className="text-base">
-              Getting solutions for business or individual investments with the
-              right path and experience is essential in this challenging
-              business environment. It is very important to have the right
-              decision at the right time with the right team. To get the best
-              result you need a full team of experienced professionals to
-              provide you with the right solutions, to calibrate with new
-              challenges. It is essential to work diversely by covering all
-              dimensions to compete in this global village. Today we have more
-              competition and a complex business environment than ever before.
-              To take care of these challenges, LIVING SOLUTIONS is one stop
-              solution for your product.
-            </p>
-            <p>
-              Providing solutions under one roof is our prime target, we have a
-              very experienced professional team in LIVING SOLUTIONS.
-            </p>
+        </Helmet>
+        <div className="grid ">
+          <img className="w-screen" src="./imgs/title.jpg" alt="main" />
+          <div>
+            <div className="mx-6 grid gap-6 text-justify">
+              <h2 className="text-base md:text-4xl font-bold text-living-red mt-4 uppercase">
+                Delivering Excellence
+              </h2>
+              <h2 className="text-base md:text-2xl font-bold text-living-red">
+                What We Do
+              </h2>
+              <h3 className="text-base md:text-xl font-bold">
+                We are here to manage Quality Consulting Services and Investment
+                Plan
+              </h3>
+              <p className="text-base">
+                Getting solutions for business or individual investments with
+                the right path and experience is essential in this challenging
+                business environment. It is very important to have the right
+                decision at the right time with the right team. To get the best
+                result you need a full team of experienced professionals to
+                provide you with the right solutions, to calibrate with new
+                challenges. It is essential to work diversely by covering all
+                dimensions to compete in this global village. Today we have more
+                competition and a complex business environment than ever before.
+                To take care of these challenges, LIVING SOLUTIONS is one stop
+                solution for your product.
+              </p>
+              <p>
+                Providing solutions under one roof is our prime target, we have
+                a very experienced professional team in LIVING SOLUTIONS.
+              </p>
 
-            <p>
-              We deliver an expert business approach to both individuals and
-              businesses with more than 10 years of experience. We will ensure
-              that you always get the best guidance from the top people in the
-              entire industry. Our professionals have spent years collecting
-              practical &amp; pragmatic tools, techniques, and models.
-            </p>
+              <p>
+                We deliver an expert business approach to both individuals and
+                businesses with more than 10 years of experience. We will ensure
+                that you always get the best guidance from the top people in the
+                entire industry. Our professionals have spent years collecting
+                practical &amp; pragmatic tools, techniques, and models.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <Link to="/services">
-        <h2 className="grid w-full justify-center pt-4 text-base md:text-2xl font-bold text-living-red underline">
-          Our Services
-        </h2>
-      </Link>
-      <div className="grid grid-cols-2 md:grid-cols-3 pb-16 gap-x-6 md:gap-x-16 gap-y-4 md:gap-y-10 px-6 text-xs pt-6 lg:text-xl">
-        {tiles.map((tile, index) => (
-          <Tile key={index} imgPath={tile[0]} alt={tile[1]} link={tile[2]} />
-        ))}
-      </div>
-      <Link to="/clients">
-        <h3 className="text-base md:text-2xl font-bold text-center mb-4 md:mb-16 text-living-red underline">
-          Portfolio
-        </h3>
-      </Link>
-      <div className="grid grid-cols-4 md:grid-cols-6 text-xs lg:text-xl gap-4 mx-6 mb-4 md:mb-10">
-        {clients.map((client, index) => (
-          <Client key={index} imgPath={client[0]} alt={client[1]} />
-        ))}
-      </div>
-      <div className="flex pl-10 md:pl-0 flex-col md:flex-row md:justify-around pt-2 pb-2 bg-living-contrast text-gray-50 border-t-2 border-white gap-y-6">
-        <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
-            <img className="p-2" src="./imgs/stats/chart.svg" alt="Chart" />
-          </div>
-          <div className="flex-col ml-4 mt-2">
-            <div className="inline-flex text-base md:text-xl">
-              <CountUp end={400} duration={6} />
-              <p>+</p>
+        <Link to="/services">
+          <h2 className="grid w-full justify-center pt-4 text-base md:text-2xl font-bold text-living-red underline">
+            Our Services
+          </h2>
+        </Link>
+        <div className="grid grid-cols-2 md:grid-cols-3 pb-16 gap-x-6 md:gap-x-16 gap-y-4 md:gap-y-10 px-6 text-xs pt-6 lg:text-xl">
+          {tiles.map((tile, index) => (
+            <Tile key={index} imgPath={tile[0]} alt={tile[1]} link={tile[2]} />
+          ))}
+        </div>
+        <Link to="/clients">
+          <h3 className="text-base md:text-2xl font-bold text-center mb-4 md:mb-16 text-living-red underline">
+            Portfolio
+          </h3>
+        </Link>
+        <div className="grid grid-cols-4 md:grid-cols-6 text-xs lg:text-xl gap-4 mx-6 mb-4 md:mb-10">
+          {clients.map((client, index) => (
+            <Client key={index} imgPath={client[0]} alt={client[1]} />
+          ))}
+        </div>
+        <div className="flex pl-10 md:pl-0 flex-col md:flex-row md:justify-around pt-2 pb-2 bg-living-contrast text-gray-50 border-t-2 border-white gap-y-6">
+          <div className="text-2xl inline-flex">
+            <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
+              <img className="p-2" src="./imgs/stats/chart.svg" alt="Chart" />
             </div>
+            <div className="flex-col ml-4 mt-2">
+              <div className="inline-flex text-base md:text-xl">
+                <CountUp end={400} duration={6} />
+                <p>+</p>
+              </div>
 
-            <p className="text-base text-gray-400">Successful Projects</p>
-          </div>
-        </div>
-        <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
-            <img className="p-2" src="./imgs/stats/team.svg" alt="Team" />
-          </div>
-          <div className="flex-col ml-4 mt-2">
-            <div className="inline-flex text-base md:text-xl">
-              <CountUp end={30} duration={6} />
-              <p>+</p>
+              <p className="text-base text-gray-400">Successful Projects</p>
             </div>
-            <p className="text-base text-gray-400">Team Members</p>
           </div>
-        </div>
-        <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
-            <img className="p-2" src="./imgs/stats/hand.svg" alt="Hand" />
-          </div>
-          <div className="flex-col ml-4 mt-2">
-            <div className="inline-flex text-base md:text-xl">
-              <CountUp end={400} duration={6} />
-              <p>+</p>
+          <div className="text-2xl inline-flex">
+            <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
+              <img className="p-2" src="./imgs/stats/team.svg" alt="Team" />
             </div>
-            <p className="text-base text-gray-400">Happy Clients</p>
-          </div>
-        </div>
-        <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
-            <img
-              className="p-2"
-              src="./imgs/stats/creative.svg"
-              alt="Machine Learning"
-            />
-          </div>
-          <div className="flex-col ml-4 mt-2">
-            <div className="inline-flex text-base md:text-xl">
-              <CountUp end={213} duration={6} />
-              <p>+</p>
+            <div className="flex-col ml-4 mt-2">
+              <div className="inline-flex text-base md:text-xl">
+                <CountUp end={30} duration={6} />
+                <p>+</p>
+              </div>
+              <p className="text-base text-gray-400">Team Members</p>
             </div>
-            <p className="text-base text-gray-400">Creative Ideas</p>
           </div>
-        </div>
-        <div className="text-2xl inline-flex">
-          <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
-            <img
-              className="p-2"
-              src="./imgs/stats/web.svg"
-              alt="Machine Learning"
-            />
-          </div>
-          <div className="flex-col ml-4 mt-2">
-            <div className="inline-flex text-base md:text-xl">
-              <CountUp start={10374} end={30000} duration={99999} />
-              <p>+</p>
+          <div className="text-2xl inline-flex">
+            <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
+              <img className="p-2" src="./imgs/stats/hand.svg" alt="Hand" />
             </div>
-            <p className="text-sm md:text-base text-gray-400">Site Views</p>
+            <div className="flex-col ml-4 mt-2">
+              <div className="inline-flex text-base md:text-xl">
+                <CountUp end={400} duration={6} />
+                <p>+</p>
+              </div>
+              <p className="text-base text-gray-400">Happy Clients</p>
+            </div>
+          </div>
+          <div className="text-2xl inline-flex">
+            <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
+              <img
+                className="p-2"
+                src="./imgs/stats/creative.svg"
+                alt="Machine Learning"
+              />
+            </div>
+            <div className="flex-col ml-4 mt-2">
+              <div className="inline-flex text-base md:text-xl">
+                <CountUp end={213} duration={6} />
+                <p>+</p>
+              </div>
+              <p className="text-base text-gray-400">Creative Ideas</p>
+            </div>
+          </div>
+          <div className="text-2xl inline-flex">
+            <div className=" border-4 border-gray-600 hover:border-living-yellow transition duration-500 ease-in-out">
+              <img
+                className="p-2"
+                src="./imgs/stats/web.svg"
+                alt="Machine Learning"
+              />
+            </div>
+            <div className="flex-col ml-4 mt-2">
+              <div className="inline-flex text-base md:text-xl">
+                <CountUp start={10374} end={30000} duration={99999} />
+                <p>+</p>
+              </div>
+              <p className="text-sm md:text-base text-gray-400">Site Views</p>
+            </div>
           </div>
         </div>
-      </div>
-
-      <Footer />
+        <Footer />
+      </HelmetProvider>
     </>
   );
 }

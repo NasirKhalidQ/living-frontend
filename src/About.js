@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import NavBar from "./Navbar";
 import Team from "./Team";

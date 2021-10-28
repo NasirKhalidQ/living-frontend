@@ -7,12 +7,14 @@ import { BrowserRouter } from "react-router-dom";
 import { ApolloProvider } from "@apollo/client";
 import client from "./utils/apolloClient";
 import FloatingWhatsApp from "react-floating-whatsapp";
+import { HelmetProvider } from "react-helmet-async";
 
-ReactDOM.render(
+const app = (
   <BrowserRouter>
-    <ApolloProvider client={client}>
-      <App />
-      {/* <FloatingWhatsApp
+    <HelmetProvider>
+      <ApolloProvider client={client}>
+        <App />
+        {/* <FloatingWhatsApp
         phoneNumber="+923005059740"
         accountName="Living Solutions(Gibran)"
         avatar="https://res.cloudinary.com/living-solutions/image/upload/v1633761071/team-members/gibran_gduyfg.jpg"
@@ -20,11 +22,12 @@ ReactDOM.render(
         allowClickAway={true}
         chatMessage="Please leave us a message."
       /> */}
-    </ApolloProvider>
-  </BrowserRouter>,
-  document.getElementById("root")
+      </ApolloProvider>
+    </HelmetProvider>
+  </BrowserRouter>
 );
 
+ReactDOM.hydrate(app, document.getElementById(`root`));
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
